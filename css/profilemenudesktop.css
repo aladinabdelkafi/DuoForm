@@ -1,0 +1,156 @@
+/* screen - profilemenudesktop */
+
+.profilemenudesktop {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1200px;
+}
+
+#overlay-profilemenudesktop {
+  background-color: transparent;
+}
+
+.overlay .profilemenudesktop {
+  background-color: #00000000;
+}
+
+.profilemenudesktop .overlap-group1 {
+  height: 557px;
+  position: relative;
+  width: 1200px;
+}
+
+.profilemenudesktop .rectangle {
+  background-color: var(--black);
+  cursor: pointer;
+  height: 557px;
+  left: 0;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  width: 1200px;
+}
+
+.profilemenudesktop .profile-menu {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px #1e1e1e12;
+  display: flex;
+  flex-direction: column;
+  left: 885px;
+  min-height: 471px;
+  padding: 15px 0;
+  position: absolute;
+  top: 54px;
+  width: 290px;
+}
+
+.profilemenudesktop .flex-col {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 378px;
+  width: 233px;
+}
+
+.profilemenudesktop .menu-profile-picture {
+  align-self: center;
+  height: 80px;
+  width: 80px;
+}
+
+.profilemenudesktop .name {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-top: 10px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 160px;
+}
+
+.profilemenudesktop .title {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 10px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 158px;
+}
+
+.profilemenudesktop .subtitle {
+  height: 2px;
+  margin-top: 30px;
+  opacity: 0.2;
+  width: 233px;
+}
+
+.profilemenudesktop .flex-col-item {
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: 1.5px;
+  margin-top: 20px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.profilemenudesktop .path-2 {
+  height: 2px;
+  margin-top: 20px;
+  opacity: 0.2;
+  width: 233px;
+}
+
+.profilemenudesktop .overlap-group {
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 18px;
+  position: relative;
+  width: 158px;
+}
+
+.profilemenudesktop .log-out {
+  cursor: pointer;
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 1px;
+  white-space: nowrap;
+  width: 158px;
+}
+
+.pulsingdot9 {
+  height: 30px;
+  left: 63px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.pulsingdot9 .oval-DRIwuM {
+  height: 30px;
+  left: 0;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.pulsingdot9 .oval-8dMtHP {
+  height: 16px;
+  left: 7px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}

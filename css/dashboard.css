@@ -1,0 +1,316 @@
+/* screen - dashboard */
+
+.dashboard {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 414px;
+}
+
+.dashboard .overlap-group1 {
+  height: 896px;
+  position: relative;
+  width: 417px;
+}
+
+.dashboard .background {
+  background-color: var(--white);
+  height: 896px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.dashboard .vos-prcdents-tudiants {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 600px;
+}
+
+.dashboard .prochaines-rencontres {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 228px;
+}
+
+.dashboard .cest-un-beau-jour-p {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 115px;
+}
+
+.dashboard .bonjour-olivier {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 70px;
+}
+
+.dashboard .frame-3314 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 414px;
+  padding: 0 49.5px;
+  position: absolute;
+  top: 836px;
+}
+
+.dashboard .x5_-elements_-navigation-home-on {
+  height: 60px;
+  width: 60px;
+}
+
+.dashboard .x5_-elements_-navigation-message-off {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 25px;
+  min-width: 60px;
+  padding: 20px;
+}
+
+.dashboard .shape {
+  height: 19px;
+  width: 19px;
+}
+
+.dashboard .x5_-elements_-navigation-bell-off {
+  height: 60px;
+  margin-left: 25px;
+  width: 60px;
+}
+
+.dashboard .user-filled {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 25px;
+  min-width: 60px;
+  padding: 21.0px 21px;
+}
+
+.dashboard .group-18 {
+  height: 18px;
+  width: 18px;
+}
+
+.dashboard .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.dashboard .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.dashboard .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.dashboard .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.dashboard .card-1 {
+  height: 85px;
+  left: 30px;
+  position: absolute;
+  top: 272px;
+  width: 355px;
+}
+
+.dashboard .card-2 {
+  height: 85px;
+  left: 30px;
+  position: absolute;
+  top: 374px;
+  width: 355px;
+}
+
+.dashboard .card-3 {
+  height: 85px;
+  left: 30px;
+  position: absolute;
+  top: 476px;
+  width: 355px;
+}
+
+.dashboard .frame-58 {
+  align-items: center;
+  display: flex;
+  height: 140px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 636px;
+  width: 414px;
+}
+
+.dashboard .card-4 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #ef5da826;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  min-height: 116px;
+  padding: 20px 0;
+  width: 237px;
+}
+
+.dashboard .avatars {
+  height: 46px;
+  width: 46px;
+}
+
+.dashboard .frame-3317 {
+  align-items: flex-start;
+  display: flex;
+  height: 19px;
+  margin-top: 11px;
+  min-width: 199px;
+}
+
+.dashboard .helath-chat-with-lidia-1 {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 114px;
+}
+
+.dashboard .x5_-elements_-navigation-star-on-default-1 {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 28px;
+  min-width: 57px;
+}
+
+.dashboard .text {
+  letter-spacing: 0;
+  margin-top: 2.0px;
+  min-height: 14px;
+  min-width: 24px;
+}
+
+.dashboard .path {
+  height: 18px;
+  margin-left: 8px;
+  width: 19px;
+}
+
+.dashboard .card {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #ef5da826;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  min-height: 116px;
+  padding: 20px 0;
+  width: 237px;
+}
+
+.dashboard .helath-chat-with-lidia {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 107px;
+}
+
+.dashboard .x5_-elements_-navigation-star-on-default {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 35px;
+  min-width: 57px;
+}
+
+.dashboard .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 874px;
+  width: 375px;
+}
+
+.dashboard .search-box {
+  align-items: flex-start;
+  display: flex;
+  height: 40px;
+  left: 30px;
+  min-width: 353px;
+  position: absolute;
+  top: 160px;
+}
+
+.dashboard .overlap-group {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  display: flex;
+  height: 40px;
+  min-width: 293px;
+  padding: 9.1px 13px;
+}
+
+.dashboard .rechercher {
+  letter-spacing: 0;
+  min-height: 21px;
+  width: 147px;
+}
+
+.dashboard .search-filter {
+  align-items: flex-end;
+  background-image: url(../img/green-bg-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  margin-left: 20px;
+  min-width: 40px;
+  padding: 13.0px 13.0px;
+}
+
+.dashboard .shape-1 {
+  height: 13px;
+  margin-bottom: 0;
+  width: 14px;
+}

@@ -1,0 +1,558 @@
+/* screen - profil */
+
+.profil {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 896px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.profil .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  margin-left: 6.0px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  z-index: 2;
+}
+
+.profil .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.profil .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.profil .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.profil .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.profil .flex-row {
+  align-items: flex-end;
+  display: flex;
+  height: 192px;
+  margin-right: 8.0px;
+  margin-top: 21px;
+  min-width: 348px;
+  z-index: 1;
+}
+
+.profil .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 192px;
+  width: 209px;
+}
+
+.profil .mon-profil {
+  letter-spacing: 0;
+  min-height: 35px;
+}
+
+.profil .bastien-boisjot {
+  letter-spacing: 0;
+  margin-left: 5px;
+  margin-top: 56px;
+  min-height: 23px;
+  width: 143px;
+}
+
+.profil .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 9px;
+  min-width: 156px;
+}
+
+.profil .tag {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  min-width: 56px;
+  padding: 0 12px;
+}
+
+.profil .communication {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 32px;
+  white-space: nowrap;
+}
+
+.profil .tag-1 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 8px;
+  min-width: 92px;
+  padding: 0 12px;
+}
+
+.profil .communication-1 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 68px;
+  white-space: nowrap;
+}
+
+.profil .tag-2 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 5px;
+  margin-top: 9px;
+  min-width: 168px;
+  padding: 0 12px;
+}
+
+.profil .communication-2 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 144px;
+  white-space: nowrap;
+}
+
+.profil .flex-row-2 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 9px;
+  min-width: 204px;
+}
+
+.profil .tag-3 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  min-width: 70px;
+  padding: 0 12px;
+}
+
+.profil .communication-3 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 46px;
+  white-space: nowrap;
+}
+
+.profil .tag-4 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 63px;
+  padding: 0 12px;
+}
+
+.profil .communication-4 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 39px;
+  white-space: nowrap;
+}
+
+.profil .tag-5 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 51px;
+  padding: 0 12px;
+}
+
+.profil .communication-5 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 27px;
+  white-space: nowrap;
+}
+
+.profil .unsplashey-fbj-k-wl-r2g {
+  height: 139px;
+  margin-bottom: 9px;
+  width: 139px;
+}
+
+.profil .bonjour-moi-cest-p {
+  letter-spacing: 0;
+  line-height: 151.7px;
+  margin-right: 2.0px;
+  margin-top: 27px;
+  min-height: 54px;
+  white-space: nowrap;
+  width: 344px;
+  z-index: 3;
+}
+
+.profil .flex-row-3 {
+  align-items: flex-end;
+  align-self: flex-start;
+  display: flex;
+  margin-left: 34px;
+  margin-top: 23px;
+  min-width: 139px;
+  z-index: 4;
+}
+
+.profil .modifier-mon-profil {
+  letter-spacing: 0;
+  min-height: 15px;
+  min-width: 113px;
+}
+
+.profil .iconmonstr-share-10-1 {
+  height: 16px;
+  margin-left: 10px;
+  width: 16px;
+}
+
+.profil .frame-41 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5.0px;
+  margin-top: 30px;
+  min-height: 340px;
+  width: 351px;
+  z-index: 5;
+}
+
+.profil .card-profil-1 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  height: 202px;
+  overflow: hidden;
+  padding: 3px 13px;
+  width: 351px;
+}
+
+.profil .group-36 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 12px;
+  min-width: 323px;
+}
+
+.profil .helath-chat-with-lidia {
+  letter-spacing: 0;
+  margin-top: 0;
+  min-height: 16px;
+  min-width: 77px;
+}
+
+.profil .heart {
+  align-self: center;
+  height: 18px;
+  margin-left: 227px;
+  width: 17px;
+}
+
+.profil .vector-11 {
+  height: 1px;
+  margin-right: 1.0px;
+  margin-top: 22px;
+  width: 320px;
+}
+
+.profil .frame-43 {
+  align-items: flex-start;
+  display: flex;
+  height: 122px;
+  margin-right: 2.0px;
+  margin-top: 21px;
+  min-width: 319px;
+  padding: 3px;
+}
+
+.profil .group-41 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 99px;
+  width: 145px;
+}
+
+.profil .scolaire {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 12px;
+  white-space: nowrap;
+}
+
+.profil .tag-6 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 143px;
+  padding: 0 12px;
+}
+
+.profil .communication-6 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 119px;
+  white-space: nowrap;
+}
+
+.profil .tag-7 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 132px;
+  padding: 0 12px;
+}
+
+.profil .communication-7 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 108px;
+  white-space: nowrap;
+}
+
+.profil .tag-8 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 121px;
+  padding: 0 12px;
+}
+
+.profil .communication-8 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 97px;
+  white-space: nowrap;
+}
+
+.profil .frame-42 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 58px;
+  min-height: 70px;
+  width: 110px;
+}
+
+.profil .professionnelle {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 12px;
+  white-space: nowrap;
+}
+
+.profil .tag-9 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 74px;
+  padding: 0 12px;
+}
+
+.profil .communication-9 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 50px;
+  white-space: nowrap;
+}
+
+.profil .tag-10 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 110px;
+  padding: 0 12px;
+}
+
+.profil .communication-10 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 86px;
+  white-space: nowrap;
+}
+
+.profil .card-profil {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #372ad126;
+  display: flex;
+  height: 48px;
+  margin-top: 21px;
+  overflow: hidden;
+  padding: 15.0px 15px;
+  width: 351px;
+}
+
+.profil .helath-chat-with-lidia-1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  min-height: 16px;
+  min-width: 87px;
+}
+
+.profil .heart-1 {
+  height: 18px;
+  margin-left: 217px;
+  width: 17px;
+}
+
+.profil .helath-chat-with-lidia-2 {
+  letter-spacing: 0;
+  margin-top: 0;
+  min-height: 16px;
+  min-width: 43px;
+}
+
+.profil .heart-2 {
+  height: 18px;
+  margin-left: 261px;
+  width: 17px;
+}
+
+.profil .frame-3314 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 414px;
+  padding: 0 27px;
+  position: fixed;
+  top: 836px;
+  z-index: 7;
+}
+
+.profil .x5_-elements_-navigation-home-on {
+  height: 60px;
+  width: 60px;
+}
+
+.profil .iconly {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 20.0px 20.0px;
+}
+
+.profil .subtract {
+  height: 19px;
+  width: 19px;
+}
+
+.profil .x5_-elements_-navigation-message-off {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 20px;
+}
+
+.profil .shape {
+  height: 19px;
+  width: 19px;
+}
+
+.profil .x5_-elements_-navigation-bell-off {
+  height: 60px;
+  margin-left: 15px;
+  width: 60px;
+}
+
+.profil .user-filled {
+  align-items: flex-end;
+  background-color: var(--black-3);
+  display: flex;
+  height: 60px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 21.0px 21px;
+}
+
+.profil .group-17 {
+  height: 18px;
+  width: 18px;
+}
+
+.profil .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  margin-right: 1.0px;
+  margin-top: 110px;
+  width: 375px;
+  z-index: 6;
+}

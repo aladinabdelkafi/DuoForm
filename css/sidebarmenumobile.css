@@ -1,0 +1,66 @@
+/* screen - sidebarmenumobile */
+
+.sidebarmenumobile {
+  display: flex;
+  height: 100vh;
+  min-height: 448px;
+  min-width: 375px;
+  width: 100%;
+}
+
+#overlay-sidebarmenumobile {
+  background-color: transparent;
+}
+
+.overlay .sidebarmenumobile {
+  background-color: #00000000;
+}
+
+.sidebarmenumobile .side-bar-menu-mobile {
+  align-items: flex-start;
+  background-color: var(--aqua-deep);
+  box-shadow: 0px 5px 10px #1e1e1e12;
+  display: flex;
+  flex-direction: column;
+  min-height: 448px;
+  padding: 19px 29px;
+  width: 375px;
+}
+
+.sidebarmenumobile .x-symbol {
+  cursor: pointer;
+  height: 19px;
+  width: 19px;
+}
+
+.sidebarmenumobile .place {
+  cursor: pointer;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 1px;
+  margin-top: 29px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.sidebarmenumobile .side-bar-menu-mobile-item {
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 1px;
+  margin-top: 20px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.sidebarmenumobile .classes {
+  cursor: pointer;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 1px;
+  margin-top: 20px;
+  min-height: 20px;
+  white-space: nowrap;
+}

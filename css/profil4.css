@@ -1,0 +1,1232 @@
+/* screen - profil4 */
+
+.profil4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1639px;
+  min-width: 417px;
+}
+
+.profil4 .overlap-group4 {
+  height: 1106px;
+  position: relative;
+  width: 417px;
+  z-index: 1;
+}
+
+.profil4 .background {
+  background-color: var(--white);
+  height: 896px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.profil4 .mon-profil {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 70px;
+}
+
+.profil4 .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.profil4 .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.profil4 .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.profil4 .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.profil4 .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.profil4 .avatars {
+  height: 139px;
+  left: 235px;
+  position: absolute;
+  top: 123px;
+  width: 139px;
+}
+
+.profil4 .bonjour-moi-cest-o {
+  left: 33px;
+  letter-spacing: 0;
+  line-height: 151.7px;
+  position: absolute;
+  top: 298px;
+  white-space: nowrap;
+  width: 344px;
+}
+
+.profil4 .olivier-pouchoy {
+  left: 32px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 170px;
+  width: 143px;
+}
+
+.profil4 .tag {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  left: 31px;
+  min-width: 147px;
+  padding: 0 12px;
+  position: absolute;
+  top: 233px;
+}
+
+.profil4 .communication-1 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 123px;
+  white-space: nowrap;
+}
+
+.profil4 .tag-1 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  left: 31px;
+  min-width: 56px;
+  padding: 0 12px;
+  position: absolute;
+  top: 207px;
+}
+
+.profil4 .communication-2 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 32px;
+  white-space: nowrap;
+}
+
+.profil4 .tag-2 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  left: 96px;
+  min-width: 90px;
+  padding: 0 12px;
+  position: absolute;
+  top: 207px;
+}
+
+.profil4 .communication-3 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 66px;
+  white-space: nowrap;
+}
+
+.profil4 .tag-3 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  left: 31px;
+  min-width: 51px;
+  padding: 0 12px;
+  position: absolute;
+  top: 259px;
+}
+
+.profil4 .communication {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 27px;
+  white-space: nowrap;
+}
+
+.profil4 .tag-4 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  left: 92px;
+  min-width: 51px;
+  padding: 0 12px;
+  position: absolute;
+  top: 259px;
+}
+
+.profil4 .tag-5 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  left: 153px;
+  min-width: 51px;
+  padding: 0 12px;
+  position: absolute;
+  top: 259px;
+}
+
+.profil4 .modifier-mon-profil {
+  left: 34px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 378px;
+}
+
+.profil4 .frame-41 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 28px;
+  min-height: 687px;
+  position: absolute;
+  top: 419px;
+  width: 351px;
+}
+
+.profil4 .card-profil-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #ef5da826;
+  display: flex;
+  height: 48px;
+  overflow: hidden;
+  padding: 15.0px 15px;
+  width: 351px;
+}
+
+.profil4 .helath-chat-with-lidia {
+  letter-spacing: 0;
+  margin-top: 0;
+  min-height: 16px;
+  min-width: 77px;
+}
+
+.profil4 .heart {
+  height: 18px;
+  margin-left: 227px;
+  width: 17px;
+}
+
+.profil4 .card-profil {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #ef5da826;
+  display: flex;
+  height: 48px;
+  margin-top: 21px;
+  overflow: hidden;
+  padding: 15.0px 15px;
+  width: 351px;
+}
+
+.profil4 .helath-chat-with-lidia-1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  min-height: 16px;
+  min-width: 87px;
+}
+
+.profil4 .heart-1 {
+  height: 18px;
+  margin-left: 217px;
+  width: 17px;
+}
+
+.profil4 .helath-chat-with-lidia-2 {
+  letter-spacing: 0;
+  margin-top: 0;
+  min-height: 16px;
+  min-width: 43px;
+}
+
+.profil4 .heart-2 {
+  height: 18px;
+  margin-left: 261px;
+  width: 17px;
+}
+
+.profil4 .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #ef5da826;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  min-height: 215px;
+  padding: 15px;
+  width: 346px;
+}
+
+.profil4 .mon-activit {
+  letter-spacing: 0;
+  min-height: 14px;
+}
+
+.profil4 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 16px;
+  min-width: 308px;
+}
+
+.profil4 .text-8 {
+  color: #d5d5d5;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxs);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 264.2px;
+  min-height: 130px;
+  min-width: 6px;
+  white-space: nowrap;
+}
+
+.profil4 .group-container {
+  align-self: flex-end;
+  height: 142px;
+  margin-left: 7px;
+  position: relative;
+  width: 295px;
+}
+
+.profil4 .group-35 {
+  align-items: flex-end;
+  background-color: #f6f6fe;
+  border-radius: 12.09px;
+  display: flex;
+  height: 141px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 295px;
+  padding: 0.0px 0;
+  position: absolute;
+  top: 0;
+}
+
+.profil4 .overlap-group {
+  height: 129px;
+  position: relative;
+  width: 295px;
+}
+
+.profil4 .line {
+  height: 105px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 295px;
+}
+
+.profil4 .vector-3 {
+  height: 123px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 295px;
+}
+
+.profil4 .vector-4 {
+  height: 103px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 295px;
+}
+
+.profil4 .group-39 {
+  height: 140px;
+  left: 22px;
+  position: absolute;
+  top: 2px;
+  width: 251px;
+}
+
+.profil4 .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #ef5da826;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  min-height: 244px;
+  padding: 15px 14.0px;
+  width: 346px;
+}
+
+.profil4 .mes-rendez-vous {
+  letter-spacing: 0;
+  margin-left: 1.0px;
+  min-height: 14px;
+}
+
+.profil4 .frame-3316 {
+  align-items: center;
+  border-radius: 44px;
+  display: flex;
+  height: 17px;
+  margin-left: 1.0px;
+  margin-top: 15px;
+  min-width: 311px;
+  padding: 0 19.2px;
+}
+
+.profil4 .vector-2-stroke {
+  height: 7px;
+  margin-bottom: 0;
+  width: 4px;
+}
+
+.profil4 .dcembre {
+  letter-spacing: 0;
+  margin-left: 104px;
+  min-height: 14px;
+  text-align: center;
+  width: 56px;
+}
+
+.profil4 .vector-2-stroke-1 {
+  height: 7px;
+  margin-bottom: 0;
+  margin-left: 104px;
+  width: 4px;
+}
+
+.profil4 .row {
+  align-items: flex-start;
+  display: flex;
+  height: 16px;
+  justify-content: flex-end;
+  margin-left: 1.0px;
+  margin-top: 4px;
+  min-width: 311px;
+  opacity: 0.5;
+  padding: 0 9.6px;
+}
+
+.profil4 .price {
+  height: 17px;
+  letter-spacing: 0;
+  margin-top: -0.87px;
+  text-align: center;
+  width: 18px;
+}
+
+.profil4 .row-item {
+  height: 17px;
+  letter-spacing: 0;
+  margin-left: 27px;
+  margin-top: -0.87px;
+  text-align: center;
+  width: 18px;
+}
+
+.profil4 .date-default-container {
+  height: 124px;
+  margin-top: 6px;
+  position: relative;
+  width: 313px;
+}
+
+.profil4 .date-default {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 89px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 98px;
+}
+
+.profil4 .number {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 133px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 98px;
+}
+
+.profil4 .x1 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 178px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 98px;
+}
+
+.profil4 .x1-1 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 222px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 98px;
+}
+
+.profil4 .x1-2 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 266px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 98px;
+}
+
+.profil4 .x1-3 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 0;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 0;
+}
+
+.profil4 .number-1 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-6 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 266px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 24px;
+}
+
+.profil4 .x1-4 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-7 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 266px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 49px;
+}
+
+.profil4 .x1-5 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-8 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 266px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 73px;
+}
+
+.profil4 .x1-6 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-9 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 44px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 0;
+}
+
+.profil4 .x1-7 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-10 {
+  align-items: flex-start;
+  background-color: var(--brilliant-rose);
+  display: flex;
+  height: 26px;
+  left: 0;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 49px;
+}
+
+.profil4 .x1-8 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-11 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 0;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 24px;
+}
+
+.profil4 .x1-9 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-12 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 0;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 73px;
+}
+
+.profil4 .x1-10 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-13 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 0;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 98px;
+}
+
+.profil4 .x1-11 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-14 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 89px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 0;
+}
+
+.profil4 .x1-12 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-15 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 44px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 49px;
+}
+
+.profil4 .x1-13 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-16 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 44px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 24px;
+}
+
+.profil4 .x1-14 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-17 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 44px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 73px;
+}
+
+.profil4 .x1-15 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-18 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 44px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 98px;
+}
+
+.profil4 .x1-16 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-19 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 133px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 0;
+}
+
+.profil4 .x1-17 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-20 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 89px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 49px;
+}
+
+.profil4 .x1-18 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-21 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 89px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 24px;
+}
+
+.profil4 .x1-19 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-22 {
+  align-items: flex-start;
+  background-color: var(--brilliant-rose);
+  display: flex;
+  height: 26px;
+  left: 89px;
+  min-width: 46px;
+  padding: 0.4px 0.6px;
+  position: absolute;
+  top: 73px;
+}
+
+.profil4 .overlap-group-1 {
+  height: 24px;
+  position: relative;
+  width: 43px;
+}
+
+.profil4 .x1-20 {
+  height: 12px;
+  left: 11px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 22px;
+}
+
+.profil4 .vector-25 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 43px;
+}
+
+.profil4 .date-default-23 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 178px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 0;
+}
+
+.profil4 .x1-21 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-24 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 133px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 49px;
+}
+
+.profil4 .x1-22 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-25 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 133px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 24px;
+}
+
+.profil4 .x1-23 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-26 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 133px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 73px;
+}
+
+.profil4 .x1-24 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-27 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 222px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 0;
+}
+
+.profil4 .x1-25 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-28 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 178px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 49px;
+}
+
+.profil4 .x1-26 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-29 {
+  align-items: flex-start;
+  background-color: var(--brilliant-rose);
+  display: flex;
+  height: 26px;
+  left: 178px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 24px;
+}
+
+.profil4 .x1-27 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-30 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 178px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 73px;
+}
+
+.profil4 .x1-28 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-31 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 266px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 0;
+}
+
+.profil4 .x1-29 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-32 {
+  align-items: flex-start;
+  background-color: var(--brilliant-rose);
+  display: flex;
+  height: 26px;
+  left: 222px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 49px;
+}
+
+.profil4 .x1-30 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-33 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 222px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 24px;
+}
+
+.profil4 .x1-31 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .date-default-34 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 26px;
+  left: 222px;
+  min-width: 46px;
+  padding: 6.1px 11.1px;
+  position: absolute;
+  top: 73px;
+}
+
+.profil4 .x1-32 {
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.profil4 .rectangle-2619 {
+  height: 87px;
+  left: 0;
+  position: fixed;
+  top: 809px;
+  width: 414px;
+  z-index: 2;
+}
+
+.profil4 .frame-3314 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 414px;
+  padding: 0 49.5px;
+  position: fixed;
+  top: 836px;
+  z-index: 3;
+}
+
+.profil4 .x5_-elements_-navigation-home-on {
+  height: 60px;
+  width: 60px;
+}
+
+.profil4 .x5_-elements_-navigation-message-off {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 25px;
+  min-width: 60px;
+  padding: 20px;
+}
+
+.profil4 .shape {
+  height: 19px;
+  width: 19px;
+}
+
+.profil4 .x5_-elements_-navigation-bell-off {
+  height: 60px;
+  margin-left: 25px;
+  width: 60px;
+}
+
+.profil4 .user-filled {
+  align-items: flex-end;
+  background-color: var(--alto);
+  display: flex;
+  height: 60px;
+  margin-left: 25px;
+  min-width: 60px;
+  padding: 21.0px 21px;
+}
+
+.profil4 .group-18 {
+  height: 18px;
+  width: 18px;
+}
+
+.profil4 .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: fixed;
+  top: 874px;
+  width: 375px;
+  z-index: 4;
+}

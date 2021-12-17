@@ -1,0 +1,501 @@
+/* screen - sinscrire3 */
+
+.sinscrire3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 414px;
+}
+
+.sinscrire3 .overlap-group {
+  height: 896px;
+  position: relative;
+  width: 417px;
+}
+
+.sinscrire3 .background {
+  background-color: var(--white);
+  height: 896px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.sinscrire3 .etude-et-accompagnement {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 140px;
+}
+
+.sinscrire3 .sinscrire {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 102px;
+}
+
+.sinscrire3 .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.sinscrire3 .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.sinscrire3 .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.sinscrire3 .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.sinscrire3 .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.sinscrire3 .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 862px;
+  width: 375px;
+}
+
+.sinscrire3 .quelle-est-votre-domaine-dtudes {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 201px;
+}
+
+.sinscrire3 .bouton-tudiant {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.12px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 23px;
+  min-width: 84px;
+  padding: 8.3px 12.6px;
+  position: absolute;
+  top: 243px;
+}
+
+.sinscrire3 .droit {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 58px;
+}
+
+.sinscrire3 .bouton-tudiant-1 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.12px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 112px;
+  min-width: 148px;
+  padding: 8.3px 22.3px;
+  position: absolute;
+  top: 243px;
+}
+
+.sinscrire3 .communication {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 102px;
+}
+
+.sinscrire3 .bouton-tudiant-2 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.12px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 267px;
+  min-width: 115px;
+  padding: 8.2px 17.3px;
+  position: absolute;
+  top: 243px;
+}
+
+.sinscrire3 .sciences {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 79px;
+}
+
+.sinscrire3 .bouton-tudiant-3 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.12px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 23px;
+  min-width: 84px;
+  padding: 8.3px 12.6px;
+  position: absolute;
+  top: 281px;
+}
+
+.sinscrire3 .dev {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 58px;
+}
+
+.sinscrire3 .bouton-tudiant-4 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.12px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 112px;
+  min-width: 84px;
+  padding: 8.3px 12.6px;
+  position: absolute;
+  top: 281px;
+}
+
+.sinscrire3 .place {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 58px;
+}
+
+.sinscrire3 .bouton-tudiant-5 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.12px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 202px;
+  min-width: 58px;
+  padding: 8.3px 8.8px;
+  position: absolute;
+  top: 281px;
+}
+
+.sinscrire3 .psycho {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 40px;
+}
+
+.sinscrire3 .bouton-tudiant-6 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.12px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 267px;
+  min-width: 58px;
+  padding: 8.3px 8.9px;
+  position: absolute;
+  top: 281px;
+}
+
+.sinscrire3 .uxui {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 40px;
+}
+
+.sinscrire3 .bouton-tudiant-7 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.12px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 332px;
+  min-width: 49px;
+  padding: 8.3px 7.4px;
+  position: absolute;
+  top: 281px;
+}
+
+.sinscrire3 .autre {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 34px;
+}
+
+.sinscrire3 .bouton-tudiant-8 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.24px;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  left: 23px;
+  min-width: 86px;
+  padding: 8.5px 13.0px;
+  position: absolute;
+  top: 403px;
+}
+
+.sinscrire3 .finance {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 59px;
+}
+
+.sinscrire3 .bouton-tudiant-9 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.24px;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  left: 115px;
+  min-width: 152px;
+  padding: 8.5px 22.9px;
+  position: absolute;
+  top: 403px;
+}
+
+.sinscrire3 .cration-dentreprise {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 105px;
+}
+
+.sinscrire3 .bouton-tudiant-10 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.24px;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  left: 274px;
+  min-width: 118px;
+  padding: 8.5px 17.8px;
+  position: absolute;
+  top: 403px;
+}
+
+.sinscrire3 .marketing {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 81px;
+}
+
+.sinscrire3 .bouton-tudiant-11 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.24px;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  left: 23px;
+  min-width: 86px;
+  padding: 8.5px 13.0px;
+  position: absolute;
+  top: 442px;
+}
+
+.sinscrire3 .ux {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 59px;
+}
+
+.sinscrire3 .bouton-tudiant-12 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.24px;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  left: 115px;
+  min-width: 86px;
+  padding: 8.5px 13.0px;
+  position: absolute;
+  top: 442px;
+}
+
+.sinscrire3 .ui {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 59px;
+}
+
+.sinscrire3 .bouton-tudiant-13 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.24px;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  left: 207px;
+  min-width: 60px;
+  padding: 8.5px 9.1px;
+  position: absolute;
+  top: 442px;
+}
+
+.sinscrire3 .stage {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 41px;
+}
+
+.sinscrire3 .bouton-tudiant-14 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.24px;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  left: 274px;
+  min-width: 60px;
+  padding: 8.5px 9.2px;
+  position: absolute;
+  top: 442px;
+}
+
+.sinscrire3 .uxui-1 {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 41px;
+}
+
+.sinscrire3 .bouton-tudiant-15 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 4.24px;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  left: 341px;
+  min-width: 51px;
+  padding: 8.5px 7.6px;
+  position: absolute;
+  top: 442px;
+}
+
+.sinscrire3 .autre-1 {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 35px;
+}
+
+.sinscrire3 .vous-tes-dja-inscrit-se-connecter {
+  left: 69px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 602px;
+}
+
+.sinscrire3 .btn {
+  align-items: center;
+  background-color: var(--governor-bay);
+  border-radius: 38px;
+  display: flex;
+  height: 49px;
+  left: 90px;
+  min-width: 233px;
+  padding: 0 77px;
+  position: absolute;
+  top: 532px;
+}
+
+.sinscrire3 .sinscrire-1 {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 79px;
+}
+
+.sinscrire3 .rectangle-2625 {
+  background-color: var(--dull-lavender);
+  border-radius: 90px;
+  height: 11px;
+  left: 132px;
+  position: absolute;
+  top: 62px;
+  width: 150px;
+}
+
+.sinscrire3 .logo {
+  height: 22px;
+  left: 133px;
+  position: absolute;
+  top: 831px;
+  width: 149px;
+}
+
+.sinscrire3 .je-recherche-un-accompagnateur-dans {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 370px;
+}
+
+.sinscrire3 .rectangle-2606 {
+  height: 26px;
+  left: 28px;
+  position: absolute;
+  top: 51px;
+  width: 26px;
+}
+
+.sinscrire3 .rectangle-2626 {
+  background-color: var(--governor-bay);
+  border-radius: 90px;
+  height: 11px;
+  left: 132px;
+  position: absolute;
+  top: 62px;
+  width: 120px;
+}

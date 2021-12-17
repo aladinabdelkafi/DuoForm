@@ -1,0 +1,288 @@
+/* screen - sinscrire9 */
+
+.sinscrire9 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 414px;
+}
+
+.sinscrire9 .overlap-group {
+  height: 896px;
+  position: relative;
+  width: 417px;
+}
+
+.sinscrire9 .background {
+  background-color: var(--white);
+  height: 896px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.sinscrire9 .localisation-et-transports {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 140px;
+}
+
+.sinscrire9 .sinscrire {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 102px;
+}
+
+.sinscrire9 .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.sinscrire9 .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.sinscrire9 .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.sinscrire9 .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.sinscrire9 .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.sinscrire9 .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 862px;
+  width: 375px;
+}
+
+.sinscrire9 .rectangle-7 {
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  height: 40px;
+  left: 29px;
+  position: absolute;
+  top: 237px;
+  width: 349px;
+}
+
+.sinscrire9 .place {
+  left: 44px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 247px;
+  width: 279px;
+}
+
+.sinscrire9 .quel-est-votre-ville {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 201px;
+}
+
+.sinscrire9 .quels-estsont-vos {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 304px;
+}
+
+.sinscrire9 .vous-tes-dja-inscrit-se-connecter {
+  left: 69px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 486px;
+}
+
+.sinscrire9 .btn {
+  align-items: center;
+  background-color: var(--governor-bay);
+  border-radius: 38px;
+  display: flex;
+  height: 49px;
+  left: 90px;
+  min-width: 233px;
+  padding: 0 77px;
+  position: absolute;
+  top: 416px;
+}
+
+.sinscrire9 .sinscrire-1 {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 79px;
+}
+
+.sinscrire9 .bouton-tudiant {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 3.6px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 28px;
+  min-width: 82px;
+  padding: 8.2px 12.4px;
+  position: absolute;
+  top: 345px;
+}
+
+.sinscrire9 .a-pied {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 57px;
+}
+
+.sinscrire9 .bouton-tudiant-1 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 3.6px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 115px;
+  min-width: 82px;
+  padding: 8.2px 12.4px;
+  position: absolute;
+  top: 345px;
+}
+
+.sinscrire9 .vlo {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 57px;
+}
+
+.sinscrire9 .bouton-tudiant-2 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 3.6px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 202px;
+  min-width: 57px;
+  padding: 8.2px 8.6px;
+  position: absolute;
+  top: 345px;
+}
+
+.sinscrire9 .bus {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 39px;
+}
+
+.sinscrire9 .bouton-tudiant-3 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 3.6px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 266px;
+  min-width: 57px;
+  padding: 8.2px 8.7px;
+  position: absolute;
+  top: 345px;
+}
+
+.sinscrire9 .voiture {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 39px;
+}
+
+.sinscrire9 .bouton-tudiant-4 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 3.6px;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 330px;
+  min-width: 48px;
+  padding: 8.2px 7.3px;
+  position: absolute;
+  top: 345px;
+}
+
+.sinscrire9 .autre {
+  letter-spacing: 0;
+  min-height: 15px;
+  text-align: center;
+  width: 33px;
+}
+
+.sinscrire9 .rectangle-2625 {
+  background-color: var(--dull-lavender);
+  border-radius: 90px;
+  height: 11px;
+  left: 132px;
+  position: absolute;
+  top: 62px;
+  width: 150px;
+}
+
+.sinscrire9 .rectangle-2626 {
+  background-color: var(--governor-bay);
+  border-radius: 90px;
+  height: 11px;
+  left: 132px;
+  position: absolute;
+  top: 62px;
+  width: 90px;
+}
+
+.sinscrire9 .logo {
+  height: 22px;
+  left: 133px;
+  position: absolute;
+  top: 831px;
+  width: 149px;
+}
+
+.sinscrire9 .rectangle-2606 {
+  height: 26px;
+  left: 28px;
+  position: absolute;
+  top: 51px;
+  width: 26px;
+}

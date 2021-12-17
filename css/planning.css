@@ -1,0 +1,1074 @@
+/* screen - planning */
+
+.planning {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 896px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.planning .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  margin-left: 6.0px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+}
+
+.planning .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.planning .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.planning .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.planning .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.planning .planning-1 {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 29px;
+  margin-top: 21px;
+  min-height: 35px;
+}
+
+.planning .cest-un-beau-jour-p {
+  letter-spacing: 0;
+  margin-left: 15.0px;
+  margin-top: 10px;
+  min-height: 18px;
+  min-width: 371px;
+}
+
+.planning .rendez-vous-venir {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 29px;
+  margin-top: 51px;
+  min-height: 19px;
+}
+
+.planning .overlap-group-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 116px;
+  margin-right: -97px;
+  margin-top: 24px;
+  min-width: 482px;
+}
+
+.planning .flex-col {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  min-height: 116px;
+  padding: 20px 10px;
+  width: 230px;
+}
+
+.planning .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 46px;
+  min-width: 159px;
+}
+
+.planning .avatars {
+  align-self: flex-end;
+  height: 44px;
+  width: 44px;
+}
+
+.planning .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  min-height: 30px;
+  width: 100px;
+}
+
+.planning .philomena-tiret {
+  letter-spacing: 0;
+  min-height: 16px;
+}
+
+.planning .photographie {
+  letter-spacing: 0;
+  margin-top: 2px;
+  min-height: 12px;
+}
+
+.planning .flex-row-1 {
+  align-items: center;
+  display: flex;
+  margin-top: 9px;
+  min-width: 203px;
+}
+
+.planning .overlap-group {
+  align-items: center;
+  background-color: var(--gallery);
+  border-radius: 3px;
+  display: flex;
+  height: 20px;
+  min-width: 83px;
+  padding: 0 8px;
+}
+
+.planning .vendredi-1 {
+  letter-spacing: 0;
+  min-height: 14px;
+  min-width: 65px;
+}
+
+.planning .overlap-group-1 {
+  align-items: center;
+  background-color: var(--gallery);
+  border-radius: 3px;
+  display: flex;
+  height: 20px;
+  margin-left: 6px;
+  min-width: 50px;
+  padding: 0 6px;
+}
+
+.planning .x15h30 {
+  letter-spacing: 0;
+  min-height: 14px;
+  min-width: 34px;
+}
+
+.planning .contacter {
+  letter-spacing: 0;
+  margin-left: 11px;
+  min-height: 14px;
+  min-width: 53px;
+}
+
+.planning .flex-col-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  margin-left: 22px;
+  min-height: 116px;
+  padding: 20px 10px;
+  width: 230px;
+}
+
+.planning .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 1px;
+  min-width: 158px;
+}
+
+.planning .ellipse {
+  height: 45px;
+  object-fit: cover;
+  width: 45px;
+}
+
+.planning .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  min-height: 30px;
+  width: 100px;
+}
+
+.planning .flex-row-3 {
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  min-width: 203px;
+}
+
+.planning .chercher-un-accompagnateur {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-right: 30px;
+  margin-top: 25px;
+  min-height: 15px;
+  min-width: 173px;
+  text-align: right;
+}
+
+.planning .rectangle-2601 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-left: 6.0px;
+  margin-top: 39px;
+  width: 362px;
+}
+
+.planning .calendrier {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 29px;
+  margin-top: 7px;
+  min-height: 19px;
+}
+
+.planning .frame-3315 {
+  align-items: center;
+  background-color: var(--desert-storm);
+  border-radius: 44px;
+  display: flex;
+  height: 20px;
+  justify-content: flex-end;
+  margin-left: 4.0px;
+  margin-top: 29px;
+  min-width: 356px;
+  padding: 0 22.0px;
+}
+
+.planning .vector-2-stroke {
+  height: 8px;
+  margin-top: 0;
+  width: 5px;
+}
+
+.planning .dcembre {
+  letter-spacing: 0;
+  margin-left: 119px;
+  min-height: 16px;
+  text-align: center;
+  width: 64px;
+}
+
+.planning .vector-2-stroke-1 {
+  height: 8px;
+  margin-bottom: 0;
+  margin-left: 119px;
+  width: 5px;
+}
+
+.planning .row {
+  align-items: flex-start;
+  display: flex;
+  height: 18px;
+  margin-left: 4.0px;
+  margin-top: 10px;
+  min-width: 356px;
+  opacity: 0.5;
+  padding: 0 11px;
+}
+
+.planning .price {
+  height: 20px;
+  letter-spacing: 0;
+  margin-top: -1px;
+  text-align: center;
+  width: 21px;
+}
+
+.planning .row-item {
+  height: 20px;
+  letter-spacing: 0;
+  margin-left: 31px;
+  margin-top: -1px;
+  text-align: center;
+  width: 21px;
+}
+
+.planning .group-16 {
+  align-items: flex-start;
+  display: flex;
+  height: 225px;
+  justify-content: flex-end;
+  margin-left: 3.6px;
+  margin-top: 8px;
+  min-width: 356px;
+}
+
+.planning .date-default-container {
+  height: 227px;
+  margin-top: -1px;
+  position: relative;
+  width: 358px;
+}
+
+.planning .date-default {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 102px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 180px;
+}
+
+.planning .number {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 152px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 180px;
+}
+
+.planning .x1 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 203px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 180px;
+}
+
+.planning .x1-1 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 254px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 180px;
+}
+
+.planning .x1-2 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 305px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 180px;
+}
+
+.planning .x1-3 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 0;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 0;
+}
+
+.planning .number-1 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-6 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 305px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 45px;
+}
+
+.planning .x1-4 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-7 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 305px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 90px;
+}
+
+.planning .x1-5 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-8 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 305px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 135px;
+}
+
+.planning .x1-6 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-9 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 51px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 0;
+}
+
+.planning .x1-7 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-10 {
+  align-items: flex-start;
+  background-color: var(--governor-bay);
+  display: flex;
+  height: 47px;
+  left: 0;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 90px;
+}
+
+.planning .x1-8 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-11 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 0;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 45px;
+}
+
+.planning .x1-9 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-12 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 0;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 135px;
+}
+
+.planning .x1-10 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-13 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 0;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 180px;
+}
+
+.planning .x1-11 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-14 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 102px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 0;
+}
+
+.planning .x1-12 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-15 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 51px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 90px;
+}
+
+.planning .x1-13 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-16 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 51px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 45px;
+}
+
+.planning .x1-14 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-17 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 51px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 135px;
+}
+
+.planning .x1-15 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-18 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 51px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 180px;
+}
+
+.planning .x1-16 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-19 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 152px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 0;
+}
+
+.planning .x1-17 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-20 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 102px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 90px;
+}
+
+.planning .x1-18 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-21 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 102px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 45px;
+}
+
+.planning .x1-19 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-22 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 102px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 135px;
+}
+
+.planning .x1-20 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-23 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 203px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 0;
+}
+
+.planning .x1-21 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-24 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 152px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 90px;
+}
+
+.planning .x1-22 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-25 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 152px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 45px;
+}
+
+.planning .x1-23 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-26 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 152px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 135px;
+}
+
+.planning .x1-24 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-27 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 254px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 0;
+}
+
+.planning .x1-25 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-28 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 203px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 90px;
+}
+
+.planning .x1-26 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-29 {
+  align-items: flex-start;
+  background-color: var(--governor-bay);
+  display: flex;
+  height: 47px;
+  left: 203px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 45px;
+}
+
+.planning .x1-27 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-30 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 203px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 135px;
+}
+
+.planning .x1-28 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-31 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 305px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 0;
+}
+
+.planning .x1-29 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-32 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 254px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 90px;
+}
+
+.planning .x1-30 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-33 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 254px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 45px;
+}
+
+.planning .x1-31 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .date-default-34 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 47px;
+  left: 254px;
+  min-width: 53px;
+  padding: 11.2px 12.7px;
+  position: absolute;
+  top: 135px;
+}
+
+.planning .x1-32 {
+  height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.planning .overlap-group3 {
+  height: 60px;
+  margin-top: 77px;
+  position: relative;
+  width: 414px;
+}
+
+.planning .frame-3314 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 414px;
+  padding: 0 27px;
+  position: absolute;
+  top: 0;
+}
+
+.planning .x5_-elements_-navigation-home-on {
+  height: 60px;
+  width: 60px;
+}
+
+.planning .iconly {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 20.0px 20.0px;
+}
+
+.planning .subtract {
+  height: 19px;
+  width: 19px;
+}
+
+.planning .x5_-elements_-navigation-message-off {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 20px;
+}
+
+.planning .shape {
+  height: 19px;
+  width: 19px;
+}
+
+.planning .x5_-elements_-navigation-bell-off {
+  height: 60px;
+  margin-left: 15px;
+  width: 60px;
+}
+
+.planning .user-filled {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 21.0px 21px;
+}
+
+.planning .group-18 {
+  height: 18px;
+  width: 18px;
+}
+
+.planning .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 38px;
+  width: 375px;
+}

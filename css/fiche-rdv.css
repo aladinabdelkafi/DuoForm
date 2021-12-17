@@ -1,0 +1,415 @@
+/* screen - fiche-rdv */
+
+.fiche-rdv {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 896px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.fiche-rdv .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  margin-left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+}
+
+.fiche-rdv .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.fiche-rdv .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.fiche-rdv .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.fiche-rdv .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.fiche-rdv .votre-rdv {
+  letter-spacing: 0;
+  margin-left: 29px;
+  margin-top: 21px;
+  min-height: 35px;
+}
+
+.fiche-rdv .flex-row {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  margin-left: 31.0px;
+  margin-top: 46px;
+  min-width: 178px;
+}
+
+.fiche-rdv .rectangle-2606 {
+  height: 10px;
+  margin-top: 1.0px;
+  width: 10px;
+}
+
+.fiche-rdv .prochaines-rencontres {
+  letter-spacing: 0;
+  margin-left: 6px;
+  min-height: 19px;
+  min-width: 162px;
+}
+
+.fiche-rdv .flex-col {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6.0px;
+  margin-top: 24px;
+  min-height: 397px;
+  padding: 25px 11px;
+  width: 362px;
+}
+
+.fiche-rdv .flex-row-1 {
+  align-items: center;
+  display: flex;
+  margin-left: 3px;
+  min-width: 232px;
+}
+
+.fiche-rdv .avatars {
+  height: 75px;
+  width: 75px;
+}
+
+.fiche-rdv .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6.2px;
+  margin-left: 14px;
+  min-height: 43px;
+  width: 143px;
+}
+
+.fiche-rdv .olivier-pouchoy {
+  letter-spacing: 0;
+  min-height: 23px;
+  width: 143px;
+}
+
+.fiche-rdv .programmation {
+  letter-spacing: 0;
+  margin-top: 3px;
+  min-height: 17px;
+}
+
+.fiche-rdv .flex-col-2 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+  min-height: 247px;
+  width: 337px;
+}
+
+.fiche-rdv .ici-la-description-q {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 129.4px;
+  min-height: 54px;
+  white-space: nowrap;
+  width: 332px;
+}
+
+.fiche-rdv .modifier-votre-rendez-vous {
+  color: var(--brilliant-rose);
+  font-family: var(--font-family-montserrat);
+  font-size: 9.1px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 132.4px;
+  margin-left: 5px;
+  margin-top: 9px;
+  min-height: 12px;
+  white-space: nowrap;
+}
+
+.fiche-rdv .rectangle-2602 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-top: 29px;
+  width: 334px;
+}
+
+.fiche-rdv .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 14px;
+  margin-left: 5px;
+  margin-top: 10px;
+  min-width: 268px;
+}
+
+.fiche-rdv .rcapitulatif-du-rendez-vous {
+  letter-spacing: 0;
+  min-height: 14px;
+  min-width: 156px;
+}
+
+.fiche-rdv .mardi-18-dcembre {
+  letter-spacing: 0;
+  margin-left: 6px;
+  min-height: 14px;
+}
+
+.fiche-rdv .flex-row-3 {
+  align-items: center;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 23px;
+  min-width: 273px;
+}
+
+.fiche-rdv .domaine-daccompagnement {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 157px;
+  white-space: nowrap;
+}
+
+.fiche-rdv .tag {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 106px;
+  padding: 0 12px;
+}
+
+.fiche-rdv .communication {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 82px;
+  white-space: nowrap;
+}
+
+.fiche-rdv .flex-row-4 {
+  align-items: center;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 9px;
+  min-width: 116px;
+}
+
+.fiche-rdv .horaire {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 39px;
+  white-space: nowrap;
+}
+
+.fiche-rdv .tag-1 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 67px;
+  padding: 0 12px;
+}
+
+.fiche-rdv .communication-1 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 43px;
+  white-space: nowrap;
+}
+
+.fiche-rdv .flex-row-5 {
+  align-items: center;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 9px;
+  min-width: 262px;
+}
+
+.fiche-rdv .lieu {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  margin-top: 1.31px;
+  min-height: 13px;
+  min-width: 23px;
+  white-space: nowrap;
+}
+
+.fiche-rdv .tag-2 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 229px;
+  padding: 0 12px;
+}
+
+.fiche-rdv .communication-2 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 205px;
+  white-space: nowrap;
+}
+
+.fiche-rdv .flex-row-6 {
+  align-items: center;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 9px;
+  min-width: 149px;
+}
+
+.fiche-rdv .rencontre {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 55px;
+  white-space: nowrap;
+}
+
+.fiche-rdv .tag-3 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 84px;
+  padding: 0 12px;
+}
+
+.fiche-rdv .communication-3 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 60px;
+  white-space: nowrap;
+}
+
+.fiche-rdv .participants {
+  letter-spacing: 0;
+  margin-left: 47px;
+  margin-top: 33px;
+  min-height: 14px;
+}
+
+.fiche-rdv .card {
+  align-self: center;
+  height: 85px;
+  margin-left: 14.0px;
+  margin-top: 18px;
+  width: 362px;
+}
+
+.fiche-rdv .overlap-group1 {
+  height: 60px;
+  margin-top: 95px;
+  position: relative;
+  width: 414px;
+}
+
+.fiche-rdv .frame-3314 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 414px;
+  padding: 0 49.5px;
+  position: absolute;
+  top: 0;
+}
+
+.fiche-rdv .x5_-elements_-navigation-home-on {
+  height: 60px;
+  width: 60px;
+}
+
+.fiche-rdv .x5_-elements_-navigation-message-off {
+  align-items: flex-end;
+  background-color: var(--alto);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 25px;
+  min-width: 60px;
+  padding: 20px;
+}
+
+.fiche-rdv .shape {
+  height: 19px;
+  width: 19px;
+}
+
+.fiche-rdv .x5_-elements_-navigation-bell-off {
+  height: 60px;
+  margin-left: 25px;
+  width: 60px;
+}
+
+.fiche-rdv .user-filled {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 25px;
+  min-width: 60px;
+  padding: 21.0px 21px;
+}
+
+.fiche-rdv .group-18 {
+  height: 18px;
+  width: 18px;
+}
+
+.fiche-rdv .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 38px;
+  width: 375px;
+}

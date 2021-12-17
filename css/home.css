@@ -1,0 +1,389 @@
+/* screen - home */
+
+.home {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  min-width: 414px;
+  overflow-x: hidden;
+}
+
+.home .overlap-group1 {
+  height: 896px;
+  position: relative;
+  width: 417px;
+}
+
+.home .background {
+  background-color: var(--white);
+  height: 896px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.home .overlap-group {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  display: flex;
+  height: 40px;
+  left: 29px;
+  min-width: 355px;
+  padding: 9.1px 16px;
+  position: absolute;
+  top: 155px;
+}
+
+.home .rechercher {
+  letter-spacing: 0;
+  min-height: 21px;
+  width: 119px;
+}
+
+.home .vos-accompagnateurs-favoris {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 592px;
+}
+
+.home .prochaines-runions {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 223px;
+}
+
+.home .cest-un-beau-jour-p {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 115px;
+}
+
+.home .bonjour-olivier {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 70px;
+}
+
+.home .frame-3314 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 414px;
+  padding: 0 27px;
+  position: absolute;
+  top: 836px;
+}
+
+.home .x5_-elements_-navigation-home-on {
+  height: 60px;
+  width: 60px;
+}
+
+.home .iconly {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 20.0px 20.0px;
+}
+
+.home .subtract {
+  height: 19px;
+  width: 19px;
+}
+
+.home .x5_-elements_-navigation-message-off {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 20px;
+}
+
+.home .shape {
+  height: 19px;
+  width: 19px;
+}
+
+.home .x5_-elements_-navigation-bell-off {
+  height: 60px;
+  margin-left: 15px;
+  width: 60px;
+}
+
+.home .user-filled {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 21.0px 21px;
+}
+
+.home .group-18 {
+  height: 18px;
+  width: 18px;
+}
+
+.home .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.home .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.home .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.home .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.home .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.home .card-1 {
+  height: 85px;
+  left: 30px;
+  position: absolute;
+  top: 268px;
+  width: 355px;
+}
+
+.home .card-2 {
+  height: 85px;
+  left: 30px;
+  position: absolute;
+  top: 370px;
+  width: 355px;
+}
+
+.home .card-3 {
+  height: 85px;
+  left: 30px;
+  position: absolute;
+  top: 472px;
+  width: 355px;
+}
+
+.home .frame-3321 {
+  align-items: center;
+  display: flex;
+  height: 173px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 633px;
+  width: 414px;
+}
+
+.home .card-4 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  min-height: 150px;
+  padding: 20px 0;
+  width: 237px;
+}
+
+.home .frame-3316 {
+  align-items: center;
+  display: flex;
+  min-width: 199px;
+}
+
+.home .avatars {
+  height: 46px;
+  width: 46px;
+}
+
+.home .heart {
+  height: 17px;
+  margin-bottom: 13.45px;
+  margin-left: 50px;
+  width: 18px;
+}
+
+.home .frame-3317 {
+  align-items: flex-start;
+  display: flex;
+  height: 40px;
+  margin-top: 24px;
+  min-width: 199px;
+}
+
+.home .group-29-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 40px;
+  width: 118px;
+}
+
+.home .helath-chat-with-lidia {
+  letter-spacing: 0;
+  min-height: 19px;
+}
+
+.home .type-dactivit {
+  letter-spacing: 0;
+  margin-top: 5px;
+  min-height: 16px;
+}
+
+.home .x5_-elements_-navigation-star-on-default-1 {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 24px;
+  min-width: 57px;
+}
+
+.home .text {
+  letter-spacing: 0;
+  margin-top: 2.0px;
+  min-height: 14px;
+  min-width: 24px;
+}
+
+.home .path {
+  height: 18px;
+  margin-left: 8px;
+  width: 19px;
+}
+
+.home .card {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  min-height: 150px;
+  padding: 20px 0;
+  width: 237px;
+}
+
+.home .group-29 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 40px;
+  width: 111px;
+}
+
+.home .x5_-elements_-navigation-star-on-default {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 31px;
+  min-width: 57px;
+}
+
+.home .card-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  min-height: 150px;
+  padding: 20px 19px;
+  width: 237px;
+}
+
+.home .frame-3316-1 {
+  align-items: center;
+  display: flex;
+  min-width: 118px;
+}
+
+.home .heart-1 {
+  height: 17px;
+  margin-bottom: 13.45px;
+  margin-left: 9px;
+  width: 18px;
+}
+
+.home .overlap-group-1 {
+  height: 40px;
+  margin-top: 24px;
+  position: relative;
+  width: 118px;
+}
+
+.home .group-29-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 40px;
+  position: absolute;
+  top: 0;
+  width: 118px;
+}
+
+.home .x5_-elements_-navigation-star-on-default-2 {
+  align-items: center;
+  display: flex;
+  height: 18px;
+  justify-content: flex-end;
+  left: 61px;
+  min-width: 57px;
+  position: absolute;
+  top: 0;
+}
+
+.home .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 874px;
+  width: 375px;
+}

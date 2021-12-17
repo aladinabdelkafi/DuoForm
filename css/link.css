@@ -1,0 +1,194 @@
+/* screen - link */
+
+.link {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 896px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.link .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  margin-left: 6.0px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+}
+
+.link .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.link .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.link .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.link .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.link .rectangle-2615 {
+  height: 68px;
+  margin-top: 81px;
+  object-fit: cover;
+  width: 188px;
+}
+
+.link .bon-retour-parmis-nous {
+  letter-spacing: -0.30px;
+  margin-left: 21.0px;
+  margin-top: 45px;
+  min-height: 13px;
+  width: 187px;
+}
+
+.link .ne-manquez-pas-votre {
+  color: var(--black);
+  font-family: var(--font-family-sf_pro_text-semibold);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: -0.30px;
+  margin-left: 2.0px;
+  margin-top: 10px;
+  min-height: 42px;
+  width: 366px;
+}
+
+.link .overlap-group1 {
+  align-self: flex-start;
+  height: 38px;
+  margin-left: -3px;
+  margin-top: 24px;
+  position: relative;
+  width: 404px;
+}
+
+.link .rectangle-2611 {
+  border: 1px solid #666666;
+  border-radius: 5px;
+  height: 38px;
+  left: 15px;
+  position: absolute;
+  top: 0;
+  width: 389px;
+}
+
+.link .e-mail-ou-tlphone {
+  color: var(--black);
+  font-family: var(--font-family-sf_pro_text-semibold);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  left: 0;
+  letter-spacing: -0.30px;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 165px;
+}
+
+.link .bastientrucgmailcom {
+  left: 25px;
+  letter-spacing: -0.30px;
+  position: absolute;
+  top: 19px;
+  width: 165px;
+}
+
+.link .overlap-group3 {
+  align-items: flex-start;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  margin-right: 1.0px;
+  margin-top: 8px;
+  min-width: 389px;
+  padding: 11px 9px;
+}
+
+.link .mot-de-passe {
+  letter-spacing: -0.30px;
+  min-height: 13px;
+  width: 165px;
+}
+
+.link .overlap-group {
+  align-items: flex-start;
+  background-color: var(--denim-2);
+  border-radius: 90px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  margin-top: 20px;
+  min-width: 382px;
+  padding: 12px 106px;
+}
+
+.link .sidentifier {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_text-semibold);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.30px;
+  min-height: 13px;
+  text-align: center;
+  width: 165px;
+}
+
+.link .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid var(--denim-2);
+  border-radius: 90px;
+  display: flex;
+  height: 38px;
+  margin-top: 8px;
+  min-width: 382px;
+  padding: 11px 107px;
+}
+
+.link .anuler {
+  letter-spacing: -0.30px;
+  min-height: 13px;
+  text-align: center;
+  width: 165px;
+}
+
+.link .mot-de-passe-oubli {
+  letter-spacing: -0.30px;
+  margin-left: 43.0px;
+  margin-top: 30px;
+  min-height: 13px;
+  width: 165px;
+}
+
+.link .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  margin-right: 1.0px;
+  margin-top: 299px;
+  width: 375px;
+}

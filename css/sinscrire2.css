@@ -1,0 +1,250 @@
+/* screen - sinscrire2 */
+
+.sinscrire2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 414px;
+}
+
+.sinscrire2 .overlap-group {
+  height: 896px;
+  position: relative;
+  width: 417px;
+}
+
+.sinscrire2 .background {
+  background-color: var(--white);
+  height: 896px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.sinscrire2 .informations-personnelles {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 140px;
+}
+
+.sinscrire2 .sinscrire {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 102px;
+}
+
+.sinscrire2 .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.sinscrire2 .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.sinscrire2 .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.sinscrire2 .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.sinscrire2 .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.sinscrire2 .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 862px;
+  width: 375px;
+}
+
+.sinscrire2 .rectangle-7 {
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  height: 40px;
+  left: 29px;
+  position: absolute;
+  top: 232px;
+  width: 349px;
+}
+
+.sinscrire2 .nom-et-prnom {
+  left: 44px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 242px;
+  width: 279px;
+}
+
+.sinscrire2 .quel-votre-nom-et-prenom {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 201px;
+}
+
+.sinscrire2 .vous-tes-dja-inscrit-se-connecter {
+  left: 69px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 486px;
+}
+
+.sinscrire2 .btn {
+  align-items: center;
+  background-color: var(--governor-bay);
+  border-radius: 38px;
+  display: flex;
+  height: 49px;
+  left: 90px;
+  min-width: 233px;
+  padding: 0 77px;
+  position: absolute;
+  top: 416px;
+}
+
+.sinscrire2 .sinscrire-1 {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 79px;
+}
+
+.sinscrire2 .je-suis {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 309px;
+}
+
+.sinscrire2 .logo {
+  height: 22px;
+  left: 133px;
+  position: absolute;
+  top: 550px;
+  width: 149px;
+}
+
+.sinscrire2 .bouton-tudiant {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  left: 61px;
+  min-width: 139px;
+  padding: 10px 21px;
+  position: absolute;
+  top: 355px;
+}
+.sinscrire2 .bouton-tudiant:focus {
+  background-color:var(--governor-bay);
+  font-weight: bold;
+  color: white;
+}
+
+.sinscrire2 .etudiant {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 96px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+.sinscrire2 .bouton-pro {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  left: 215px;
+  min-width: 139px;
+  padding: 10px 21px;
+  position: absolute;
+  top: 355px;
+  
+}
+.sinscrire2 .bouton-pro:focus {
+  background-color:var(--brilliant-rose);
+  font-weight: bold;
+  color: white;
+}
+
+.sinscrire2 .professionel {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  letter-spacing: 0;
+  min-height: 18px;
+  text-align: center;
+  width: 96px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.sinscrire2 .rectangle-2606 {
+  height: 26px;
+  left: 28px;
+  position: absolute;
+  top: 51px;
+  width: 26px;
+}
+
+.sinscrire2 .rectangle-2625 {
+  background-color: var(--dull-lavender);
+  border-radius: 90px;
+  height: 11px;
+  left: 132px;
+  position: absolute;
+  top: 62px;
+  width: 150px;
+}
+input[type=text],[type=password] {
+  border: 0px dotted #999;
+  border-radius: 0;
+
+  background-color: rgb(248, 248, 248);
+  color: var(--oslo-gray-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

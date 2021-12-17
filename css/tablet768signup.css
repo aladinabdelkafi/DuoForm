@@ -1,0 +1,906 @@
+/* screen - desktop1280signup */
+
+.desktop1280signup {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1458px;
+  min-width: 1280px;
+}
+
+.desktop1280signup .homepage {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  min-height: 1228px;
+  width: 1280px;
+}
+
+.desktop1280signup .title {
+  color: var(--aqua-deep);
+  font-family: var(--font-family-castoro-regular);
+  font-size: 130px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 130px;
+  margin-left: 157.0px;
+  min-height: 294px;
+}
+
+.desktop1280signup .overlap-group4 {
+  height: 908px;
+  margin-top: 26px;
+  position: relative;
+  width: 1280px;
+}
+
+.desktop1280signup .illustration {
+  height: 551px;
+  left: 0;
+  position: absolute;
+  top: 27px;
+  width: 1280px;
+}
+
+.desktop1280signup .sign-up-text-forms {
+  align-items: center;
+  display: flex;
+  height: 354px;
+  left: 160px;
+  min-width: 854px;
+  position: absolute;
+  top: 554px;
+}
+
+.desktop1280signup .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 354px;
+  width: 402px;
+}
+
+.desktop1280signup .start-your-free-trial {
+  letter-spacing: 0;
+  line-height: 34px;
+  min-height: 34px;
+  white-space: nowrap;
+}
+
+.desktop1280signup .place {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 30px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.desktop1280signup .text-form {
+  align-items: flex-start;
+  border-radius: 5px;
+  display: flex;
+  height: 44px;
+  margin-top: 10px;
+  min-width: 402px;
+  padding: 5px 19px;
+}
+
+.desktop1280signup .text-andrea-baker {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 362px;
+}
+
+.desktop1280signup .text-andrea-baker::placeholder {
+  color: #00000099;
+}
+
+.desktop1280signup .password {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 30px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.desktop1280signup .text-form-password-desktop {
+  align-items: flex-start;
+  border-radius: 5px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  margin-top: 10px;
+  min-width: 402px;
+  padding: 5px 18px;
+}
+
+.desktop1280signup .text-password {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 365px;
+}
+
+.desktop1280signup .text-password::placeholder {
+  color: #00000099;
+}
+
+.desktop1280signup .overlap-group {
+  border-radius: 5px;
+  height: 44px;
+  margin-top: 60px;
+  position: relative;
+  width: 111px;
+}
+
+.desktop1280signup .cta {
+  align-items: center;
+  background-color: var(--te-papa-green);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  left: 0;
+  min-width: 111px;
+  padding: 0 21px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop1280signup .sign-up {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 68px;
+}
+
+.desktop1280signup .cta-hover {
+  align-items: center;
+  background-color: #5abb9d;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  left: 0;
+  min-width: 111px;
+  opacity: 0;
+  padding: 0 21px;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.desktop1280signup .cta-hover:hover {
+  opacity: 1;
+}
+
+.desktop1280signup .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40.0px;
+  margin-left: 50px;
+  min-height: 186px;
+  width: 402px;
+}
+
+.desktop1280signup .email-address {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.desktop1280signup .text-andrea-bakergmailcom {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 360px;
+}
+
+.desktop1280signup .text-andrea-bakergmailcom::placeholder {
+  color: #00000099;
+}
+
+.desktop1280signup .confirm-password {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 30px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.desktop1280signup .text-form-confirm-password-desktop {
+  align-items: flex-start;
+  border-radius: 5px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  margin-top: 10px;
+  min-width: 402px;
+  padding: 5px 1px;
+}
+
+.desktop1280signup .text-confirm-password {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 382px;
+}
+
+.desktop1280signup .text-confirm-password::placeholder {
+  color: #00000099;
+}
+
+.desktop1280signup .subtitle {
+  font-weight: 300;
+  left: 160px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  width: 741px;
+}
+
+.desktop1280signup .pulsing-dot {
+  align-items: flex-start;
+  display: flex;
+  height: 32px;
+  left: 256px;
+  min-width: 123px;
+  position: absolute;
+  top: 850px;
+}
+
+.desktop1280signup .overlap-group1 {
+  height: 32px;
+  position: relative;
+  width: 123px;
+}
+
+.pulsingdot1 {
+  height: 30px;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  width: 30px;
+}
+
+.pulsingdot1 .oval-xzAkKP {
+  height: 30px;
+  left: 0;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.pulsingdot1 .oval-5fWj0n {
+  height: 16px;
+  left: 7px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+
+.desktop1280signup .bubble-hover {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 123px;
+  opacity: 0;
+  padding: 1px;
+  position: absolute;
+  top: 0;
+  transition: all 0.1s ease-in-out;
+}
+
+.desktop1280signup .bubble-hover:hover {
+  opacity: 1;
+}
+
+.desktop1280signup .group {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  min-width: 87px;
+  transform: rotate(-2deg);
+}
+
+.desktop1280signup .feature-here {
+  letter-spacing: 0;
+  line-height: 26px;
+  min-height: 26px;
+  white-space: nowrap;
+}
+
+.desktop1280signup .tour-bubble-right {
+  align-items: flex-start;
+  display: flex;
+  height: 39px;
+  left: 382px;
+  min-width: 124px;
+  position: absolute;
+  top: 553px;
+}
+
+.desktop1280signup .overlap-group2 {
+  height: 39px;
+  position: relative;
+  width: 124px;
+}
+
+.pulsingdot12 {
+  height: 30px;
+  left: 1px;
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  width: 30px;
+}
+
+.pulsingdot12 .oval-CKbvIy {
+  height: 30px;
+  left: 0;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.pulsingdot12 .oval-OGJxhx {
+  height: 16px;
+  left: 7px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+
+.desktop1280signup .bubble-hover-1 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 39px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 124px;
+  opacity: 0;
+  padding: 6px 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.1s ease-in-out;
+}
+
+.desktop1280signup .bubble-hover-1:hover {
+  opacity: 1;
+}
+
+.desktop1280signup .group-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  min-width: 88px;
+  transform: rotate(-2deg);
+}
+
+.desktop1280signup .tour-bubble-right-copy {
+  align-items: flex-start;
+  display: flex;
+  height: 33px;
+  left: 238px;
+  min-width: 240px;
+  position: absolute;
+  top: 723px;
+}
+
+.desktop1280signup .overlap-group3 {
+  height: 33px;
+  position: relative;
+  width: 240px;
+}
+
+.pulsingdot13 {
+  height: 30px;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 3px;
+  width: 30px;
+}
+
+.pulsingdot13 .oval-7xEhrw {
+  height: 30px;
+  left: 0;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.pulsingdot13 .oval-RSyF3g {
+  height: 16px;
+  left: 7px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+
+.desktop1280signup .bubble-hover-2 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 33px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 240px;
+  opacity: 0;
+  padding: 3px 1px;
+  position: absolute;
+  top: 0;
+  transition: all 0.1s ease-in-out;
+}
+
+.desktop1280signup .bubble-hover-2:hover {
+  opacity: 1;
+}
+
+.desktop1280signup .group-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  min-width: 204px;
+  transform: rotate(-2deg);
+}
+/* screen - mobile375signup */
+
+.mobile375signup {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1341px;
+  min-width: 375px;
+}
+
+.mobile375signup .homepage-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  min-height: 1141px;
+  width: 375px;
+}
+
+.mobile375signup .title-1 {
+  color: var(--aqua-deep);
+  font-family: var(--font-family-castoro-regular);
+  font-size: 65px;
+  letter-spacing: 0;
+  line-height: 65px;
+  margin-right: 4.0px;
+  min-height: 162px;
+  width: 335px;
+}
+
+.mobile375signup .subtitle-1 {
+  color: var(--black);
+  font-family: var(--font-family-lato-light);
+  font-size: var(--font-size-s);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 20px;
+  min-height: 96px;
+  width: 335px;
+}
+
+.mobile375signup .image {
+  height: 187px;
+  margin-top: 40px;
+  width: 375px;
+}
+
+.mobile375signup .sign-up-text-forms-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+  min-height: 587px;
+  width: 335px;
+}
+
+.mobile375signup .start-your-free-trial-1 {
+  letter-spacing: 0;
+  line-height: 60px;
+  min-height: 60px;
+  white-space: nowrap;
+}
+
+.mobile375signup .place-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 21px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.mobile375signup .text-form-name-mobile {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  margin-top: 10px;
+  min-width: 335px;
+  padding: 0 15px;
+}
+
+.mobile375signup .text-andrea-baker-1 {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 301px;
+}
+
+.mobile375signup .text-andrea-baker-1::placeholder {
+  color: #00000099;
+}
+
+.mobile375signup .sign-up-text-forms-item {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 30px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.mobile375signup .text-forms-email-mobile {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  margin-top: 10px;
+  min-width: 335px;
+  padding: 0 18px;
+}
+
+.mobile375signup .text-andrea-bakergmailcom-1 {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 298px;
+}
+
+.mobile375signup .text-andrea-bakergmailcom-1::placeholder {
+  color: #00000099;
+}
+
+.mobile375signup .text-forms {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  margin-top: 10px;
+  min-width: 335px;
+  padding: 0 12px;
+}
+
+.mobile375signup .text {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 304px;
+}
+
+.mobile375signup .text::placeholder {
+  color: #00000099;
+}
+
+.mobile375signup .cta-1 {
+  align-items: flex-start;
+  background-color: var(--te-papa-green);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  margin-top: 60px;
+  min-width: 111px;
+  padding: 9px 19px;
+}
+
+.mobile375signup .sign-up-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 72px;
+}
+/* screen - tablet768signup */
+
+.tablet768signup {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1305px;
+  min-width: 768px;
+}
+
+.tablet768signup .homepage-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  min-height: 1085px;
+  width: 768px;
+}
+
+.tablet768signup .title-2 {
+  color: var(--aqua-deep);
+  font-family: var(--font-family-castoro-regular);
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: 100px;
+  margin-left: 58.0px;
+  min-height: 226px;
+}
+
+.tablet768signup .overlap-group-1 {
+  height: 450px;
+  margin-top: 34px;
+  position: relative;
+  width: 768px;
+}
+
+.tablet768signup .image-1 {
+  height: 383px;
+  left: 0;
+  position: absolute;
+  top: 67px;
+  width: 768px;
+}
+
+.tablet768signup .subtitle-2 {
+  font-weight: 300;
+  left: 60px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 0;
+  width: 483px;
+}
+
+.tablet768signup .sign-up-text-forms-2 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 370px;
+  margin-top: 5px;
+  min-width: 648px;
+}
+
+.tablet768signup .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 370px;
+  width: 304px;
+}
+
+.tablet768signup .start-your-free-trial-2 {
+  letter-spacing: 0;
+  line-height: 60px;
+  min-height: 60px;
+  white-space: nowrap;
+}
+
+.tablet768signup .place-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 20px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.tablet768signup .text-form-name-tablet {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  margin-top: 10px;
+  min-width: 304px;
+  padding: 0 13px;
+}
+
+.tablet768signup .text-andrea-baker-2 {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 275px;
+}
+
+.tablet768signup .text-andrea-baker-2::placeholder {
+  color: #00000099;
+}
+
+.tablet768signup .password-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 30px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.tablet768signup .text-form-1 {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  margin-top: 10px;
+  min-width: 304px;
+  padding: 0 14px;
+}
+
+.tablet768signup .text-password-1 {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 273px;
+}
+
+.tablet768signup .text-password-1::placeholder {
+  color: #00000099;
+}
+
+.tablet768signup .cta-2 {
+  align-items: center;
+  background-color: var(--te-papa-green);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  margin-top: 60px;
+  min-width: 111px;
+  padding: 0 21px;
+}
+
+.tablet768signup .sign-up-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 68px;
+}
+
+.tablet768signup .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24.0px;
+  margin-left: 40px;
+  min-height: 186px;
+  width: 304px;
+}
+
+.tablet768signup .email-address-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.tablet768signup .text-andrea-bakergmailcom-2 {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 271px;
+}
+
+.tablet768signup .text-andrea-bakergmailcom-2::placeholder {
+  color: #00000099;
+}
+
+.tablet768signup .text-form-confirm-password-tablet {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 44px;
+  margin-top: 10px;
+  min-width: 304px;
+  padding: 0 19px;
+}
+
+.tablet768signup .text-confirm-password-1 {
+  background-color: transparent;
+  border: 0;
+  font-weight: 300;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 0;
+  width: 266px;
+}
+
+.tablet768signup .text-confirm-password-1::placeholder {
+  color: #00000099;
+}
+@media screen and (max-width: 767px) {
+  .screen.desktop1280signup { 
+    display: none;
+   }
+  .screen.tablet768signup { 
+    display: none;
+   }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .screen.desktop1280signup { 
+    display: none;
+   }
+  .screen.mobile375signup { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1280px) {
+  .screen.tablet768signup { 
+    display: none;
+   }
+  .screen.mobile375signup { 
+    display: none;
+   }
+}

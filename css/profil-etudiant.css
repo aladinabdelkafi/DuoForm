@@ -1,0 +1,711 @@
+/* screen - profil-etudiant */
+
+.profil-etudiant {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1118px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.profil-etudiant .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  margin-left: 6.0px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  z-index: 2;
+}
+
+.profil-etudiant .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.profil-etudiant .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.profil-etudiant .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.profil-etudiant .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.profil-etudiant .flex-row {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  margin-right: 8.0px;
+  margin-top: 21px;
+  min-width: 348px;
+  z-index: 1;
+}
+
+.profil-etudiant .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  width: 209px;
+}
+
+.profil-etudiant .tudiant {
+  letter-spacing: 0;
+  min-height: 35px;
+}
+
+.profil-etudiant .overlap-group {
+  height: 23px;
+  margin-left: 5.0px;
+  margin-top: 56px;
+  position: relative;
+  width: 153px;
+}
+
+.profil-etudiant .bastien-boisjot {
+  left: 10px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 143px;
+}
+
+.profil-etudiant .rectangle-2606 {
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 10px;
+}
+
+.profil-etudiant .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 17px;
+  min-width: 156px;
+}
+
+.profil-etudiant .tag {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  min-width: 56px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication-5 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 32px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-1 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 8px;
+  min-width: 92px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication-6 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 68px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-2 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 5px;
+  margin-top: 9px;
+  min-width: 168px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication-7 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 144px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .flex-row-2 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 9px;
+  min-width: 204px;
+}
+
+.profil-etudiant .tag-3 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  min-width: 70px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication-8 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 46px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-4 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 63px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication-9 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 39px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-5 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 51px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication-10 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 27px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .unsplashey-fbj-k-wl-r2g {
+  height: 139px;
+  margin-top: 27.0px;
+  width: 139px;
+}
+
+.profil-etudiant .bonjour-moi-cest-p {
+  letter-spacing: 0;
+  line-height: 151.7px;
+  margin-right: 2.0px;
+  margin-top: 19px;
+  min-height: 54px;
+  white-space: nowrap;
+  width: 344px;
+  z-index: 3;
+}
+
+.profil-etudiant .contacter {
+  align-self: flex-start;
+  letter-spacing: 0;
+  margin-left: 34px;
+  margin-top: 24px;
+  min-height: 15px;
+  z-index: 4;
+}
+
+.profil-etudiant .frame-41 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5.0px;
+  margin-top: 30px;
+  min-height: 648px;
+  width: 351px;
+  z-index: 5;
+}
+
+.profil-etudiant .card-profil-1 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  height: 202px;
+  overflow: hidden;
+  padding: 3px 13px;
+  width: 351px;
+}
+
+.profil-etudiant .group-36-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 12px;
+  min-width: 323px;
+}
+
+.profil-etudiant .helath-chat-with-lidia {
+  letter-spacing: 0;
+  margin-top: 0;
+  min-height: 16px;
+  min-width: 77px;
+}
+
+.profil-etudiant .heart {
+  align-self: center;
+  height: 18px;
+  margin-left: 227px;
+  width: 17px;
+}
+
+.profil-etudiant .vector-11-1 {
+  height: 1px;
+  margin-right: 1.0px;
+  margin-top: 22px;
+  width: 320px;
+}
+
+.profil-etudiant .frame-43-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 122px;
+  margin-right: 2.0px;
+  margin-top: 21px;
+  min-width: 319px;
+  padding: 3px;
+}
+
+.profil-etudiant .group-41 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 99px;
+  width: 145px;
+}
+
+.profil-etudiant .scolaire {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 12px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-6 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 143px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 119px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-7 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 132px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication-1 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 108px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-8 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 121px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication-2 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 97px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .frame-42 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 58px;
+  min-height: 70px;
+  width: 110px;
+}
+
+.profil-etudiant .professionnelle {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 12px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-9 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 74px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication-3 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 50px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-10 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 110px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .communication-4 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 86px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .card-profil {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+  min-height: 202px;
+  padding: 15.0px 13px;
+  width: 351px;
+}
+
+.profil-etudiant .group-36 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  min-width: 323px;
+}
+
+.profil-etudiant .helath-chat-with-lidia-1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  min-height: 16px;
+  min-width: 87px;
+}
+
+.profil-etudiant .heart-1 {
+  align-self: center;
+  height: 18px;
+  margin-left: 217px;
+  width: 17px;
+}
+
+.profil-etudiant .vector-11 {
+  height: 1px;
+  margin-right: 1.0px;
+  margin-top: 12px;
+  width: 320px;
+}
+
+.profil-etudiant .frame-43 {
+  align-items: flex-start;
+  display: flex;
+  height: 122px;
+  margin-right: 2.0px;
+  margin-top: 11px;
+  min-width: 319px;
+  padding: 3px;
+}
+
+.profil-etudiant .scolaire-1 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 12px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-11 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 143px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .tag-12 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 132px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .tag-13 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 121px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .professionnelle-1 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 12px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-14 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 74px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .tag-15 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 110px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .helath-chat-with-lidia-2 {
+  letter-spacing: 0;
+  margin-top: 0;
+  min-height: 16px;
+  min-width: 43px;
+}
+
+.profil-etudiant .heart-2 {
+  align-self: center;
+  height: 18px;
+  margin-left: 261px;
+  width: 17px;
+}
+
+.profil-etudiant .scolaire-2 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 12px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-16 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 143px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .tag-17 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 132px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .tag-18 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 121px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .professionnelle-2 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 12px;
+  white-space: nowrap;
+}
+
+.profil-etudiant .tag-19 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 74px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .tag-20 {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-top: 12px;
+  min-width: 110px;
+  padding: 0 12px;
+}
+
+.profil-etudiant .frame-3314 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 414px;
+  padding: 0 49.5px;
+  position: fixed;
+  top: 836px;
+  z-index: 6;
+}
+
+.profil-etudiant .x5_-elements_-navigation-home-on {
+  height: 60px;
+  width: 60px;
+}
+
+.profil-etudiant .x5_-elements_-navigation-message-off {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 25px;
+  min-width: 60px;
+  padding: 20px;
+}
+
+.profil-etudiant .shape {
+  height: 19px;
+  width: 19px;
+}
+
+.profil-etudiant .x5_-elements_-navigation-bell-off {
+  height: 60px;
+  margin-left: 25px;
+  width: 60px;
+}
+
+.profil-etudiant .user-filled {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 25px;
+  min-width: 60px;
+  padding: 21.0px 21px;
+}
+
+.profil-etudiant .group-18 {
+  height: 18px;
+  width: 18px;
+}
+
+.profil-etudiant .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: fixed;
+  top: 877px;
+  width: 375px;
+  z-index: 7;
+}

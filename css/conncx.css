@@ -1,0 +1,139 @@
+/* screen - conncx */
+
+.conncx {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 896px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.conncx .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  margin-left: 6.0px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+}
+
+.conncx .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.conncx .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.conncx .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.conncx .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.conncx .rectangle-2606 {
+  align-self: flex-start;
+  height: 26px;
+  margin-left: 28.0px;
+  margin-top: 2px;
+  width: 26px;
+}
+
+.conncx .mobile-loginpana {
+  height: 275px;
+  margin-top: 57px;
+  width: 280px;
+}
+
+.conncx .se-connecter {
+  letter-spacing: 0;
+  margin-left: 1.0px;
+  margin-top: 19px;
+  min-height: 40px;
+  text-align: center;
+  width: 319px;
+}
+
+.conncx .les-accompagnateurs {
+  letter-spacing: 0;
+  margin-right: 1.0px;
+  margin-top: 24px;
+  min-height: 54px;
+  text-align: center;
+  width: 291px;
+}
+
+.conncx .btn {
+  align-items: center;
+  background-color: var(--governor-bay);
+  border-radius: 38px;
+  display: flex;
+  height: 49px;
+  margin-top: 64px;
+  min-width: 340px;
+  padding: 0 59.5px;
+}
+
+.conncx .sinscrire {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 221px;
+}
+
+.conncx .btn-1 {
+  align-items: center;
+  border-radius: 38px;
+  display: flex;
+  height: 49px;
+  margin-top: 16px;
+  min-width: 340px;
+  padding: 0 51.5px;
+}
+
+.conncx .sinscrire-1 {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 237px;
+}
+
+.conncx .rejoignez-plus-de-10 {
+  letter-spacing: 0;
+  margin-left: 1.0px;
+  margin-top: 71px;
+  min-height: 15px;
+  min-width: 373px;
+}
+
+.conncx .logo {
+  height: 22px;
+  margin-left: 1.0px;
+  margin-top: 21px;
+  width: 149px;
+}
+
+.conncx .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  margin-right: 1.0px;
+  margin-top: 9px;
+  width: 375px;
+}

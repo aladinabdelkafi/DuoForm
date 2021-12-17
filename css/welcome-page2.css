@@ -1,0 +1,72 @@
+/* screen - welcome-page2 */
+
+.welcome-page2 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 896px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.welcome-page2 .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  margin-left: 6.0px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+}
+
+.welcome-page2 .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.welcome-page2 .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.welcome-page2 .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.welcome-page2 .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.welcome-page2 .group-14 {
+  height: 119px;
+  margin-right: 0;
+  margin-top: 320px;
+  width: 201px;
+}
+
+.welcome-page2 .progress-bar {
+  height: 10px;
+  margin-top: 24px;
+  width: 176px;
+}
+
+.welcome-page2 .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  margin-right: 1.0px;
+  margin-top: 340px;
+  width: 375px;
+}

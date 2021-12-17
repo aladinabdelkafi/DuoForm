@@ -1,0 +1,112 @@
+/* screen - profilemenutablet */
+
+.profilemenutablet {
+  align-items: flex-start;
+  display: flex;
+  min-width: 768px;
+}
+
+#overlay-profilemenutablet {
+  background-color: transparent;
+}
+
+.overlay .profilemenutablet {
+  background-color: #00000000;
+}
+
+.profilemenutablet .overlap-group {
+  height: 539px;
+  position: relative;
+  width: 768px;
+}
+
+.profilemenutablet .rectangle {
+  background-color: #00000033;
+  cursor: pointer;
+  height: 539px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 768px;
+}
+
+.profilemenutablet .profile-menu-tablet {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px #1e1e1e12;
+  display: flex;
+  flex-direction: column;
+  left: 448px;
+  min-height: 471px;
+  padding: 20px 0;
+  position: absolute;
+  top: 54px;
+  width: 290px;
+}
+
+.profilemenutablet .menu-profile-picture {
+  align-self: center;
+  height: 80px;
+  margin-top: 10px;
+  width: 80px;
+}
+
+.profilemenutablet .title {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-top: 10px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 160px;
+}
+
+.profilemenutablet .subtitle {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 10px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 158px;
+}
+
+.profilemenutablet .path-1 {
+  align-self: center;
+  height: 2px;
+  margin-top: 30px;
+  opacity: 0.2;
+  width: 233px;
+}
+
+.profilemenutablet .profile-menu-tablet-item {
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: 30px;
+  margin-top: 20px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.profilemenutablet .path-2 {
+  align-self: center;
+  height: 2px;
+  margin-top: 20px;
+  opacity: 0.2;
+  width: 233px;
+}
+
+.profilemenutablet .log-out {
+  cursor: pointer;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: 30px;
+  margin-top: 18px;
+  min-height: 24px;
+  white-space: nowrap;
+}

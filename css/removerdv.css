@@ -1,0 +1,83 @@
+/* screen - removerdv */
+
+.removerdv {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 211px;
+  padding: 50px 0;
+  width: 386px;
+}
+
+.removerdv .votre-rendez-vous-du {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 161px;
+}
+
+.removerdv .tag {
+  align-items: flex-start;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 21px;
+  margin-top: 21px;
+  min-width: 170px;
+  padding: 2.5px 14.8px;
+}
+
+.removerdv .communication {
+  color: var(--brilliant-rose);
+  font-family: var(--font-family-montserrat);
+  font-size: 12.4px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 16px;
+  white-space: nowrap;
+}
+
+.removerdv .group-60 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 21px;
+  min-width: 286px;
+}
+
+.removerdv .btn {
+  align-items: center;
+  border: 1.4px solid var(--brilliant-rose);
+  border-radius: 38px;
+  display: flex;
+  height: 29px;
+  min-width: 135px;
+  padding: 0 48.5px;
+}
+
+.removerdv .sinscrire {
+  color: var(--brilliant-rose);
+  font-family: var(--font-family-roboto);
+  font-size: 12.8px;
+  font-weight: 500;
+  letter-spacing: 0;
+  min-height: 15px;
+  min-width: 38px;
+}
+
+.removerdv .btn-1 {
+  align-items: center;
+  background-color: var(--brilliant-rose);
+  border-radius: 38px;
+  display: flex;
+  height: 29px;
+  margin-left: 16px;
+  min-width: 135px;
+  padding: 0 45px;
+}
+
+.removerdv .sinscrire-1 {
+  letter-spacing: 0;
+  min-height: 15px;
+  min-width: 45px;
+}

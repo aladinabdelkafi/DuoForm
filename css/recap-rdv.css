@@ -1,0 +1,449 @@
+/* screen - recap-rdv */
+
+.recap-rdv {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 896px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.recap-rdv .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 896px;
+  width: 417px;
+}
+
+.recap-rdv .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  margin-left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+}
+
+.recap-rdv .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.recap-rdv .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.recap-rdv .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.recap-rdv .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.recap-rdv .planning {
+  letter-spacing: 0;
+  margin-left: 29px;
+  margin-top: 21px;
+  min-height: 35px;
+}
+
+.recap-rdv .flex-row {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  margin-left: 31.0px;
+  margin-top: 46px;
+  min-width: 173px;
+}
+
+.recap-rdv .rectangle-2606 {
+  height: 10px;
+  margin-top: 1.0px;
+  width: 10px;
+}
+
+.recap-rdv .rendez-vous-venir {
+  letter-spacing: 0;
+  margin-left: 6px;
+  min-height: 19px;
+  min-width: 157px;
+}
+
+.recap-rdv .overlap-group {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.0px;
+  margin-top: 24px;
+  min-height: 414px;
+  padding: 22px 11px;
+  width: 362px;
+}
+
+.recap-rdv .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 112px;
+  margin-left: 3px;
+  min-width: 264px;
+}
+
+.recap-rdv .avatars {
+  align-self: flex-end;
+  height: 109px;
+  width: 109px;
+}
+
+.recap-rdv .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  min-height: 70px;
+  width: 143px;
+}
+
+.recap-rdv .philomena-tiret {
+  letter-spacing: 0;
+  min-height: 23px;
+  width: 143px;
+}
+
+.recap-rdv .photographie {
+  letter-spacing: 0;
+  margin-top: 3px;
+  min-height: 17px;
+  width: 87px;
+}
+
+.recap-rdv .flex-row-2 {
+  align-items: center;
+  display: flex;
+  height: 14px;
+  margin-top: 13px;
+  min-width: 133px;
+}
+
+.recap-rdv .voir-le-profil {
+  letter-spacing: 0;
+  min-height: 14px;
+  min-width: 66px;
+}
+
+.recap-rdv .contacter {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  margin-left: 21px;
+  min-height: 12px;
+  min-width: 46px;
+  white-space: nowrap;
+}
+
+.recap-rdv .bonjour-moi-cest-p {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 129.4px;
+  margin-top: 15px;
+  min-height: 54px;
+  white-space: nowrap;
+  width: 332px;
+}
+
+.recap-rdv .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 14px;
+  margin-left: 13px;
+  margin-top: 35px;
+  min-width: 285px;
+}
+
+.recap-rdv .rcapitulatif-du-rendez-vous {
+  letter-spacing: 0;
+  min-height: 14px;
+  min-width: 156px;
+}
+
+.recap-rdv .vendredi-12-dcembre {
+  letter-spacing: 0;
+  margin-left: 6px;
+  min-height: 14px;
+}
+
+.recap-rdv .rectangle-2602 {
+  align-self: flex-end;
+  background-color: var(--mercury);
+  height: 1px;
+  margin-right: 11px;
+  margin-top: 4px;
+  width: 321px;
+}
+
+.recap-rdv .flex-row-4 {
+  align-items: center;
+  display: flex;
+  margin-left: 13px;
+  margin-top: 22px;
+  min-width: 262px;
+}
+
+.recap-rdv .domaine-daccompagnement {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 157px;
+  white-space: nowrap;
+}
+
+.recap-rdv .tag {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 95px;
+  padding: 0 12px;
+}
+
+.recap-rdv .communication {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 71px;
+  white-space: nowrap;
+}
+
+.recap-rdv .flex-row-5 {
+  align-items: center;
+  display: flex;
+  margin-left: 13px;
+  margin-top: 9px;
+  min-width: 116px;
+}
+
+.recap-rdv .horaire {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 39px;
+  white-space: nowrap;
+}
+
+.recap-rdv .tag-1 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 67px;
+  padding: 0 12px;
+}
+
+.recap-rdv .communication-1 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 43px;
+  white-space: nowrap;
+}
+
+.recap-rdv .flex-row-6 {
+  align-items: center;
+  display: flex;
+  margin-left: 13px;
+  margin-top: 9px;
+  min-width: 262px;
+}
+
+.recap-rdv .lieu {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  margin-top: 1.31px;
+  min-height: 13px;
+  min-width: 23px;
+  white-space: nowrap;
+}
+
+.recap-rdv .tag-2 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 229px;
+  padding: 0 12px;
+}
+
+.recap-rdv .communication-2 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 205px;
+  white-space: nowrap;
+}
+
+.recap-rdv .flex-row-7 {
+  align-items: center;
+  display: flex;
+  margin-left: 13px;
+  margin-top: 9px;
+  min-width: 149px;
+}
+
+.recap-rdv .rencontre {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 55px;
+  white-space: nowrap;
+}
+
+.recap-rdv .tag-3 {
+  align-items: center;
+  background-color: var(--governor-bay-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  margin-left: 10px;
+  min-width: 84px;
+  padding: 0 12px;
+}
+
+.recap-rdv .communication-3 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 60px;
+  white-space: nowrap;
+}
+
+.recap-rdv .participants {
+  letter-spacing: 0;
+  margin-left: 43px;
+  margin-top: 33px;
+  min-height: 14px;
+}
+
+.recap-rdv .card {
+  align-self: center;
+  height: 85px;
+  margin-left: 3.0px;
+  margin-top: 18px;
+  width: 362px;
+}
+
+.recap-rdv .overlap-group1 {
+  height: 60px;
+  margin-top: 78px;
+  position: relative;
+  width: 414px;
+}
+
+.recap-rdv .frame-3314 {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 414px;
+  padding: 0 27px;
+  position: absolute;
+  top: 0;
+}
+
+.recap-rdv .x5_-elements_-navigation-home-on {
+  height: 60px;
+  width: 60px;
+}
+
+.recap-rdv .iconly {
+  align-items: flex-start;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 20.0px;
+}
+
+.recap-rdv .subtract {
+  height: 19px;
+  width: 19px;
+}
+
+.recap-rdv .x5_-elements_-navigation-message-off {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 20px;
+}
+
+.recap-rdv .shape {
+  height: 19px;
+  width: 19px;
+}
+
+.recap-rdv .x5_-elements_-navigation-bell-off {
+  height: 60px;
+  margin-left: 15px;
+  width: 60px;
+}
+
+.recap-rdv .user-filled {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 21.0px 21px;
+}
+
+.recap-rdv .group-18 {
+  height: 18px;
+  width: 18px;
+}
+
+.recap-rdv .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 38px;
+  width: 375px;
+}
+
+.recap-rdv .contacter-1 {
+  letter-spacing: 0;
+  margin-left: 24px;
+  margin-top: 305px;
+  min-height: 14px;
+}

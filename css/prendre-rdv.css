@@ -1,0 +1,1081 @@
+/* screen - prendre-rdv */
+
+.prendre-rdv {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 896px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.prendre-rdv .overlap-group4 {
+  height: 108px;
+  margin-left: 3px;
+  position: relative;
+  width: 414px;
+}
+
+.prendre-rdv .overlap-group2 {
+  height: 108px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.prendre-rdv .rechercher-des-accompagnateurs {
+  left: 26px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 38px;
+}
+
+.prendre-rdv .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.prendre-rdv .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.prendre-rdv .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.prendre-rdv .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.prendre-rdv .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.prendre-rdv .love {
+  align-items: flex-start;
+  background-image: url(../img/heart-18@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 23px;
+  justify-content: flex-end;
+  left: 361px;
+  min-width: 25px;
+  padding: 2.0px 2.1px;
+  position: absolute;
+  top: 62px;
+}
+
+.prendre-rdv .oval {
+  height: 5px;
+  width: 4px;
+}
+
+.prendre-rdv .flex-row {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  margin-left: 29.0px;
+  margin-top: 39px;
+  min-width: 206px;
+}
+
+.prendre-rdv .rectangle-2606 {
+  height: 10px;
+  margin-top: 1.0px;
+  width: 10px;
+}
+
+.prendre-rdv .tous-les-accompagnateurs {
+  letter-spacing: 0;
+  margin-left: 1px;
+  min-height: 19px;
+  min-width: 195px;
+}
+
+.prendre-rdv .flex-col {
+  align-items: flex-start;
+  align-self: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4.0px;
+  margin-top: 37px;
+  min-height: 549px;
+  padding: 22px 11.0px;
+  width: 362px;
+}
+
+.prendre-rdv .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 103px;
+  margin-left: 10.0px;
+  min-width: 257px;
+}
+
+.prendre-rdv .avatars {
+  align-self: flex-end;
+  height: 100px;
+  width: 100px;
+}
+
+.prendre-rdv .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+  min-height: 69px;
+  width: 143px;
+}
+
+.prendre-rdv .philomena-tiret {
+  letter-spacing: 0;
+  min-height: 23px;
+  width: 143px;
+}
+
+.prendre-rdv .photographie {
+  letter-spacing: 0;
+  margin-top: 3px;
+  min-height: 17px;
+  width: 87px;
+}
+
+.prendre-rdv .flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 14px;
+  margin-top: 12px;
+  min-width: 133px;
+}
+
+.prendre-rdv .voir-le-profil {
+  letter-spacing: 0;
+  min-height: 14px;
+  min-width: 66px;
+}
+
+.prendre-rdv .contacter {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  margin-left: 21px;
+  min-height: 12px;
+  min-width: 46px;
+  white-space: nowrap;
+}
+
+.prendre-rdv .flex-col-2 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  min-height: 363px;
+  width: 334px;
+}
+
+.prendre-rdv .bonjour-moi-cest-p {
+  letter-spacing: 0;
+  line-height: 129.4px;
+  margin-left: 2.5px;
+  min-height: 54px;
+  white-space: nowrap;
+}
+
+.prendre-rdv .les-disponibilits-de-philomena {
+  letter-spacing: 0;
+  margin-left: 2.5px;
+  margin-top: 37px;
+  min-height: 14px;
+}
+
+.prendre-rdv .rectangle-2612 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-left: 2.5px;
+  margin-top: 5px;
+  width: 310px;
+}
+
+.prendre-rdv .choisissez-un-jour-dinscription {
+  letter-spacing: 0;
+  margin-left: 1.5px;
+  margin-top: 4px;
+  min-height: 13px;
+}
+
+.prendre-rdv .frame-3316 {
+  align-items: center;
+  border-radius: 44px;
+  display: flex;
+  height: 17px;
+  margin-left: 1.5px;
+  margin-top: 22px;
+  min-width: 311px;
+  padding: 0 19.2px;
+}
+
+.prendre-rdv .vector-2-stroke {
+  height: 7px;
+  margin-bottom: 0;
+  width: 4px;
+}
+
+.prendre-rdv .dcembre {
+  letter-spacing: 0;
+  margin-left: 104px;
+  min-height: 14px;
+  text-align: center;
+  width: 56px;
+}
+
+.prendre-rdv .vector-2-stroke-1 {
+  height: 7px;
+  margin-bottom: 0;
+  margin-left: 104px;
+  width: 4px;
+}
+
+.prendre-rdv .row {
+  align-items: flex-start;
+  display: flex;
+  height: 16px;
+  justify-content: flex-end;
+  margin-left: 1.5px;
+  margin-top: 4px;
+  min-width: 311px;
+  opacity: 0.5;
+  padding: 0 9.6px;
+}
+
+.prendre-rdv .price {
+  height: 17px;
+  letter-spacing: 0;
+  margin-top: -0.87px;
+  text-align: center;
+  width: 18px;
+}
+
+.prendre-rdv .row-item {
+  height: 17px;
+  letter-spacing: 0;
+  margin-left: 27px;
+  margin-top: -0.87px;
+  text-align: center;
+  width: 18px;
+}
+
+.prendre-rdv .overlap-group {
+  height: 170px;
+  margin-top: 5px;
+  position: relative;
+  width: 314px;
+}
+
+.prendre-rdv .date-default {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 89px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 134px;
+}
+
+.prendre-rdv .number {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 134px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 134px;
+}
+
+.prendre-rdv .x1 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 178px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 134px;
+}
+
+.prendre-rdv .x1-1 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 222px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 134px;
+}
+
+.prendre-rdv .x1-2 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 267px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 134px;
+}
+
+.prendre-rdv .x1-3 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 0;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 0;
+}
+
+.prendre-rdv .number-1 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-6 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 266px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 33px;
+}
+
+.prendre-rdv .x1-4 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-7 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 266px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 67px;
+}
+
+.prendre-rdv .x1-5 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-8 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 266px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 100px;
+}
+
+.prendre-rdv .x1-6 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-9 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 44px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 0;
+}
+
+.prendre-rdv .x1-7 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-10 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 0;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 67px;
+}
+
+.prendre-rdv .x1-8 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-11 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 0;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 33px;
+}
+
+.prendre-rdv .x1-9 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-12 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 0;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 100px;
+}
+
+.prendre-rdv .x1-10 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-13 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 0;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 134px;
+}
+
+.prendre-rdv .x1-11 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-14 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 89px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 0;
+}
+
+.prendre-rdv .x1-12 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-15 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 45px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 67px;
+}
+
+.prendre-rdv .x1-13 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-16 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 44px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 33px;
+}
+
+.prendre-rdv .x1-14 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-17 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 45px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 101px;
+}
+
+.prendre-rdv .x1-15 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-18 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 44px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 134px;
+}
+
+.prendre-rdv .x1-16 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-19 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 134px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 0;
+}
+
+.prendre-rdv .x1-17 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-20 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 89px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 67px;
+}
+
+.prendre-rdv .x1-18 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-21 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 89px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 33px;
+}
+
+.prendre-rdv .x1-19 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-22 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 89px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 101px;
+}
+
+.prendre-rdv .x1-20 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-23 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 178px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 0;
+}
+
+.prendre-rdv .x1-21 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-24 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 134px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 67px;
+}
+
+.prendre-rdv .x1-22 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-25 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 133px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 33px;
+}
+
+.prendre-rdv .x1-23 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-26 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 133px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 100px;
+}
+
+.prendre-rdv .x1-24 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-27 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 222px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 0;
+}
+
+.prendre-rdv .x1-25 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-28 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 178px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 67px;
+}
+
+.prendre-rdv .x1-26 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-29 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 178px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 34px;
+}
+
+.prendre-rdv .x1-27 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-30 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 35px;
+  left: 178px;
+  min-width: 46px;
+  padding: 8.4px 11.1px;
+  position: absolute;
+  top: 101px;
+}
+
+.prendre-rdv .x1-28 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-31 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 266px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 0;
+}
+
+.prendre-rdv .x1-29 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-32 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 222px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 67px;
+}
+
+.prendre-rdv .x1-30 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-33 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 222px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 33px;
+}
+
+.prendre-rdv .x1-31 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .date-default-34 {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  display: flex;
+  height: 36px;
+  left: 222px;
+  min-width: 47px;
+  padding: 7.9px 10.6px;
+  position: absolute;
+  top: 100px;
+}
+
+.prendre-rdv .x1-32 {
+  height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 22px;
+}
+
+.prendre-rdv .tooltip {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-2620-3@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 23px;
+  left: 194px;
+  min-width: 80px;
+  padding: 3px 5.6px;
+  position: absolute;
+  top: 18px;
+}
+
+.prendre-rdv .prendre-rdv-1 {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 9px;
+  font-weight: 400;
+  height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 56px;
+}
+
+.prendre-rdv .vector-14 {
+  height: 7px;
+  margin-left: 4px;
+  margin-top: 2.0px;
+  width: 8px;
+}
+
+.prendre-rdv .overlap-group3 {
+  height: 60px;
+  margin-top: 84px;
+  position: relative;
+  width: 414px;
+}
+
+.prendre-rdv .frame-3314 {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 414px;
+  padding: 0 25px;
+  position: absolute;
+  top: 0;
+}
+
+.prendre-rdv .x5_-elements_-navigation-home-on {
+  height: 60px;
+  width: 60px;
+}
+
+.prendre-rdv .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--black-3);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-bottom: -3px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 17.0px 18.8px;
+}
+
+.prendre-rdv .subtract {
+  height: 19px;
+  width: 19px;
+}
+
+.prendre-rdv .x5_-elements_-navigation-message-off {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 19px;
+  min-width: 60px;
+  padding: 20px;
+}
+
+.prendre-rdv .shape {
+  height: 19px;
+  width: 19px;
+}
+
+.prendre-rdv .x5_-elements_-navigation-bell-off {
+  height: 60px;
+  margin-left: 15px;
+  width: 60px;
+}
+
+.prendre-rdv .user-filled {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 21.0px 21px;
+}
+
+.prendre-rdv .group-18 {
+  height: 18px;
+  width: 18px;
+}
+
+.prendre-rdv .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 38px;
+  width: 375px;
+}

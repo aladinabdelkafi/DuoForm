@@ -1,0 +1,84 @@
+/* screen - sidebarmenutablet */
+
+.sidebarmenutablet {
+  align-items: flex-start;
+  display: flex;
+  min-width: 779px;
+}
+
+#overlay-sidebarmenutablet {
+  background-color: transparent;
+}
+
+.overlay .sidebarmenutablet {
+  background-color: #00000000;
+}
+
+.sidebarmenutablet .overlap-group {
+  height: 366px;
+  position: relative;
+  width: 779px;
+}
+
+.sidebarmenutablet .rectangle {
+  background-color: #00000033;
+  cursor: pointer;
+  height: 366px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 779px;
+}
+
+.sidebarmenutablet .side-bar-menu-tablet {
+  align-items: flex-start;
+  background-color: var(--aqua-deep);
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px #1e1e1e12;
+  display: flex;
+  flex-direction: column;
+  left: 30px;
+  min-height: 307px;
+  padding: 19px 29px;
+  position: absolute;
+  top: 54px;
+  width: 290px;
+}
+
+.sidebarmenutablet .x-symbol {
+  cursor: pointer;
+  height: 19px;
+  width: 19px;
+}
+
+.sidebarmenutablet .place {
+  cursor: pointer;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 1px;
+  margin-top: 29px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.sidebarmenutablet .side-bar-menu-tablet-item {
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 1px;
+  margin-top: 20px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.sidebarmenutablet .classes {
+  cursor: pointer;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 1px;
+  margin-top: 20px;
+  min-height: 20px;
+  white-space: nowrap;
+}

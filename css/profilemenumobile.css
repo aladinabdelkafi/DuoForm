@@ -1,0 +1,116 @@
+/* screen - profilemenumobile */
+
+.profilemenumobile {
+  display: flex;
+  height: 100vh;
+  justify-content: flex-end;
+  min-height: 448px;
+  min-width: 375px;
+  width: 100%;
+}
+
+#overlay-profilemenumobile {
+  background-color: transparent;
+}
+
+.overlay .profilemenumobile {
+  background-color: #00000000;
+}
+
+.profilemenumobile .profile-menu-mobile {
+  align-items: flex-start;
+  background-color: var(--white);
+  box-shadow: 0px 5px 10px #1e1e1e12;
+  display: flex;
+  flex-direction: column;
+  min-height: 448px;
+  padding: 19px 0;
+  width: 375px;
+}
+
+.profilemenumobile .x-symbol {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 19px;
+  margin-right: 29px;
+  width: 19px;
+}
+
+.profilemenumobile .flex-row {
+  align-items: center;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 29px;
+  min-width: 250px;
+}
+
+.profilemenumobile .profile-picture {
+  height: 70px;
+  width: 70px;
+}
+
+.profilemenumobile .title-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  min-height: 54px;
+  width: 160px;
+}
+
+.profilemenumobile .title {
+  height: 24px;
+  width: 160px;
+}
+
+.profilemenumobile .subtitle {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 10px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.profilemenumobile .flex-col {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  min-height: 222px;
+  width: 318px;
+}
+
+.profilemenumobile .path-1 {
+  height: 2px;
+  opacity: 0.2;
+  width: 318px;
+}
+
+.profilemenumobile .flex-col-item {
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 1.5px;
+  margin-top: 20px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.profilemenumobile .path-2 {
+  height: 3px;
+  margin-top: 18px;
+  opacity: 0.2;
+  width: 318px;
+}
+
+.profilemenumobile .log-out {
+  cursor: pointer;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 1.5px;
+  margin-top: 18px;
+  min-height: 20px;
+  white-space: nowrap;
+}

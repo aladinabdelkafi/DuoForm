@@ -1,0 +1,201 @@
+/* screen - sinscrire8 */
+
+.sinscrire8 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 414px;
+}
+
+.sinscrire8 .overlap-group {
+  height: 896px;
+  position: relative;
+  width: 417px;
+}
+
+.sinscrire8 .background {
+  background-color: var(--white);
+  height: 896px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.sinscrire8 .informations-personnelles {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 140px;
+}
+
+.sinscrire8 .sinscrire {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 102px;
+}
+
+.sinscrire8 .logo {
+  height: 22px;
+  left: 133px;
+  position: absolute;
+  top: 830px;
+  width: 149px;
+}
+
+.sinscrire8 .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.sinscrire8 .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.sinscrire8 .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.sinscrire8 .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.sinscrire8 .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.sinscrire8 .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 862px;
+  width: 375px;
+}
+
+.sinscrire8 .rectangle-7 {
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  height: 40px;
+  left: 29px;
+  position: absolute;
+  top: 232px;
+  width: 349px;
+}
+
+.sinscrire8 .text-16 {
+  left: 44px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 242px;
+  width: 279px;
+}
+
+.sinscrire8 .tlphone {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 201px;
+}
+
+.sinscrire8 .btn {
+  align-items: center;
+  background-color: var(--brilliant-rose);
+  border-radius: 38px;
+  display: flex;
+  height: 49px;
+  left: 90px;
+  min-width: 233px;
+  padding: 0 77px;
+  position: absolute;
+  top: 416px;
+}
+
+.sinscrire8 .sinscrire-1 {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 79px;
+}
+
+.sinscrire8 .vous-tes-dja-inscrit-se-connecter {
+  left: 69px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 486px;
+}
+
+.sinscrire8 .rectangle-8 {
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  height: 40px;
+  left: 32px;
+  position: absolute;
+  top: 330px;
+  width: 349px;
+}
+
+.sinscrire8 .jjmmaa {
+  left: 47px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 340px;
+  width: 279px;
+}
+
+.sinscrire8 .date-de-naissance {
+  left: 32px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 299px;
+}
+
+.sinscrire8 .rectangle-2626 {
+  background-color: var(--piggy-pink);
+  border-radius: 90px;
+  height: 11px;
+  left: 132px;
+  position: absolute;
+  top: 62px;
+  width: 150px;
+}
+
+.sinscrire8 .rectangle-2625 {
+  background-color: var(--brilliant-rose);
+  border-radius: 90px;
+  height: 11px;
+  left: 132px;
+  position: absolute;
+  top: 62px;
+  width: 60px;
+}
+
+.sinscrire8 .rectangle-2606 {
+  height: 26px;
+  left: 28px;
+  position: absolute;
+  top: 51px;
+  width: 26px;
+}

@@ -1,0 +1,127 @@
+/* screen - sinscrire14 */
+
+.sinscrire14 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 414px;
+}
+
+.sinscrire14 .overlap-group {
+  height: 896px;
+  position: relative;
+  width: 417px;
+}
+
+.sinscrire14 .background {
+  background-color: var(--white);
+  height: 896px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.sinscrire14 .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.sinscrire14 .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.sinscrire14 .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.sinscrire14 .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.sinscrire14 .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.sinscrire14 .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 862px;
+  width: 375px;
+}
+
+.sinscrire14 .btn {
+  align-items: center;
+  background-color: var(--brilliant-rose);
+  border-radius: 38px;
+  display: flex;
+  height: 49px;
+  left: 83px;
+  min-width: 253px;
+  padding: 0 77px;
+  position: absolute;
+  top: 555px;
+}
+
+.sinscrire14 .sinscrire {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 99px;
+}
+
+.sinscrire14 .commencez-laventure {
+  left: 55px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 448px;
+}
+
+.sinscrire14 .votre-inscription-est-termine {
+  left: 98px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 366px;
+}
+
+.sinscrire14 .ellipse-16 {
+  background-color: var(--brilliant-rose);
+  border-radius: 36.5px;
+  height: 73px;
+  left: 173px;
+  position: absolute;
+  top: 265px;
+  width: 73px;
+}
+
+.sinscrire14 .vector-24 {
+  height: 31px;
+  left: 189px;
+  position: absolute;
+  top: 289px;
+  width: 40px;
+}

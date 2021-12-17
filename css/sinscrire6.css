@@ -1,0 +1,201 @@
+/* screen - sinscrire6 */
+
+.sinscrire6 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 414px;
+}
+
+.sinscrire6 .overlap-group {
+  height: 896px;
+  position: relative;
+  width: 417px;
+}
+
+.sinscrire6 .background {
+  background-color: var(--white);
+  height: 896px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.sinscrire6 .informations-personnelles {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 140px;
+}
+
+.sinscrire6 .sinscrire {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 102px;
+}
+
+.sinscrire6 .logo {
+  height: 22px;
+  left: 133px;
+  position: absolute;
+  top: 831px;
+  width: 149px;
+}
+
+.sinscrire6 .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 3px;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.sinscrire6 .time {
+  align-self: flex-end;
+  letter-spacing: -0.30px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.sinscrire6 .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.sinscrire6 .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.sinscrire6 .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.sinscrire6 .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 862px;
+  width: 375px;
+}
+
+.sinscrire6 .rectangle-7 {
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  height: 40px;
+  left: 29px;
+  position: absolute;
+  top: 232px;
+  width: 349px;
+}
+
+.sinscrire6 .bastienboisjotuniv-lyon2fr {
+  left: 44px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 242px;
+  width: 279px;
+}
+
+.sinscrire6 .quel-votre-email {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 201px;
+}
+
+.sinscrire6 .vous-tes-dja-inscrit-se-connecter {
+  left: 69px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 486px;
+}
+
+.sinscrire6 .btn {
+  align-items: center;
+  background-color: var(--brilliant-rose);
+  border-radius: 38px;
+  display: flex;
+  height: 49px;
+  left: 90px;
+  min-width: 233px;
+  padding: 0 77px;
+  position: absolute;
+  top: 416px;
+}
+
+.sinscrire6 .sinscrire-1 {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 79px;
+}
+
+.sinscrire6 .et-votre-mot-de-passe {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 309px;
+}
+
+.sinscrire6 .rectangle-2613 {
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  height: 40px;
+  left: 29px;
+  position: absolute;
+  top: 346px;
+  width: 349px;
+}
+
+.sinscrire6 .text-14 {
+  left: 44px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 356px;
+  width: 279px;
+}
+
+.sinscrire6 .rectangle-2626 {
+  background-color: var(--piggy-pink);
+  border-radius: 90px;
+  height: 11px;
+  left: 132px;
+  position: absolute;
+  top: 62px;
+  width: 150px;
+}
+
+.sinscrire6 .rectangle-2625 {
+  background-color: var(--brilliant-rose);
+  border-radius: 90px;
+  height: 11px;
+  left: 132px;
+  position: absolute;
+  top: 62px;
+  width: 30px;
+}
+
+.sinscrire6 .rectangle-2606 {
+  height: 26px;
+  left: 28px;
+  position: absolute;
+  top: 51px;
+  width: 26px;
+}

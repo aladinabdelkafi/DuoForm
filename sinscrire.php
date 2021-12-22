@@ -51,6 +51,6 @@
 
 <script type="text/javascript">
     document.getElementById("sinscrire2").onclick = function () {
-        location.href = "sinscrire2.php";
+        location.href = "sinscrire0.php";
     };
 </script>

@@ -6,6 +6,7 @@
   display: flex;
   min-width: 414px;
   overflow-x: hidden;
+  z-index: 0;
 }
 
 .home .overlap-group1 {
@@ -50,11 +51,25 @@
 }
 
 .home .prochaines-runions {
+  border-radius: 5px;
   left: 29px;
   letter-spacing: 0;
-  position: absolute;
-  top: 223px;
+  position: relative;
+  top: 150px;
+
+  background-color: var(--desert-storm);
+  padding: 10px;
+  text-align: left;
+  width: 85%;
+
+  outline: none;
+  transition: 0.4s;
+  margin-top: 20px;
+ 
 }
+
+
+
 
 .home .cest-un-beau-jour-p {
   left: 29px;
@@ -67,19 +82,18 @@
   left: 29px;
   letter-spacing: 0;
   position: absolute;
-  top: 70px;
+  top: 40px;
 }
 
-.home .frame-3314 {
+.frame-3314 {
   align-items: flex-start;
   background-color: var(--desert-storm);
   display: flex;
   height: 60px;
-  left: 0;
-  min-width: 414px;
   padding: 0 27px;
-  position: absolute;
-  top: 836px;
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
 }
 
 .home .x5_-elements_-navigation-home-on {
@@ -94,7 +108,7 @@
   height: 60px;
   margin-left: 15px;
   min-width: 60px;
-  padding: 20.0px 20.0px;
+  padding: 20px 20px;
 }
 
 .home .subtract {
@@ -131,7 +145,7 @@
   height: 60px;
   margin-left: 15px;
   min-width: 60px;
-  padding: 21.0px 21px;
+  padding: 21px 21px;
 }
 
 .home .group-18 {
@@ -153,7 +167,7 @@
 
 .home .time {
   align-self: flex-end;
-  letter-spacing: -0.30px;
+  letter-spacing: -0.3px;
   min-height: 18px;
   text-align: center;
   width: 60px;
@@ -181,7 +195,8 @@
 }
 
 .home .card-1 {
-  height: 85px;
+  margin-top: 10px;
+  height: 50px;
   left: 30px;
   position: absolute;
   top: 268px;
@@ -207,24 +222,54 @@
 .home .frame-3321 {
   align-items: center;
   display: flex;
-  height: 173px;
-  left: 0;
+  height: 140px;
   overflow: hidden;
-  position: absolute;
-  top: 633px;
-  width: 414px;
+  top: 150px;
+  background-color: var(--desert-storm);
+  left: 29px;
+  position: relative;
+  padding: 10px;
+  width: 85%;
+  display: none;
+}
+.home .frame-3322 {
+  align-items: center;
+  display: flex;
+  height: 250px;
+  overflow: hidden;
+  top: 150px;
+  background-color: var(--desert-storm);
+  left: 29px;
+  position: relative;
+  padding: 10px;
+  width: 85%;
+  display: none;
 }
 
+
+.home .btn {
+
+  background-color: var(--governor-bay);
+  border-radius: 38px;
+  text-align: center;
+  letter-spacing: 0;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 0px 0;
+  width: 200px;
+  
+}
+
+
 .home .card-4 {
-  align-items: center;
+  
   background-color: var(--white);
   border-radius: 10px;
   box-shadow: 0px 4px 4px #372ad126;
   display: flex;
   flex-direction: column;
   margin-left: 30px;
-  min-height: 150px;
-  padding: 20px 0;
+  padding: 0px 0;
   width: 237px;
 }
 
@@ -239,17 +284,23 @@
   width: 46px;
 }
 
-.home .heart {
-  height: 17px;
-  margin-bottom: 13.45px;
-  margin-left: 50px;
-  width: 18px;
+.prochaines-runions .heart {
+  align-items: flex-end;
+  margin-left: 300px;
+  margin-top: -20px;
+
 }
 
 .home .frame-3317 {
+  
+  height: 60px;
+ 
+}
+.home .frame-3318 {
+
   align-items: flex-start;
   display: flex;
-  height: 40px;
+  height: 30px;
   margin-top: 24px;
   min-width: 199px;
 }
@@ -259,7 +310,7 @@
   display: flex;
   flex-direction: column;
   min-height: 40px;
-  width: 118px;
+  text-align: center;
 }
 
 .home .helath-chat-with-lidia {
@@ -283,7 +334,7 @@
 
 .home .text {
   letter-spacing: 0;
-  margin-top: 2.0px;
+  margin-top: 2px;
   min-height: 14px;
   min-width: 24px;
 }
@@ -386,4 +437,39 @@
   position: absolute;
   top: 874px;
   width: 375px;
+}
+
+.home .toggle-section {
+  background-color: var(--white-lilac);
+  border-radius: 10px;
+  height: 49px;
+  position: absolute;
+  top: 300px;
+  width: 376px;
+  left: 40px;
+}
+.vos-prochains-rendez-vous {
+  left: 15px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 200px;
+  width: 241px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900,300,500|Inter:400|Montserrat:400,700,300,500,600|Archivo:400|Mulish:400,300,600|Lato:400");
+
+
+.accordion {
+  background-color: var(--desert-storm);
+  padding: 18px;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: var(--desert-storm);
+  overflow: hidden;
 }

@@ -88,26 +88,54 @@
   width: 375px;
 }
 
+.sinscrire4 .je-recherche-un-accompagnateur-dans {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 390px;
+}
+
 .sinscrire4 .quelle-est-votre-domaine-dtudes {
   left: 29px;
   letter-spacing: 0;
   position: absolute;
-  top: 201px;
+  top: 270px;
 }
 
 .sinscrire4 .bouton-tudiant {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 23px;
   min-width: 84px;
   padding: 8.3px 12.6px;
   position: absolute;
-  top: 243px;
+  top: 290px;
 }
+.sinscrire4 .text-16 {
+  left: 44px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 220px;
+  width: 279px;
+}
+
+.sinscrire4 .tlphone {
+  left: 29px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 180px;
+}
+
 
 .sinscrire4 .droit {
   letter-spacing: 0;
@@ -117,17 +145,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-1 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 112px;
   min-width: 148px;
   padding: 8.3px 22.3px;
   position: absolute;
-  top: 243px;
+  top: 290px;
 }
 
 .sinscrire4 .communication {
@@ -138,17 +172,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-2 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 267px;
   min-width: 115px;
   padding: 8.2px 17.3px;
   position: absolute;
-  top: 243px;
+  top: 290px;
 }
 
 .sinscrire4 .sciences {
@@ -159,17 +199,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-3 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 23px;
   min-width: 84px;
   padding: 8.3px 12.6px;
   position: absolute;
-  top: 281px;
+  top: 328px;
 }
 
 .sinscrire4 .dev {
@@ -180,17 +226,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-4 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 112px;
   min-width: 84px;
   padding: 8.3px 12.6px;
   position: absolute;
-  top: 281px;
+  top: 328px;
 }
 
 .sinscrire4 .place {
@@ -201,17 +253,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-5 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 202px;
   min-width: 58px;
   padding: 8.3px 8.8px;
   position: absolute;
-  top: 281px;
+  top: 328px;
 }
 
 .sinscrire4 .psycho {
@@ -222,17 +280,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-6 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 267px;
   min-width: 58px;
   padding: 8.3px 8.9px;
   position: absolute;
-  top: 281px;
+  top: 328px;
 }
 
 .sinscrire4 .uxui {
@@ -243,17 +307,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-7 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+ 
   height: 33px;
   justify-content: flex-end;
   left: 332px;
   min-width: 49px;
   padding: 8.3px 7.4px;
   position: absolute;
-  top: 281px;
+  top: 328px;
 }
 
 .sinscrire4 .autre {
@@ -264,17 +334,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-8 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 23px;
   min-width: 86px;
   padding: 8.5px 13.0px;
   position: absolute;
-  top: 403px;
+  top: 430px;
 }
 
 .sinscrire4 .finance {
@@ -285,17 +361,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-9 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 115px;
   min-width: 152px;
   padding: 8.5px 22.9px;
   position: absolute;
-  top: 403px;
+  top: 430px;
 }
 
 .sinscrire4 .cration-dentreprise {
@@ -306,17 +388,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-10 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 274px;
   min-width: 118px;
   padding: 8.5px 17.8px;
   position: absolute;
-  top: 403px;
+  top: 430px;
 }
 
 .sinscrire4 .marketing {
@@ -327,17 +415,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-11 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 23px;
   min-width: 86px;
   padding: 8.5px 13.0px;
   position: absolute;
-  top: 442px;
+  top: 469px;
 }
 
 .sinscrire4 .ux {
@@ -348,17 +442,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-12 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 115px;
   min-width: 86px;
   padding: 8.5px 13.0px;
   position: absolute;
-  top: 442px;
+  top: 469px;
 }
 
 .sinscrire4 .ui {
@@ -369,17 +469,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-13 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 207px;
   min-width: 60px;
   padding: 8.5px 9.1px;
   position: absolute;
-  top: 442px;
+  top: 469px;
 }
 
 .sinscrire4 .stage {
@@ -390,17 +496,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-14 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+ 
   height: 34px;
   justify-content: flex-end;
   left: 274px;
   min-width: 60px;
   padding: 8.5px 9.2px;
   position: absolute;
-  top: 442px;
+  top: 469px;
 }
 
 .sinscrire4 .uxui-1 {
@@ -411,17 +523,23 @@
 }
 
 .sinscrire4 .bouton-tudiant-15 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 341px;
   min-width: 51px;
   padding: 8.5px 7.6px;
   position: absolute;
-  top: 442px;
+  top: 469px;
 }
 
 .sinscrire4 .autre-1 {
@@ -491,4 +609,22 @@
   position: absolute;
   top: 51px;
   width: 26px;
+}
+
+input[type=text],[type=password] {
+  border: 0px dotted #999;
+  border-radius: 0;
+
+  background-color: rgb(248, 248, 248);
+  color: var(--oslo-gray-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.sinscrire4 [class*='bouton-tudiant'].active {
+  background-color: var(--brilliant-rose); 
+  color: var(--desert-storm);
 }

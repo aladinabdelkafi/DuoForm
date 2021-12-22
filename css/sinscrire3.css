@@ -96,10 +96,16 @@
 }
 
 .sinscrire3 .bouton-tudiant {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 23px;
@@ -112,15 +118,22 @@
 .sinscrire3 .droit {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 58px;
 }
 
 .sinscrire3 .bouton-tudiant-1 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+ 
   height: 33px;
   justify-content: flex-end;
   left: 112px;
@@ -133,15 +146,22 @@
 .sinscrire3 .communication {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 102px;
 }
 
 .sinscrire3 .bouton-tudiant-2 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+ 
   height: 33px;
   justify-content: flex-end;
   left: 267px;
@@ -154,15 +174,22 @@
 .sinscrire3 .sciences {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 79px;
 }
 
 .sinscrire3 .bouton-tudiant-3 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 23px;
@@ -175,19 +202,26 @@
 .sinscrire3 .dev {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 58px;
 }
 
 .sinscrire3 .bouton-tudiant-4 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 112px;
-  min-width: 84px;
+  min-width: 50px;
   padding: 8.3px 12.6px;
   position: absolute;
   top: 281px;
@@ -196,15 +230,22 @@
 .sinscrire3 .place {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 58px;
 }
 
 .sinscrire3 .bouton-tudiant-5 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 202px;
@@ -217,15 +258,22 @@
 .sinscrire3 .psycho {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 40px;
 }
 
 .sinscrire3 .bouton-tudiant-6 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 267px;
@@ -238,15 +286,22 @@
 .sinscrire3 .uxui {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 40px;
 }
 
 .sinscrire3 .bouton-tudiant-7 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.12px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 332px;
@@ -259,15 +314,22 @@
 .sinscrire3 .autre {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 34px;
 }
 
 .sinscrire3 .bouton-tudiant-8 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 23px;
@@ -280,15 +342,22 @@
 .sinscrire3 .finance {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 59px;
 }
 
 .sinscrire3 .bouton-tudiant-9 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 115px;
@@ -301,15 +370,22 @@
 .sinscrire3 .cration-dentreprise {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 105px;
 }
 
 .sinscrire3 .bouton-tudiant-10 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 274px;
@@ -322,15 +398,22 @@
 .sinscrire3 .marketing {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 81px;
 }
 
 .sinscrire3 .bouton-tudiant-11 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+  
   height: 34px;
   justify-content: flex-end;
   left: 23px;
@@ -343,15 +426,22 @@
 .sinscrire3 .ux {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 59px;
 }
 
 .sinscrire3 .bouton-tudiant-12 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+ 
   height: 34px;
   justify-content: flex-end;
   left: 115px;
@@ -364,15 +454,22 @@
 .sinscrire3 .ui {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 59px;
 }
 
 .sinscrire3 .bouton-tudiant-13 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+ 
   height: 34px;
   justify-content: flex-end;
   left: 207px;
@@ -385,15 +482,22 @@
 .sinscrire3 .stage {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 41px;
 }
 
 .sinscrire3 .bouton-tudiant-14 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+ 
   height: 34px;
   justify-content: flex-end;
   left: 274px;
@@ -406,15 +510,22 @@
 .sinscrire3 .uxui-1 {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 41px;
 }
 
 .sinscrire3 .bouton-tudiant-15 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 4.24px;
-  display: flex;
+ 
   height: 34px;
   justify-content: flex-end;
   left: 341px;
@@ -427,6 +538,7 @@
 .sinscrire3 .autre-1 {
   letter-spacing: 0;
   min-height: 15px;
+  display: inline-block;
   text-align: center;
   width: 35px;
 }
@@ -498,4 +610,9 @@
   position: absolute;
   top: 62px;
   width: 120px;
+}
+
+.sinscrire3 [class*='bouton-tudiant'].active {
+  background-color: var(--governor-bay); 
+  color: var(--desert-storm);
 }

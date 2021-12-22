@@ -17,35 +17,40 @@
         <div class="overlap-group">
           <div class="background"></div>
           <div class="informations-personnelles roboto-normal-gunsmoke-15px">
-            <span class="roboto-normal-gunsmoke-15px">Informations personnelles</span>
+            <span class="roboto-normal-gunsmoke-15px">Informations personnelles </span>
           </div>
           <div class="sinscrire roboto-bold-licorice-26px">
-            <span class="roboto-bold-licorice-26px">S’inscrire</span>
+            <span class="roboto-bold-licorice-26px">S’inscrire </span>
           </div>
           <img class="logo" src="img/logo-15@2x.png" />
           <div class="home-indicators"></div>
           <div class="rectangle-7"></div>
-          <div class="bastienboisjotuniv-lyon2fr roboto-normal-oslo-gray-15px">
-            <input class="roboto-normal-oslo-gray-15px" type="text" placeholder="bastien.boisjot@univ-lyon2.fr" size="40">
-          </div>
-          <div class="quel-votre-email roboto-medium-black-16px">
-            <span class="roboto-medium-black-16px">Quel votre Email</span>
-          </div>
+          
+          <form method="post" action="sinscrireEtud3.php">
+            <input type="hidden" name="NomPernom" value="<?php echo $_POST['NomPernom']; ?>">
+            <input type="hidden" name="Profil" value="Etudiant">
+              <div class="quel-votre-email roboto-medium-black-16px">
+                <span class="roboto-medium-black-16px">Quel votre Email</span>
+              </div>
+              <div class="bastienboisjotuniv-lyon2fr roboto-normal-oslo-gray-15px">
+                <input class="roboto-normal-oslo-gray-15px" name="email" type="text" placeholder="bastien.boisjot@univ-lyon2.fr" size="40">
+              </div>
+
+              
+              <p class="et-votre-mot-de-passe roboto-medium-black-16px">
+                <span class="roboto-medium-black-16px">Et votre mot de passe</span>
+              </p>
+              <div class="rectangle-2613"></div>
+              <div class="text-13 roboto-normal-oslo-gray-15px">
+                <input class="roboto-normal-oslo-gray-15px" type="password" name="pass" placeholder="*************" size="40">
+              </div>
+              <input class="btn roboto-medium-white-18px" type="submit" value="Continuer">
+          </form>
           <p class="vous-tes-dja-inscrit-se-connecter roboto-normal-gunsmoke-15px">
             <span class="montserrat-normal-scarpa-flow-15px">Vous êtes déja inscrit ?</span>
             <span class="montserrat-normal-gunsmoke-15px">&nbsp;</span>
             <span class="montserrat-medium-governor-bay-15px"><a href="se-connecter.php">Se connecter</a></span>
           </p>
-         
-          <input class="btn roboto-medium-white-18px" type="submit" value="Continuer">
-
-          <p class="et-votre-mot-de-passe roboto-medium-black-16px">
-            <span class="roboto-medium-black-16px">Et votre mot de passe</span>
-          </p>
-          <div class="rectangle-2613"></div>
-          <div class="text-13 roboto-normal-oslo-gray-15px">
-            <input class="roboto-normal-oslo-gray-15px" type="password" placeholder="*************" size="40">
-          </div>
           <div class="rectangle-2625"></div>
           <div class="rectangle-2626"></div>
         </div>

@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(!isset($_SESSION['personne'])){
+	header("location:se-connecter.php");
+}
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -34,14 +40,7 @@
             <img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" />
             <div class="user-filled"><img class="group-18" src="img/group-18-19@2x.png" /></div>
           </div>
-          <div class="status-bar">
-            <div class="time sfprotext-semi-bold-black-15px">
-              <span class="sfprotext-semi-bold-black-15px">9:41</span>
-            </div>
-            <img class="cellular-connection" src="img/cellular-connection-41@2x.png" />
-            <img class="wifi" src="img/wifi-20@2x.png" />
-            <img class="battery" src="img/battery-41@2x.png" />
-          </div>
+         
           <img class="card-1" src="img/card-4@2x.png" />
           <img class="card-2" src="img/card-5@2x.png" />
           <img class="card-3" src="img/card-6@2x.png" />

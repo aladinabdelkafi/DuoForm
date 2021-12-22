@@ -16,20 +16,21 @@
       <div class="sinscrire14 screen">
         <div class="overlap-group">
           <div class="background"></div>
-          <div class="status-bar">
-            <div class="time sfprotext-semi-bold-black-15px">
-              <span class="sfprotext-semi-bold-black-15px">9:41</span>
-            </div>
-            <img class="cellular-connection" src="img/cellular-connection-41@2x.png" />
-            <img class="wifi" src="img/wifi-41@2x.png" />
-            <img class="battery" src="img/battery-41@2x.png" />
-          </div>
+         
+          <form method="post" action="controllers/personne.controller.php?action=add" method="POST">
+          <input type="hidden" name="domaine" value="<?php echo $_POST['Domaine']; ?>" />
+          <input type="hidden" name="interet_pers" value="<?php echo $_POST['Accompagnateur']; ?>" />
+          <input type="hidden" name="nom_prenom_pers" value="<?php echo $_POST['NomPernom']; ?>">
+          <input type="hidden" name="id_role" value="<?php echo $_POST['Profil']; ?>">
+          <input type="hidden" name="email_pers" value="<?php echo $_POST['email']; ?>">
+          <input type="hidden" name="mdp_pers" value="<?php echo $_POST['pass']; ?>">
+          <input type="hidden" name="preferences_rencontre" value="<?php echo $_POST['transport']; ?>">
+          <input type="hidden" name="ville" value="<?php echo $_POST['ville']; ?>">
+          <input type="hidden" name="bio" value="<?php echo $_POST['bio']; ?>">
+          <input type="hidden" name="tel_pers" value="<?php echo $_POST['NumTel']; ?>">
+          <input type="hidden" name="date_naiss_pers" value="<?php echo $_POST['DateNais']; ?>">
+          <input type="hidden" name="nivEtudProf" value="<?php echo $_POST['nivEtudProf']; ?>">
           <div class="home-indicators"></div>
-          <div class="btn">
-            <div class="sinscrire roboto-medium-white-18px">
-              <span class="roboto-medium-white-18px">Commencer</span>
-            </div>
-          </div>
           <p class="commencez-laventure roboto-normal-gunsmoke-15px">
             <span class="roboto-normal-gunsmoke-15px">Commencez l’aventure Duo Form maintenant !</span>
           </p>
@@ -37,7 +38,10 @@
             <span class="roboto-medium-black-29px">Votre inscription <br />est terminée</span>
           </div>
           <div class="ellipse-16"></div>
-          <img class="vector-24" src="img/vector-24-2@2x.png" />
+          <img class="vector-24" src="img/vector-24-1@2x.png" />
+          <input class="btn sinscrire roboto-medium-white-18px" type="submit" value="Commencer">
+          </form>
+
         </div>
       </div>
     </div>

@@ -147,10 +147,16 @@
 }
 
 .sinscrire10 .bouton-tudiant {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 3.6px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 28px;
@@ -168,13 +174,19 @@
 }
 
 .sinscrire10 .bouton-tudiant-1 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 3.6px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
-  left: 115px;
+  left: 143px;
   min-width: 82px;
   padding: 8.2px 12.4px;
   position: absolute;
@@ -189,13 +201,19 @@
 }
 
 .sinscrire10 .bouton-tudiant-2 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 3.6px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
-  left: 202px;
+  left: 235px;
   min-width: 57px;
   padding: 8.2px 8.6px;
   position: absolute;
@@ -210,10 +228,16 @@
 }
 
 .sinscrire10 .bouton-tudiant-3 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 3.6px;
-  display: flex;
+  
   height: 33px;
   justify-content: flex-end;
   left: 266px;
@@ -231,10 +255,16 @@
 }
 
 .sinscrire10 .bouton-tudiant-4 {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 10.8px;
+  font-style: normal;
+  font-weight: 400;
+
   align-items: flex-start;
   background-color: var(--desert-storm);
   border-radius: 3.6px;
-  display: flex;
+
   height: 33px;
   justify-content: flex-end;
   left: 330px;
@@ -275,7 +305,7 @@
   height: 22px;
   left: 133px;
   position: absolute;
-  top: 830px;
+  top: 600px;
   width: 149px;
 }
 
@@ -285,4 +315,21 @@
   position: absolute;
   top: 51px;
   width: 26px;
+}
+
+input[type=text] {
+  border: 0px dotted #999;
+  border-radius: 0;
+
+  background-color: rgb(248, 248, 248);
+  color: var(--oslo-gray-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sinscrire10 [class*='bouton-tudiant'].active {
+  background-color: var(--brilliant-rose); 
+  color: var(--desert-storm);
 }

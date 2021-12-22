@@ -25,9 +25,7 @@
           
           
           <div class="rectangle-7"></div>
-          <div class="nom-et-prnom roboto-normal-oslo-gray-15px">
-            <input class="roboto-normal-oslo-gray-15px" type="text" placeholder="Nom et Prénom" size="40">
-          </div>
+         
           <p class="quel-votre-nom-et-prenom roboto-medium-black-16px">
             <span class="roboto-medium-black-16px">Quel votre nom et prenom</span>
           </p>
@@ -43,18 +41,23 @@
             </div>
           </div>
           -->
-         
-          <input class="btn roboto-medium-white-18px" type="submit" value="Continuer">
+          <form method="post" action="" name="formIns" id="formIns">
+
+            <div class="nom-et-prnom roboto-normal-oslo-gray-15px">
+              <input class="roboto-normal-oslo-gray-15px" name="NomPernom" type="text" placeholder="Nom et Prénom" size="40">
+            </div>
+            
+
+            <input id="Etudiant" class="bouton-tudiant etudiant" tabindex="1" type="button" name="profilEtud" value="Etudiant" onclick="chgAction('Etudiant')">
+            <input id="Professionel" class="bouton-pro professionel" tabindex="1" type="button" name="profilProf" value="Professionel" onclick="chgAction('Professionel')">
+
+            <input class="btn roboto-medium-white-18px" type="submit" value="Continuer">
+          </form>
+          
           <div class="je-suis roboto-medium-black-16px"><span class="roboto-medium-black-16px">Je suis:</span></div>
           <img class="logo" src="img/logo-15@2x.png" />
           
          
-            <div class="bouton-tudiant etudiant" tabindex="1">Etudiant</div>
-
-          
-         
-          <div class="bouton-pro professionel" tabindex="1">Professionel</div>
-          
           
           <div class="rectangle-2625"></div>
         </div>
@@ -64,7 +67,14 @@
 </html>
 
 <script type="text/javascript">
-    document.getElementById("Continuer2").onclick = function () {
-        location.href = "sinscrire5.php";
-    };
+    function chgAction( action_name )
+{
+    if( action_name=="Etudiant" ) {
+        document.formIns.action="sinscrireEtud2.php";
+    }
+    else if( action_name=="Professionel" ) {
+        document.formIns.action = "sinscrireProf2.php";
+    }
+  
+}
 </script>

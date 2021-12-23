@@ -38,7 +38,7 @@ if (!isset($_SESSION['personne'])) {
 
         <div class="prochaines-runions roboto-medium-black-16px">
           <div style="margin-bottom: -12px;">prochains rendez-vous</div>
-          <img class="heart" id="myImageId" src="img/Heart.png">
+          <img class="heart" id="myImageId0" src="img/Heart.png">
         </div>
         <div class="frame-3321">
           <div class="card-4">
@@ -56,7 +56,7 @@ if (!isset($_SESSION['personne'])) {
 
         <div class="prochaines-runions roboto-medium-black-16px">
           <div style="margin-bottom: -12px;">Vos accompagnateurs favoris</div>
-          <img class="heart" id="myImageId" src="img/Heart.png">
+          <img class="heart" id="myImageId1" src="img/Heart.png">
         </div>
         <div class="frame-3321">
           <div class="card-4">
@@ -75,7 +75,7 @@ if (!isset($_SESSION['personne'])) {
 
         <div class="prochaines-runions roboto-medium-black-16px">
           <div style="margin-bottom: -12px;">Vos recommandations</div>
-          <img class="heart" id="myImageId" src="img/Heart.png">
+          <img class="heart" id="myImageId2" src="img/Heart.png">
         </div>
         <div class="frame-3322" style="display: block; overflow:scroll;">
           <div class="card">
@@ -177,17 +177,19 @@ if (!isset($_SESSION['personne'])) {
 <script>
   var acc = document.getElementsByClassName("prochaines-runions");
   var i;
-
+ 
   for (i = 0; i < acc.length; i++) {
+    
     acc[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var panel = this.nextElementSibling;
+      
       if (panel.style.display === "block") {
         panel.style.display = "none";
-        document.getElementById("myImageId").src = "img/Heart.png";
+        document.getElementById(this.lastElementChild.id).src = "img/Heart.png";
       } else {
         panel.style.display = "block";
-        document.getElementById("myImageId").src = "img/Heart (1).png";
+        document.getElementById(this.lastElementChild.id).src = "img/Heart (1).png";
       }
     });
   }

@@ -235,7 +235,7 @@
 .home .frame-3322 {
   align-items: center;
   display: flex;
-  height: 250px;
+  
   overflow: hidden;
   top: 150px;
   background-color: var(--desert-storm);
@@ -353,9 +353,9 @@
   display: flex;
   flex-direction: column;
   margin-left: 17px;
-  min-height: 150px;
+  height: 150px;
   padding: 20px 0;
-  width: 237px;
+  width: 300px;
 }
 
 .home .group-29 {

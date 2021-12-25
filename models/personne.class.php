@@ -91,25 +91,40 @@ class personne
 
 	public function getProRecommandations()
 	{include_once("includes/connexion.php");
-		$personnes[]= $this;
+		$personnes1[]= $this;
+		$personnes2[]= $this;
+		$result[]= $this;
 		$prefLieuxThisPers=explode(",", $_SESSION['personne']->preferences_rencontre);
+		$domaineThisPers=explode(",", $_SESSION['personne']->domaine);
 		$n=new connexion();
 		$pdo=$n->CNXbase();
 		$allPersonnes = $pdo->query("select * from personne where id_role='Professionel'")->fetchAll(PDO::FETCH_OBJ);
 		foreach($allPersonnes as $pers)
 		{
 			$prefLieuxPers=explode(",", $pers->preferences_rencontre);
+			$domainePers=explode(",", $pers->domaine);
 			foreach($prefLieuxPers as $rowstr)
 			{
 				if (in_array($rowstr, $prefLieuxThisPers)) {
-					array_push($personnes, $pers);
+					array_push($personnes1, $pers);
 					break;
 				}
 				
 			}
 
+			foreach($domainePers as $rowstr)
+			{
+				if (in_array($rowstr, $domaineThisPers)) {
+					array_push($personnes2, $pers);
+					break;
+				}
+				
+			}
+
+			$result = array_intersect_key($personnes1, $personnes2);
+
 		}
-		return $personnes;
+		return $result;
 	}
 
 	public function detail($id)

@@ -25,14 +25,53 @@ if(!isset($_SESSION['personne'])){
           <div class="vos-prcdents-tudiants roboto-medium-black-16px">
             <span class="roboto-medium-black-16px">Vos précédents étudiants</span>
           </div>
-          <div class="prochaines-rencontres roboto-medium-black-16px">
-            <span class="roboto-medium-black-16px">Prochaines rencontres</span>
+         
+
+          <div class="prochaines-runions roboto-medium-black-16px">
+          <div style="margin-bottom: -12px;">Prochaines rencontres</div>
+          <img class="heart" id="myImageId2" src="img/Heart.png">
+        </div>
+        <div class="frame-3322" style="display: block; overflow:scroll;"> 
+        <?php
+          include "models/meeting.class.php";
+          $meeting = new meeting("", "", "", "", "", "");
+          $res_meeting = $meeting->listeNexMeeingPro($_SESSION['personne']->id);
+          if (empty($res_meeting)) {
+           ?>
+           <div class="card-4">
+            <div class="frame-3317">
+              <div class="group-29-1">
+                <div class="type-dactivit roboto-medium-oslo-gray-14px">
+                  <span class="roboto-medium-oslo-gray-14px">Vous n'avez pas encore de rendez-vous </span>
+                </div>
+              </div>
+            </div>
           </div>
+          <?php
+          }
+          else{
+          foreach ($res_meeting as $row) {
+          ?>
+            <div class="card">
+              <div class="frame-3316">
+                <img class="avatars" src="img/avatars-7@2x.png" />
+                <div class="helath-chat-with-lidia roboto-medium-black-16px">
+                  <span class="roboto-medium-black-16px"><?php echo ($row->sujet); ?></span>
+                </div>
+                <div class="type-dactivit roboto-medium-oslo-gray-14px">
+                  <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->date); ?></span>
+                </div>
+              </div>
+              
+            </div>
+          <?php } }?>
+        </div>
+
           <p class="cest-un-beau-jour-p roboto-normal-gunsmoke-15px-2">
             <span class="roboto-normal-gunsmoke-15px-2">C’est un beau jour pour donner envie d’apprendre !</span>
           </p>
           <div class="bonjour-olivier roboto-bold-black-30px">
-            <span class="roboto-bold-black-30px">Bonjour, Olivier</span>
+            <span class="roboto-bold-black-30px">Bonjour, <?php echo($_SESSION['personne']->nom_prenom_pers); ?></span>
           </div>
           <div class="frame-3314">
             <img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-9@2x.png" />
@@ -41,9 +80,7 @@ if(!isset($_SESSION['personne'])){
             <div class="user-filled"><img class="group-18" src="img/group-18-19@2x.png" /></div>
           </div>
          
-          <img class="card-1" src="img/card-4@2x.png" />
-          <img class="card-2" src="img/card-5@2x.png" />
-          <img class="card-3" src="img/card-6@2x.png" />
+          
           <div class="frame-58">
             <div class="card-4">
               <img class="avatars" src="img/avatars-5@2x.png" />
@@ -102,3 +139,23 @@ if(!isset($_SESSION['personne'])){
     </div>
   </body>
 </html>
+<script>
+  var acc = document.getElementsByClassName("prochaines-runions");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+        document.getElementById(this.lastElementChild.id).src = "img/Heart.png";
+      } else {
+        panel.style.display = "block";
+        document.getElementById(this.lastElementChild.id).src = "img/Heart (1).png";
+      }
+    });
+  }
+</script>

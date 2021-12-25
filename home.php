@@ -43,7 +43,13 @@ if (!isset($_SESSION['personne'])) {
           <img class="heart" id="myImageId0" src="img/Heart.png">
         </div>
         <div class="frame-3321">
-          <div class="card-4">
+        <?php
+          include "models/meeting.class.php";
+          $meeting = new meeting("", "", "", "", "", "");
+          $res_meeting = $meeting->listeNexMeeingEtudiant($_SESSION['personne']->id);
+          if (empty($res_meeting)) {
+           ?>
+           <div class="card-4">
             <div class="frame-3317">
               <div class="group-29-1">
                 <div class="type-dactivit roboto-medium-oslo-gray-14px">
@@ -51,9 +57,26 @@ if (!isset($_SESSION['personne'])) {
                 </div>
               </div>
             </div>
-
           </div>
-          <input type="button" onclick="document.location.href='explorer.php'" class="btn roboto-medium-white-18px" value="Connexion">
+          <?php
+          }
+          else{
+          foreach ($res_meeting as $row) {
+          ?>
+            <div class="card">
+              <div class="frame-3316">
+                <img class="avatars" src="img/avatars-7@2x.png" />
+                <div class="helath-chat-with-lidia roboto-medium-black-16px">
+                  <span class="roboto-medium-black-16px"><?php echo ($row->sujet); ?></span>
+                </div>
+                <div class="type-dactivit roboto-medium-oslo-gray-14px">
+                  <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->date); ?></span>
+                </div>
+              </div>
+              
+            </div>
+          <?php } }?>
+          <input type="button" onclick="document.location.href='explorer.php'" class="btn" value="Prendre un rendez-vous">
         </div>
 
         <div class="prochaines-runions roboto-medium-black-16px">
@@ -69,9 +92,8 @@ if (!isset($_SESSION['personne'])) {
                 </div>
               </div>
             </div>
-
           </div>
-          <input type="button" onclick="document.location.href='explorer.php'" class="btn roboto-medium-white-18px" value="Connexion">
+          <input type="button" onclick="document.location.href='explorer.php'" class="btn" value="Trouver des accompagnateurs">
         </div>
 
 
@@ -79,8 +101,7 @@ if (!isset($_SESSION['personne'])) {
           <div style="margin-bottom: -12px;">Vos recommandations</div>
           <img class="heart" id="myImageId2" src="img/Heart.png">
         </div>
-        <div class="frame-3322" style="display: block; overflow:scroll;">
-          
+        <div class="frame-3322" style="display: block; overflow:scroll;"> 
         <?php
           include "models/personne.class.php";
           $personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "");
@@ -89,8 +110,6 @@ if (!isset($_SESSION['personne'])) {
           foreach ($res_pers as $row) {
             if($row->id != null){
           ?>
-
-
             <div class="card">
               <div class="frame-3316">
                 <img class="avatars" src="img/avatars-7@2x.png" />
@@ -100,12 +119,10 @@ if (!isset($_SESSION['personne'])) {
                 <div class="type-dactivit roboto-medium-oslo-gray-14px">
                   <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->domaine); ?></span>
                 </div>
-
               </div>
               <img class="heart-1" src="img/heart-16@2x.png" />
             </div>
           <?php }} ?>
-
         </div>
 
 

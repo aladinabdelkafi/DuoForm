@@ -257,6 +257,8 @@
   margin-left: 50px;
   padding: 0px 0;
   width: 200px;
+  font-family: var(--font-family-roboto);
+  color: var(--white);
   
 }
 

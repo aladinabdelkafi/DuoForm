@@ -74,7 +74,7 @@
     } else {
       elements.splice(elements.indexOf(btn.value), 1);
     }
-
+    elements.sort();
     btn.classList.toggle("active");
     transport.value = elements.join();
   }

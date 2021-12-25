@@ -3,6 +3,8 @@ session_start();
 if (!isset($_SESSION['personne'])) {
   header("location:se-connecter.php");
 }
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -78,72 +80,32 @@ if (!isset($_SESSION['personne'])) {
           <img class="heart" id="myImageId2" src="img/Heart.png">
         </div>
         <div class="frame-3322" style="display: block; overflow:scroll;">
-          <div class="card">
-            <div class="frame-3316">
-              <img class="avatars" src="img/avatars-5@2x.png" />
-              <img class="heart" src="img/heart-4@2x.png" />
-            </div>
-            <div class="frame-3318">
-              <div class="group-29-1">
+          
+        <?php
+          include "models/personne.class.php";
+          $personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "");
+          $res_pers = $personne->getProRecommandations();
+          
+          foreach ($res_pers as $row) {
+            if($row->id != null){
+          ?>
+
+
+            <div class="card">
+              <div class="frame-3316">
+                <img class="avatars" src="img/avatars-7@2x.png" />
                 <div class="helath-chat-with-lidia roboto-medium-black-16px">
-                  <span class="roboto-medium-black-16px">Philomena Tiret</span>
+                  <span class="roboto-medium-black-16px"><?php echo ($row->nom_prenom_pers); ?></span>
                 </div>
                 <div class="type-dactivit roboto-medium-oslo-gray-14px">
-                  <span class="roboto-medium-oslo-gray-14px">Photographie</span>
+                  <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->domaine); ?></span>
                 </div>
+
               </div>
-              <div class="x5_-elements_-navigation-star-on-default-1">
-                <div class="text roboto-medium-mid-gray-12px">
-                  <span class="roboto-medium-mid-gray-12px">4.95</span>
-                </div>
-                <img class="path" src="img/path-9@2x.png" />
-              </div>
+              <img class="heart-1" src="img/heart-16@2x.png" />
             </div>
-          </div>
-          <div class="card">
-            <div class="frame-3316">
-              <img class="avatars" src="img/avatars-7@2x.png" />
-              <img class="heart" src="img/heart-16@2x.png" />
-            </div>
-            <div class="frame-3318">
-              <div class="group-29">
-                <div class="helath-chat-with-lidia roboto-medium-black-16px">
-                  <span class="roboto-medium-black-16px">Joris Delacroix</span>
-                </div>
-                <div class="type-dactivit roboto-medium-oslo-gray-14px">
-                  <span class="roboto-medium-oslo-gray-14px">Finance</span>
-                </div>
-              </div>
-              <div class="x5_-elements_-navigation-star-on-default">
-                <div class="text roboto-medium-mid-gray-12px">
-                  <span class="roboto-medium-mid-gray-12px">4.95</span>
-                </div>
-                <img class="path" src="img/path-9@2x.png" />
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="frame-3316">
-              <img class="avatars" src="img/avatars-7@2x.png" />
-              <img class="heart" src="img/heart-16@2x.png" />
-            </div>
-            <div class="frame-3318">
-              <div class="group-29">
-                <div class="helath-chat-with-lidia roboto-medium-black-16px">
-                  <span class="roboto-medium-black-16px">Joris Delacroix</span>
-                </div>
-                <div class="type-dactivit roboto-medium-oslo-gray-14px">
-                  <span class="roboto-medium-oslo-gray-14px">Finance</span>
-                </div>
-              </div>
-              <div class="x5_-elements_-navigation-star-on-default">
-                <div class="text roboto-medium-mid-gray-12px">
-                  <span class="roboto-medium-mid-gray-12px">4.95</span>
-                </div>
-                <img class="path" src="img/path-9@2x.png" />
-              </div>
-            </div>
-          </div>
+          <?php }} ?>
+
         </div>
 
 
@@ -177,13 +139,13 @@ if (!isset($_SESSION['personne'])) {
 <script>
   var acc = document.getElementsByClassName("prochaines-runions");
   var i;
- 
+
   for (i = 0; i < acc.length; i++) {
-    
+
     acc[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var panel = this.nextElementSibling;
-      
+
       if (panel.style.display === "block") {
         panel.style.display = "none";
         document.getElementById(this.lastElementChild.id).src = "img/Heart.png";

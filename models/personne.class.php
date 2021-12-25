@@ -1,6 +1,7 @@
 <?php
-session_start();
-class personne extends fonction
+if(session_status() !== PHP_SESSION_ACTIVE) session_start();
+
+class personne
 {
 	private $id;
 	private $nom_prenom_pers;
@@ -49,7 +50,8 @@ class personne extends fonction
 		$pdo=$n->CNXbase();
 		$res = $pdo->prepare("insert into personne (nom_prenom_pers,date_naiss_pers,interet_pers,email_pers,mdp_pers,tel_pers,preferences_rencontre,ville,domaine,bio,nivEtudProf,id_role) values(?,?,?,?,?,?,?,?,?,?,?,?)");
 		$res->execute([$this->nom_prenom_pers,$this->date_naiss_pers,$this->interet_pers,$this->email_pers,$this->mdp_pers,$this->tel_pers,$this->preferences_rencontre,$this->ville,$this->domaine,$this->bio,$this->nivEtudProf,$this->id_role]);
-		$this->redirect("../home.php");
+		echo "<script>window.location.href='../home.php';</script>";
+		
 	}
 
 	public function edit()
@@ -68,20 +70,45 @@ class personne extends fonction
 		$res->bindParam(8, $this->id);
 		
 		$res->execute();
-		$this->redirect("../app/profile.php");
+		echo "<script>window.location.href='../app/profile.php';</script>";
+		
 	}
 
 	public function supp($cnx)
 	{
-
+		include_once("../includes/connexion.php");
 		$cnx->exec("delete from personne where id='" . $this->id . "'");
-		$this->redirect("index.php?controller=personne&action=liste");
+		echo "<script>window.location.href='index.php?controller=personne&action=liste';</script>";
+		
 	}
 
 	public function liste($cnx)
 	{
-
+		include_once("../includes/connexion.php");
 		$personnes = $cnx->query("select * from personne")->fetchAll(PDO::FETCH_OBJ);
+		return $personnes;
+	}
+
+	public function getProRecommandations()
+	{include_once("includes/connexion.php");
+		$personnes[]= $this;
+		$prefLieuxThisPers=explode(",", $_SESSION['personne']->preferences_rencontre);
+		$n=new connexion();
+		$pdo=$n->CNXbase();
+		$allPersonnes = $pdo->query("select * from personne where id_role='Professionel'")->fetchAll(PDO::FETCH_OBJ);
+		foreach($allPersonnes as $pers)
+		{
+			$prefLieuxPers=explode(",", $pers->preferences_rencontre);
+			foreach($prefLieuxPers as $rowstr)
+			{
+				if (in_array($rowstr, $prefLieuxThisPers)) {
+					array_push($personnes, $pers);
+					break;
+				}
+				
+			}
+
+		}
 		return $personnes;
 	}
 
@@ -104,20 +131,20 @@ class personne extends fonction
 		if (is_object($personne)) {
 			$_SESSION['personne'] = $personne;
 			if($personne->id_role == "Etudiant"){
-				$this->redirect("../home.php");
+				echo "<script>window.location.href='../home.php';</script>";
 			}
 			else if($personne->id_role == "Professionel"){
-				$this->redirect("../dashboard.php");
+				echo "<script>window.location.href='../dashboard.php';</script>";
 			}
 			
 		} else {
-			$this->redirect("../se-connecter.php");
+			echo "<script>window.location.href='../se-connecter.php';</script>";
 		}
 	}
 
 	public function logout()
 	{
 		session_destroy();
-		$this->redirect("../home.php");
+		echo "<script>window.location.href='../home.php';</script>";
 	}
 }

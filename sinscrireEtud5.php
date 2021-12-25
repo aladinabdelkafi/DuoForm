@@ -92,7 +92,7 @@
     } else {
       elementsDomaine.splice(elementsDomaine.indexOf(btn.value), 1);
     }
-
+    elementsDomaine.sort();
     btn.classList.toggle("active");
     Domaine.value = elementsDomaine.join();
 
@@ -105,7 +105,7 @@
     } else {
       elementsAccompagnateur.splice(elementsAccompagnateur.indexOf(btn.value), 1);
     }
-
+    elementsAccompagnateur.sort();
     btn.classList.toggle("active");
     Accompagnateur.value = elementsAccompagnateur.join();
 

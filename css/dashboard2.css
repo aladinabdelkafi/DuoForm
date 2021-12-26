@@ -8,6 +8,7 @@
   height: 896px;
   overflow: hidden;
   width: 414px;
+  z-index: 0;
 }
 
 .dashboard2 .status-bar {
@@ -15,14 +16,14 @@
   display: flex;
   height: 49px;
   justify-content: flex-end;
-  margin-left: 6.0px;
+  margin-left: 6px;
   min-width: 414px;
   padding: 15.2px 15.8px;
 }
 
 .dashboard2 .time {
   align-self: flex-end;
-  letter-spacing: -0.30px;
+  letter-spacing: -0.3px;
   min-height: 18px;
   text-align: center;
   width: 60px;
@@ -59,7 +60,7 @@
 
 .dashboard2 .cest-un-beau-jour-p {
   letter-spacing: 0;
-  margin-left: 15.0px;
+  margin-left: 15px;
   margin-top: 10px;
   min-height: 18px;
   min-width: 371px;
@@ -69,30 +70,30 @@
   align-self: flex-start;
   letter-spacing: 0;
   margin-left: 29px;
-  margin-top: 51px;
+  margin-top: 20px;
   min-height: 19px;
 }
 
-.dashboard2 .frame-3318 {
-  align-items: flex-start;
-  align-self: flex-end;
+.frame-3318 {
   display: flex;
-  height: 116px;
-  margin-right: -97px;
+  height: 140px;
+  margin-right: 97px;
+  margin-left: 97px;
   margin-top: 24px;
-  min-width: 482px;
+  width: 400px;
+  overflow-x: scroll;
 }
 
-.dashboard2 .flex-col {
-  align-items: flex-start;
+.flex-col {
   background-color: var(--white);
   border-radius: 5px;
-  box-shadow: 0px 4px 4px #ef5da826;
+  box-shadow: 4px 4px 4px #ef5da826;
   display: flex;
-  flex-direction: column;
-  min-height: 116px;
+  height: 116px;
   padding: 20px 10px;
-  width: 230px;
+  min-width: 230px;
+
+  margin-left: 15px;
 }
 
 .dashboard2 .flex-row {
@@ -109,7 +110,6 @@
 }
 
 .dashboard2 .flex-col-1 {
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
   margin-left: 15px;
@@ -131,8 +131,9 @@
 .dashboard2 .flex-row-1 {
   align-items: center;
   display: flex;
-  margin-top: 9px;
+  margin-top: 59px;
   min-width: 203px;
+  margin-left: -165px;
 }
 
 .dashboard2 .overlap-group {
@@ -221,7 +222,7 @@
   border-radius: 38px;
   height: 35px;
   margin-left: 0.62px;
-  margin-top: 47px;
+  margin-top: 20px;
   position: relative;
   width: 243px;
 }
@@ -256,7 +257,7 @@
 .dashboard2 .rectangle-2601 {
   background-color: var(--mercury);
   height: 1px;
-  margin-left: 6.0px;
+  margin-left: 6px;
   margin-top: 36px;
   width: 362px;
 }
@@ -276,10 +277,10 @@
   display: flex;
   height: 20px;
   justify-content: flex-end;
-  margin-left: 4.0px;
+  margin-left: 4px;
   margin-top: 29px;
   min-width: 356px;
-  padding: 0 22.0px;
+  padding: 0 22px;
 }
 
 .dashboard2 .vector-2-stroke {
@@ -307,7 +308,7 @@
   align-items: flex-start;
   display: flex;
   height: 18px;
-  margin-left: 4.0px;
+  margin-left: 4px;
   margin-top: 10px;
   min-width: 356px;
   opacity: 0.5;
@@ -1035,21 +1036,23 @@
 
 .dashboard2 .overlap-group4 {
   height: 60px;
-  margin-top: 38px;
-  position: relative;
-  width: 414px;
+  
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
 }
 
 .dashboard2 .frame-3314 {
-  align-items: flex-start;
+  
   background-color: var(--desert-storm);
   display: flex;
   height: 60px;
-  left: 0;
-  min-width: 414px;
-  padding: 0 49.5px;
-  position: absolute;
-  top: 0;
+  padding: 0 27px;
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
 .dashboard2 .x5_-elements_-navigation-home-on {
@@ -1086,7 +1089,7 @@
   height: 60px;
   margin-left: 25px;
   min-width: 60px;
-  padding: 21.0px 21px;
+  padding: 21px 21px;
 }
 
 .dashboard2 .group-18 {

@@ -73,12 +73,20 @@ if(!isset($_SESSION['personne'])){
           <div class="bonjour-olivier roboto-bold-black-30px">
             <span class="roboto-bold-black-30px">Bonjour, <?php echo($_SESSION['personne']->nom_prenom_pers); ?></span>
           </div>
+
+         
+
           <div class="frame-3314">
-            <img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-9@2x.png" />
+          <a href="dashboard.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-9@2x.png" /></a>
+          
+          <a href="contacts-messagerie.php">
             <div class="x5_-elements_-navigation-message-off"><img class="shape" src="img/shape-18@2x.png" /></div>
-            <img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" />
+          </a>
+          <a href="dashboard2.php"><img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" /></a>
+          <a href="profil4.php">
             <div class="user-filled"><img class="group-18" src="img/group-18-19@2x.png" /></div>
-          </div>
+          </a>
+        </div>
          
           
           <div class="frame-58">

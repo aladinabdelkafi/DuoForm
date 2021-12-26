@@ -129,10 +129,10 @@ class personne
 
 	public function detail($id)
 	{
-		include_once("../includes/connexion.php");
+		include_once("includes/connexion.php");
 		$n=new connexion();
 		$pdo=$n->CNXbase();
-		$personne = $pdo->query("select * from personne where id='" . $this->id . "'")->fetch(PDO::FETCH_OBJ);
+		$personne = $pdo->query("select * from personne where id='" . $id . "'")->fetch(PDO::FETCH_OBJ);
 		return $personne;
 	}
 

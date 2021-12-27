@@ -5,9 +5,10 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 896px;
-  overflow: hidden;
-  width: 414px;
+  height: 900px;
+  overflow:scroll;
+  width: 375px;
+  z-index: 0;
 }
 
 .profil .status-bar {
@@ -16,7 +17,7 @@
   height: 49px;
   justify-content: flex-end;
   margin-left: 6px;
-  min-width: 414px;
+  min-width: 375px;
   padding: 15.2px 15.8px;
   z-index: 2;
 }
@@ -55,7 +56,7 @@
   display: flex;
   height: 192px;
   margin-right: 8px;
-  margin-top: 21px;
+  margin-top: 50px;
   min-width: 348px;
   z-index: 1;
 }
@@ -231,7 +232,7 @@
   align-self: flex-start;
   display: flex;
   margin-left: 34px;
-  margin-top: 100px;
+  margin-top: 60px;
   min-width: 139px;
   z-index: 4;
 }
@@ -324,6 +325,7 @@
   line-height: 132.4px;
   min-height: 12px;
   white-space: nowrap;
+  margin-top: -65px;
 }
 
 .profil .tag-6 {
@@ -332,9 +334,10 @@
   border-radius: 2px;
   display: flex;
   height: 17px;
-  margin-top: 12px;
+  margin-top: -47px;
   min-width: 143px;
   padding: 0 12px;
+  
 }
 
 .profil .communication-6 {
@@ -387,7 +390,8 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 58px;
+  margin-left: 180px;
+  margin-top: -163px;
   min-height: 70px;
   width: 110px;
 }
@@ -405,7 +409,7 @@
   border-radius: 2px;
   display: flex;
   height: 17px;
-  margin-top: 12px;
+  margin-top: -50px;
   min-width: 74px;
   padding: 0 12px;
 }
@@ -481,12 +485,10 @@
   background-color: var(--desert-storm);
   display: flex;
   height: 60px;
-  left: 0;
-  min-width: 414px;
   padding: 0 27px;
+  bottom: 0;
   position: fixed;
-  top: 836px;
-  z-index: 7;
+  z-index: 1;
 }
 
 .profil .x5_-elements_-navigation-home-on {
@@ -546,12 +548,36 @@
   width: 18px;
 }
 
-.profil .home-indicators {
-  background-image: url(../img/home-indicators-41@2x.png);
-  background-size: 100% 100%;
-  height: 19px;
-  margin-right: 1px;
-  margin-top: 110px;
-  width: 375px;
-  z-index: 6;
+
+
+.profil .prochaines-runions {
+  border-radius: 5px;
+  letter-spacing: 0;
+  position: relative;
+  background-color: var(--desert-storm);
+  padding: 10px;
+  text-align: left;
+  width: 85%;
+  outline: none;
+  transition: 0.4s;
+  margin-top: 20px;
+ 
+}
+
+.prochaines-runions .heart {
+  align-items: flex-end;
+  margin-left: 90%;
+  margin-top: -20px;
+
+}
+.profil .frame-3321 {
+  align-items: center;
+  display: flex;
+  height: 140px;
+  background-color: var(--desert-storm);
+  position: relative;
+  padding: 10px;
+  width: 85%;
+  display: none;
+  overflow:scroll;
 }

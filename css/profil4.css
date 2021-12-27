@@ -4,20 +4,21 @@
   align-items: flex-start;
   background-color: var(--white);
   display: flex;
-  height: 1639px;
+  height: 1000px;
   min-width: 417px;
+  z-index: 0;
 }
 
 .profil4 .overlap-group4 {
-  height: 1106px;
+  height: 500px;
   position: relative;
   width: 417px;
-  z-index: 1;
+ 
 }
 
 .profil4 .background {
   background-color: var(--white);
-  height: 896px;
+  height: 300px;
   left: 0;
   position: absolute;
   top: 0;
@@ -298,7 +299,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 21px;
-  min-height: 215px;
+  height: 215px;
   padding: 15px;
   width: 346px;
 }
@@ -1156,26 +1157,17 @@
   width: 22px;
 }
 
-.profil4 .rectangle-2619 {
-  height: 87px;
-  left: 0;
-  position: fixed;
-  top: 809px;
-  width: 414px;
-  z-index: 2;
-}
+
 
 .profil4 .frame-3314 {
   align-items: flex-start;
   background-color: var(--desert-storm);
   display: flex;
   height: 60px;
-  left: 0;
-  min-width: 414px;
-  padding: 0 49.5px;
+  padding: 0 27px;
+  bottom: 0;
   position: fixed;
-  top: 836px;
-  z-index: 3;
+  z-index: 1;
 }
 
 .profil4 .x5_-elements_-navigation-home-on {
@@ -1220,13 +1212,4 @@
   width: 18px;
 }
 
-.profil4 .home-indicators {
-  background-image: url(../img/home-indicators-41@2x.png);
-  background-size: 100% 100%;
-  height: 19px;
-  left: 19px;
-  position: fixed;
-  top: 874px;
-  width: 375px;
-  z-index: 4;
-}
+

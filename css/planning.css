@@ -8,6 +8,7 @@
   height: 896px;
   overflow: hidden;
   width: 414px;
+  z-index: 0;
 }
 
 .planning .status-bar {
@@ -74,25 +75,24 @@
 }
 
 .planning .overlap-group-container {
-  align-items: flex-start;
-  align-self: flex-end;
   display: flex;
-  height: 116px;
-  margin-right: -97px;
+  height: 140px;
+  margin-right: 97px;
+  margin-left: 97px;
   margin-top: 24px;
-  min-width: 482px;
+  width: 400px;
+  overflow-x: scroll;
 }
 
 .planning .flex-col {
-  align-items: flex-start;
   background-color: var(--white);
   border-radius: 5px;
-  box-shadow: 0px 4px 4px #372ad126;
+  box-shadow: 4px 4px 4px #372ad126;
   display: flex;
-  flex-direction: column;
-  min-height: 116px;
+  height: 116px;
   padding: 20px 10px;
-  width: 230px;
+  min-width: 230px;
+  margin-left: 15px;
 }
 
 .planning .flex-row {
@@ -109,7 +109,6 @@
 }
 
 .planning .flex-col-1 {
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
   margin-left: 15px;
@@ -131,8 +130,9 @@
 .planning .flex-row-1 {
   align-items: center;
   display: flex;
-  margin-top: 9px;
+  margin-top: 59px;
   min-width: 203px;
+  margin-left: -165px;
 }
 
 .planning .overlap-group {
@@ -999,11 +999,10 @@
   background-color: var(--desert-storm);
   display: flex;
   height: 60px;
-  left: 0;
-  min-width: 414px;
   padding: 0 27px;
-  position: absolute;
-  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
 }
 
 .planning .x5_-elements_-navigation-home-on {
@@ -1071,4 +1070,32 @@
   position: absolute;
   top: 38px;
   width: 375px;
+}
+
+.planning .overlap-group5 {
+  border-radius: 38px;
+  height: 35px;
+  margin-left: 0.62px;
+  margin-top: 20px;
+  position: relative;
+  width: 243px;
+}
+
+.planning .btn {
+  align-items: center;
+  background-color: var(--governor-bay);
+  border-radius: 38px;
+  display: flex;
+  height: 35px;
+  left: 0;
+  min-width: 243px;
+  padding: 0 54.8px;
+  position: absolute;
+  top: 0;
+}
+
+.planning .sinscrire {
+  letter-spacing: 0;
+  min-height: 15px;
+  min-width: 133px;
 }

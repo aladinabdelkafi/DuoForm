@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['personne'])) {
-  header("location:se-connecter.php");
+  header("location:welcome-page.php");
 }
 
 
@@ -43,39 +43,39 @@ if (!isset($_SESSION['personne'])) {
           <img class="heart" id="myImageId0" src="img/Heart.png">
         </div>
         <div class="frame-3321">
-        <?php
+          <?php
           include "models/meeting.class.php";
           $meeting = new meeting("", "", "", "", "", "");
           $res_meeting = $meeting->listeNexMeeingEtudiant($_SESSION['personne']->id);
           if (empty($res_meeting)) {
-           ?>
-           <div class="card-4">
-            <div class="frame-3317">
-              <div class="group-29-1">
-                <div class="type-dactivit roboto-medium-oslo-gray-14px">
-                  <span class="roboto-medium-oslo-gray-14px">Vous n'avez pas encore de rendez-vous </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <?php
-          }
-          else{
-          foreach ($res_meeting as $row) {
           ?>
-            <div class="card">
-              <div class="frame-3316">
-                <img class="avatars" src="img/avatars-7@2x.png" />
-                <div class="helath-chat-with-lidia roboto-medium-black-16px">
-                  <span class="roboto-medium-black-16px"><?php echo ($row->sujet); ?></span>
-                </div>
-                <div class="type-dactivit roboto-medium-oslo-gray-14px">
-                  <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->date); ?></span>
+            <div class="card-4">
+              <div class="frame-3317">
+                <div class="group-29-1">
+                  <div class="type-dactivit roboto-medium-oslo-gray-14px">
+                    <span class="roboto-medium-oslo-gray-14px">Vous n'avez pas encore de rendez-vous </span>
+                  </div>
                 </div>
               </div>
-              
             </div>
-          <?php } }?>
+            <?php
+          } else {
+            foreach ($res_meeting as $row) {
+            ?>
+              <div class="card">
+                <div class="frame-3316">
+                  <img class="avatars" src="img/avatars-7@2x.png" />
+                  <div class="helath-chat-with-lidia roboto-medium-black-16px">
+                    <span class="roboto-medium-black-16px"><?php echo ($row->sujet); ?></span>
+                  </div>
+                  <div class="type-dactivit roboto-medium-oslo-gray-14px">
+                    <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->date); ?></span>
+                  </div>
+                </div>
+
+              </div>
+          <?php }
+          } ?>
           <input type="button" onclick="document.location.href='explorer.php'" class="btn" value="Prendre un rendez-vous">
         </div>
 
@@ -101,28 +101,29 @@ if (!isset($_SESSION['personne'])) {
           <div style="margin-bottom: -12px;">Vos recommandations</div>
           <img class="heart" id="myImageId2" src="img/Heart.png">
         </div>
-        <div class="frame-3322" style="display: block; overflow:scroll;"> 
-        <?php
+        <div class="frame-3322">
+          <?php
           include "models/personne.class.php";
           $personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "");
           $res_pers = $personne->getProRecommandations();
-          
+
           foreach ($res_pers as $row) {
-            if($row->id != null){
+            if ($row->id != null) {
           ?>
-            <div class="card">
-              <div class="frame-3316">
-                <img class="avatars" src="img/avatars-7@2x.png" />
-                <div class="helath-chat-with-lidia roboto-medium-black-16px">
-                  <span class="roboto-medium-black-16px"><?php echo ($row->nom_prenom_pers); ?></span>
+              <div class="card">
+                <div class="frame-3316">
+                  <img class="avatars" src="img/avatars-7@2x.png" />
+                  <div class="helath-chat-with-lidia roboto-medium-black-16px">
+                    <span class="roboto-medium-black-16px"><?php echo ($row->nom_prenom_pers); ?></span>
+                  </div>
+                  <div class="type-dactivit roboto-medium-oslo-gray-14px">
+                    <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->domaine); ?></span>
+                  </div>
                 </div>
-                <div class="type-dactivit roboto-medium-oslo-gray-14px">
-                  <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->domaine); ?></span>
-                </div>
+                <img class="heart-1" src="img/heart-16@2x.png" />
               </div>
-              <img class="heart-1" src="img/heart-16@2x.png" />
-            </div>
-          <?php }} ?>
+          <?php }
+          } ?>
         </div>
 
 

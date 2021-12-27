@@ -15,7 +15,7 @@
   display: flex;
   height: 49px;
   justify-content: flex-end;
-  margin-left: 6.0px;
+  margin-left: 6px;
   min-width: 414px;
   padding: 15.2px 15.8px;
   z-index: 2;
@@ -23,7 +23,7 @@
 
 .profil .time {
   align-self: flex-end;
-  letter-spacing: -0.30px;
+  letter-spacing: -0.3px;
   min-height: 18px;
   text-align: center;
   width: 60px;
@@ -54,7 +54,7 @@
   align-items: flex-end;
   display: flex;
   height: 192px;
-  margin-right: 8.0px;
+  margin-right: 8px;
   margin-top: 21px;
   min-width: 348px;
   z-index: 1;
@@ -97,6 +97,7 @@
   height: 17px;
   min-width: 56px;
   padding: 0 12px;
+  margin-right: 10px;
 }
 
 .profil .communication {
@@ -217,14 +218,12 @@
 }
 
 .profil .bonjour-moi-cest-p {
-  letter-spacing: 0;
-  line-height: 151.7px;
-  margin-right: 2.0px;
-  margin-top: 27px;
-  min-height: 54px;
-  white-space: nowrap;
-  width: 344px;
-  z-index: 3;
+  margin-left: 50px;
+  width: 90%;
+  display: block;
+  height: 50px;
+  margin-top: 30px;
+  padding-right: 50px;
 }
 
 .profil .flex-row-3 {
@@ -232,7 +231,7 @@
   align-self: flex-start;
   display: flex;
   margin-left: 34px;
-  margin-top: 23px;
+  margin-top: 100px;
   min-width: 139px;
   z-index: 4;
 }
@@ -253,7 +252,7 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 5.0px;
+  margin-left: 5px;
   margin-top: 30px;
   min-height: 340px;
   width: 351px;
@@ -297,7 +296,7 @@
 
 .profil .vector-11 {
   height: 1px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 22px;
   width: 320px;
 }
@@ -306,7 +305,7 @@
   align-items: flex-start;
   display: flex;
   height: 122px;
-  margin-right: 2.0px;
+  margin-right: 2px;
   margin-top: 21px;
   min-width: 319px;
   padding: 3px;
@@ -447,7 +446,7 @@
   height: 48px;
   margin-top: 21px;
   overflow: hidden;
-  padding: 15.0px 15px;
+  padding: 15px 15px;
   width: 351px;
 }
 
@@ -502,7 +501,7 @@
   height: 60px;
   margin-left: 15px;
   min-width: 60px;
-  padding: 20.0px 20.0px;
+  padding: 20px 20px;
 }
 
 .profil .subtract {
@@ -539,7 +538,7 @@
   height: 60px;
   margin-left: 15px;
   min-width: 60px;
-  padding: 21.0px 21px;
+  padding: 21px 21px;
 }
 
 .profil .group-17 {
@@ -551,7 +550,7 @@
   background-image: url(../img/home-indicators-41@2x.png);
   background-size: 100% 100%;
   height: 19px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 110px;
   width: 375px;
   z-index: 6;

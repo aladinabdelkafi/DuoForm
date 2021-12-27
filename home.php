@@ -3,8 +3,6 @@ session_start();
 if (!isset($_SESSION['personne'])) {
   header("location:welcome-page.php");
 }
-
-
 ?>
 <!DOCTYPE html>
 <html>

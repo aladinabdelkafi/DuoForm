@@ -223,7 +223,6 @@
   align-items: center;
   display: flex;
   height: 140px;
-  overflow: hidden;
   top: 150px;
   background-color: var(--desert-storm);
   left: 29px;
@@ -231,19 +230,18 @@
   padding: 10px;
   width: 85%;
   display: none;
+  overflow:scroll;
 }
 .home .frame-3322 {
   align-items: center;
-  display: flex;
-  
-  overflow: hidden;
   top: 150px;
   background-color: var(--desert-storm);
   left: 29px;
   position: relative;
   padding: 10px;
   width: 85%;
-  display: none;
+  display: block; 
+  overflow:scroll;
 }
 
 

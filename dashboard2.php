@@ -96,9 +96,8 @@ if (!isset($_SESSION['personne'])) {
         <a href="dashboard3.php">
         <div class="btn">
           <div class="sinscrire roboto-medium-white-12-8px">
-            <span class="roboto-medium-white-12-8px">Ajouter un rendez-vous</span>
+            <span class="roboto-medium-white-12-8px">Nouveau rendez-vous</span>
           </div>
-          <img class="group-53" src="img/group-53-1@2x.png" />
         </div>
         </a>
       </div>

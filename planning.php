@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION['personne'])) {
+  header("location:welcome-page.php");
+}
+
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,14 +22,7 @@
     <input type="hidden" id="anPageName" name="page" value="planning" />
     <div class="container-center-horizontal">
       <div class="planning screen">
-        <div class="status-bar">
-          <div class="time sfprotext-semi-bold-black-15px">
-            <span class="sfprotext-semi-bold-black-15px">9:41</span>
-          </div>
-          <img class="cellular-connection" src="img/cellular-connection-41@2x.png" />
-          <img class="wifi" src="img/wifi-41@2x.png" />
-          <img class="battery" src="img/battery-41@2x.png" />
-        </div>
+       
         <div class="planning-1 roboto-bold-black-30px"><span class="roboto-bold-black-30px">Planning</span></div>
         <p class="cest-un-beau-jour-p roboto-normal-gunsmoke-15px-2">
           <span class="roboto-normal-gunsmoke-15px-2">C’est un beau jour pour apprendre de nouvelles choses !</span>
@@ -30,63 +31,77 @@
           <span class="roboto-medium-black-16px">Rendez-vous à venir...</span>
         </div>
         <div class="overlap-group-container">
+
+        
+        <?php
+        include "models/meeting.class.php";
+        $meeting = new meeting("", "", "", "", "", "");
+        $res_meeting = $meeting->listeNexMeeingEtudiant($_SESSION['personne']->id);
+        if (empty($res_meeting)) {
+        ?>
           <div class="flex-col">
             <div class="flex-row">
-              <img class="avatars" src="img/avatars-9@2x.png" />
               <div class="flex-col-1">
                 <div class="philomena-tiret roboto-medium-black-14px">
-                  <span class="roboto-medium-black-14px">Philomena Tiret</span>
+                  <span class="roboto-medium-black-14px">Vous n'avez pas encore de rendez-vous </span>
                 </div>
-                <div class="photographie roboto-normal-oslo-gray-10px">
-                  <span class="roboto-normal-oslo-gray-10px">Photographie</span>
-                </div>
-              </div>
-            </div>
-            <div class="flex-row-1">
-              <div class="overlap-group">
-                <div class="vendredi-1 roboto-medium-oslo-gray-12px">
-                  <span class="roboto-medium-oslo-gray-12px">Vendredi 12</span>
-                </div>
-              </div>
-              <div class="overlap-group-1">
-                <div class="x15h30 roboto-medium-oslo-gray-12px">
-                  <span class="roboto-medium-oslo-gray-12px">15h30</span>
-                </div>
-              </div>
-              <div class="contacter roboto-normal-oslo-gray-12px">
-                <span class="roboto-normal-oslo-gray-12px">Contacter</span>
               </div>
             </div>
           </div>
-          <div class="flex-col-2">
-            <div class="flex-row-2">
-              <img class="ellipse" src="img/ellipse-4@2x.png" />
-              <div class="flex-col-3">
-                <div class="philomena-tiret roboto-medium-black-14px">
-                  <span class="roboto-medium-black-14px">Philomena Tiret</span>
+
+          <?php
+        } else {
+          include "models/personne.class.php";
+          foreach ($res_meeting as $row) {
+            $personne = new personne("", "", "", "", "", "","","","","","","","");
+            $res_personne = $personne->detail($row->accompagnateur);
+          ?>
+            <div class="flex-col">
+              <div class="flex-row">
+                <img class="avatars" src="img/avatars-9@2x.png" />
+                <div class="flex-col-1">
+                  <div class="philomena-tiret roboto-medium-black-14px">
+                    <span class="roboto-medium-black-14px"><?php echo($res_personne->nom_prenom_pers); ?></span>
+                  </div>
+                  <div class="photographie roboto-normal-oslo-gray-10px">
+                    <span class="roboto-normal-oslo-gray-10px"><?php echo($res_personne->domaine); ?></span>
+                  </div>
                 </div>
-                <div class="photographie roboto-normal-oslo-gray-10px">
-                  <span class="roboto-normal-oslo-gray-10px">Photographie</span>
+              </div>
+              <div class="flex-row-1">
+                <div class="overlap-group">
+                  <div class="vendredi-1 roboto-medium-oslo-gray-12px">
+                    <span class="roboto-medium-oslo-gray-12px"><?php echo(substr($row->date, 0, 10)); ?></span>
+                  </div>
                 </div>
+                <div class="overlap-group-1">
+                  <div class="x15h30 roboto-medium-oslo-gray-12px">
+                    <span class="roboto-medium-oslo-gray-12px"><?php echo(substr($row->date, 11, -3)); ?></span>
+                  </div>
+                </div>
+                <a href="messagerie-2.php">
+                  <div class="contacter roboto-normal-oslo-gray-12px">
+                    <span class="roboto-normal-oslo-gray-12px">Contacter</span>
+                  </div>
+                </a>
               </div>
             </div>
-            <div class="flex-row-3">
-              <div class="overlap-group">
-                <div class="vendredi-1 roboto-medium-oslo-gray-12px">
-                  <span class="roboto-medium-oslo-gray-12px">Vendredi 18</span>
-                </div>
-              </div>
-              <div class="overlap-group-1">
-                <div class="x15h30 roboto-medium-oslo-gray-12px">
-                  <span class="roboto-medium-oslo-gray-12px">15h30</span>
-                </div>
-              </div>
-              <div class="contacter roboto-normal-oslo-gray-12px">
-                <span class="roboto-normal-oslo-gray-12px">Contacter</span>
-              </div>
-            </div>
+        <?php }
+        } ?>
+        </div>
+
+
+        <div class="overlap-group5">
+        <a href="explorer.php">
+        <div class="btn">
+          <div class="sinscrire roboto-medium-white-12-8px">
+            <span class="roboto-medium-white-12-8px">Nouveau rendez-vous</span>
           </div>
         </div>
+        </a>
+      </div>
+
+
         <div class="chercher-un-accompagnateur roboto-bold-governor-bay-13px">
           <span class="roboto-bold-governor-bay-13px">Chercher un accompagnateur</span>
         </div>
@@ -299,15 +314,21 @@
             </div>
           </div>
         </div>
-        <div class="overlap-group3">
+        
           <div class="frame-3314">
-            <img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" />
-            <div class="iconly"><img class="subtract" src="img/subtract-11@2x.png" /></div>
+          <a href="home.php">
+            <img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
+          <a href="explorer.php">
+            <div class="x5_-elements_-navigation-message-off"><img class="subtract" src="img/subtract-11@2x.png" /></div>
+          </a>
+          <a href="messagerie.php">
             <div class="x5_-elements_-navigation-message-off"><img class="shape" src="img/shape-18@2x.png" /></div>
-            <img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-6@2x.png" />
+          </a>
+          <a href="planning.php">
+            <img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-6@2x.png" /></a>
+          <a href="profil.php">
             <div class="user-filled"><img class="group-18" src="img/group-18-19@2x.png" /></div>
-          </div>
-          <div class="home-indicators"></div>
+          </a>
         </div>
       </div>
     </div>

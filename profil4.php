@@ -63,7 +63,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
         </div>
         <div class="prochaines-runions roboto-medium-black-16px">
         <div style="margin-bottom: -12px;">Expériences</div>
-        <img class="heart" id="myImageId0" src="img/Heart.png">
+        <img class="heartt" id="myImageId0" src="img/Vector1.png">
       </div>
       <div class="frame-3321">
         <div class="group-41">
@@ -105,7 +105,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
 
       <div class="prochaines-runions roboto-medium-black-16px">
         <div style="margin-bottom: -12px;">Compétences</div>
-        <img class="heart" id="myImageId1" src="img/Heart.png">
+        <img class="heartt" id="myImageId1" src="img/Vector1.png">
       </div>
       <div class="frame-3321">
         <div class="group-41">
@@ -147,7 +147,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
 
       <div class="prochaines-runions roboto-medium-black-16px">
         <div style="margin-bottom: -12px;">Domaine</div>
-        <img class="heart" id="myImageId2" src="img/Heart.png">
+        <img class="heartt" id="myImageId2" src="img/Vector1.png">
       </div>
       <div class="frame-3321">
         <div class="group-41">
@@ -201,10 +201,10 @@ $array = explode(',', $_SESSION['personne']->domaine);
 
       if (panel.style.display === "block") {
         panel.style.display = "none";
-        document.getElementById(this.lastElementChild.id).src = "img/Heart.png";
+        document.getElementById(this.lastElementChild.id).src = "img/Vector1.png";
       } else {
         panel.style.display = "block";
-        document.getElementById(this.lastElementChild.id).src = "img/Heart (1).png";
+        document.getElementById(this.lastElementChild.id).src = "img/Vector2.png";
       }
     });
   }

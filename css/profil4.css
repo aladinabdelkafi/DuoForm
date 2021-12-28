@@ -29,7 +29,7 @@
   left: 29px;
   letter-spacing: 0;
   position: absolute;
-  top: 70px;
+  top: 40px;
 }
 
 .profil4 .status-bar {
@@ -77,25 +77,26 @@
   height: 139px;
   left: 235px;
   position: absolute;
-  top: 123px;
+  top: 100px;
   width: 139px;
 }
 
 .profil4 .bonjour-moi-cest-o {
-  left: 33px;
-  letter-spacing: 0;
-  line-height: 151.7px;
   position: absolute;
-  top: 298px;
-  white-space: nowrap;
-  width: 344px;
+    top: 240px;
+    margin-left: 50px;
+    width: 90%;
+    display: block;
+    height: 50px;
+    margin-top: 30px;
+    padding-right: 50px;
 }
 
 .profil4 .olivier-pouchoy {
   left: 32px;
   letter-spacing: 0;
   position: absolute;
-  top: 170px;
+  top: 120px;
   width: 143px;
 }
 
@@ -109,7 +110,19 @@
   min-width: 147px;
   padding: 0 12px;
   position: absolute;
-  top: 233px;
+  top: 185px;
+}
+
+.profil4 .tagg {
+  align-items: center;
+  background-color: var(--brilliant-rose-2);
+  border-radius: 2px;
+  display: flex;
+  height: 17px;
+  min-width: 56px;
+  padding: 0 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .profil4 .communication-1 {
@@ -130,7 +143,7 @@
   min-width: 56px;
   padding: 0 12px;
   position: absolute;
-  top: 207px;
+  top: 160px;
 }
 
 .profil4 .communication-2 {
@@ -151,7 +164,7 @@
   min-width: 90px;
   padding: 0 12px;
   position: absolute;
-  top: 207px;
+  top: 160px;
 }
 
 .profil4 .communication-3 {
@@ -172,7 +185,7 @@
   min-width: 51px;
   padding: 0 12px;
   position: absolute;
-  top: 259px;
+  top: 215px;
 }
 
 .profil4 .communication {
@@ -1160,14 +1173,14 @@
 
 
 .profil4 .frame-3314 {
-  align-items: flex-start;
   background-color: var(--desert-storm);
-  display: flex;
-  height: 60px;
-  padding: 0 27px;
-  bottom: 0;
-  position: fixed;
-  z-index: 1;
+    display: flex;
+    height: 60px;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    padding-left: 40px;
+    width: 100%;
 }
 
 .profil4 .x5_-elements_-navigation-home-on {
@@ -1213,3 +1226,81 @@
 }
 
 
+
+.profil4 .prochaines-runions {
+  border-radius: 5px;
+  letter-spacing: 0;
+  position: relative;
+  background-color: var(--desert-storm);
+  box-shadow: 4px 4px 4px #ef5da826;
+  padding: 10px;
+  text-align: left;
+  width: 80%;
+  outline: none;
+  transition: 0.4s;
+  margin-top: 20px;
+  margin-left: 40px;
+  top:400px;
+ 
+}
+
+.prochaines-runions .heart {
+  align-items: flex-end;
+  margin-left: 90%;
+  margin-top: -20px;
+  
+
+}
+.profil4 .frame-3321 {
+  align-items: center;
+  display: flex;
+  height: 140px;
+  background-color: var(--desert-storm);
+  box-shadow: 4px 4px 4px #ef5da826;
+  position: relative;
+  padding: 10px;
+  width: 80%;
+  display: none;
+  overflow:scroll;
+  margin-left: 40px;
+  top:400px;
+}
+
+.profil4 .group-41 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 99px;
+  width: 145px;
+}
+
+.profil4 .communication-6 {
+  letter-spacing: 0;
+  line-height: 132.4px;
+  min-height: 13px;
+  min-width: 119px;
+  white-space: nowrap;
+}
+
+.profil4 .scolaire {
+  letter-spacing: 0;
+    min-height: 12px;
+    white-space: nowrap;
+    height: 27px;
+}
+
+.profil4 .professionnelle {
+  letter-spacing: 0;
+  white-space: nowrap;
+  padding-bottom: 15px;
+}
+
+.profil4 .frame-42 {
+  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    min-height: 70px;
+    width: 110px;
+    margin-top: -106px;
+}

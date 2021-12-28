@@ -53,14 +53,14 @@
 }
 
 .dashboard .frame-3314 {
-  align-items: flex-start;
   background-color: var(--desert-storm);
-  display: flex;
-  height: 60px;
-  padding: 0 27px;
-  bottom: 0;
-  position: fixed;
-  z-index: 1;
+    display: flex;
+    height: 60px;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    padding-left: 40px;
+    width: 100%;
 }
 
 .dashboard .x5_-elements_-navigation-home-on {

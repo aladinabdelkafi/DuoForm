@@ -481,14 +481,14 @@
 }
 
 .profil .frame-3314 {
-  align-items: flex-start;
   background-color: var(--desert-storm);
-  display: flex;
-  height: 60px;
-  padding: 0 27px;
-  bottom: 0;
-  position: fixed;
-  z-index: 1;
+    display: flex;
+    height: 60px;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    padding-left: 15px;
+    width: 100%;
 }
 
 .profil .x5_-elements_-navigation-home-on {
@@ -555,6 +555,7 @@
   letter-spacing: 0;
   position: relative;
   background-color: var(--desert-storm);
+  box-shadow: 4px 4px 4px #372ad126;
   padding: 10px;
   text-align: left;
   width: 85%;
@@ -581,3 +582,4 @@
   display: none;
   overflow:scroll;
 }
+

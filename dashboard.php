@@ -29,7 +29,7 @@ if(!isset($_SESSION['personne'])){
 
           <div class="prochaines-runions roboto-medium-black-16px">
           <div style="margin-bottom: -12px;">Prochaines rencontres</div>
-          <img class="heart" id="myImageId2" src="img/Heart.png">
+          <img class="heart" id="myImageId2" src="img/Vector1.png">
         </div>
         <div class="frame-3322" style="display: block; overflow:scroll;"> 
         <?php
@@ -159,10 +159,10 @@ if(!isset($_SESSION['personne'])){
 
       if (panel.style.display === "block") {
         panel.style.display = "none";
-        document.getElementById(this.lastElementChild.id).src = "img/Heart.png";
+        document.getElementById(this.lastElementChild.id).src = "img/Vector1.png";
       } else {
         panel.style.display = "block";
-        document.getElementById(this.lastElementChild.id).src = "img/Heart (1).png";
+        document.getElementById(this.lastElementChild.id).src = "img/Vector2.png";
       }
     });
   }

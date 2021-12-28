@@ -1,3 +1,13 @@
+<?php
+session_start();
+if (!isset($_SESSION['personne'])) {
+  header("location:welcome-page.php");
+}
+
+$today = date("Y-m-d");
+$date = DateTime::createFromFormat("Y-m-d", $today);
+$array = explode(',', $_SESSION['personne']->domaine);
+?>
 <!DOCTYPE html>
 <html>
 
@@ -21,73 +31,139 @@
         <div class="mon-profil roboto-bold-black-30px"><span class="roboto-bold-black-30px">Mon profil</span></div>
 
         <img class="avatars" src="img/avatars-17@2x.png" />
-        <p class="bonjour-moi-cest-o roboto-normal-eerie-black-12px">
-          <span class="roboto-normal-eerie-black-12px">Bonjour, moi c’est Olivier, je suis professionnelle du développement, j’aime la nature et les bonnes
-            bières à l’ancienne tu connais !</span>
+        <p class="bonjour-moi-cest-o">
+        <?php echo ($_SESSION['personne']->bio); ?>
         </p>
         <div class="olivier-pouchoy roboto-medium-black-20-1px">
-          <span class="roboto-medium-black-20-1px">Olivier Pouchoy</span>
+          <span class="roboto-medium-black-20-1px"><?php echo ($_SESSION['personne']->nom_prenom_pers); ?></span>
         </div>
         <div class="tag">
           <div class="communication-1 montserrat-medium-brilliant-rose-10px">
-            <span class="montserrat-medium-brilliant-rose-10px">Travail chez Pôle emploi</span>
+            <span class="montserrat-medium-brilliant-rose-10px"><?php echo ($_SESSION['personne']->email_pers); ?></span>
           </div>
         </div>
         <div class="tag-1">
           <div class="communication-2 montserrat-medium-brilliant-rose-10px">
-            <span class="montserrat-medium-brilliant-rose-10px">25 ans</span>
+            <span class="montserrat-medium-brilliant-rose-10px"><?php echo ($date->format("Y") - substr($_SESSION['personne']->date_naiss_pers, 6, 10) . " ans"); ?></span>
           </div>
         </div>
         <div class="tag-2">
           <div class="communication-3 montserrat-medium-brilliant-rose-10px">
-            <span class="montserrat-medium-brilliant-rose-10px">Développeur</span>
+            <span class="montserrat-medium-brilliant-rose-10px"><?php echo ($_SESSION['personne']->ville); ?></span>
           </div>
         </div>
         <div class="tag-3">
           <div class="communication montserrat-medium-brilliant-rose-10px">
-            <span class="montserrat-medium-brilliant-rose-10px">Bière</span>
+            <span class="montserrat-medium-brilliant-rose-10px"><?php echo ($_SESSION['personne']->tel_pers); ?></span>
           </div>
         </div>
-        <div class="tag-4">
-          <div class="communication montserrat-medium-brilliant-rose-10px">
-            <span class="montserrat-medium-brilliant-rose-10px">Bière</span>
-          </div>
-        </div>
-        <div class="tag-5">
-          <div class="communication montserrat-medium-brilliant-rose-10px">
-            <span class="montserrat-medium-brilliant-rose-10px">Bière</span>
-          </div>
-        </div>
+       
         <div class="modifier-mon-profil roboto-bold-brilliant-rose-13px">
           <span class="roboto-bold-brilliant-rose-13px">Modifier mon profil</span>
         </div>
-        <div class="frame-41">
-          <div class="card-profil-1">
-            <div class="helath-chat-with-lidia roboto-medium-black-14px">
-              <span class="roboto-medium-black-14px">Expériences</span>
-            </div>
-            <img class="heart" src="img/heart-13@2x.png" />
+        <div class="prochaines-runions roboto-medium-black-16px">
+        <div style="margin-bottom: -12px;">Expériences</div>
+        <img class="heart" id="myImageId0" src="img/Heart.png">
+      </div>
+      <div class="frame-3321">
+        <div class="group-41">
+          <div class="scolaire montserrat-semi-bold-eerie-black-9-1px">
+            <span class="montserrat-semi-bold-eerie-black-9-1px">Scolaire</span>
           </div>
-          <div class="card-profil">
-            <div class="helath-chat-with-lidia-1 roboto-medium-black-14px">
-              <span class="roboto-medium-black-14px">Compétences</span>
+          <div class="tagg">
+            <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+              <span class="montserrat-medium-brilliant-rose-10px">BTS - design graphique</span>
             </div>
-            <img class="heart-1" src="img/heart-13@2x.png" />
           </div>
-          <div class="card-profil">
-            <div class="helath-chat-with-lidia-2 roboto-medium-black-14px">
-              <span class="roboto-medium-black-14px">Loisirs</span>
+          <div class="tagg">
+            <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+              <span class="montserrat-medium-brilliant-rose-10px">License - multimédia</span>
             </div>
-            <img class="heart-2" src="img/heart-13@2x.png" />
           </div>
-          <div class="overlap-group1">
-            <div class="mon-activit roboto-bold-eerie-black-12px">
-              <span class="roboto-bold-eerie-black-12px">Mon activité</span>
+          <div class="tagg">
+            <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+              <span class="montserrat-medium-brilliant-rose-10px">Stage agence Lyon</span>
             </div>
-
           </div>
-
         </div>
+        <div class="frame-42">
+          <div class="professionnelle montserrat-semi-bold-eerie-black-9-1px">
+            <span class="montserrat-semi-bold-eerie-black-9-1px">Professionnelle</span>
+          </div>
+          <div class="tagg">
+            <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+              <span class="montserrat-medium-brilliant-rose-10px">Freelance</span>
+            </div>
+          </div>
+          <div class="tagg">
+            <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+              <span class="montserrat-medium-brilliant-rose-10px">Stage en agence</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prochaines-runions roboto-medium-black-16px">
+        <div style="margin-bottom: -12px;">Compétences</div>
+        <img class="heart" id="myImageId1" src="img/Heart.png">
+      </div>
+      <div class="frame-3321">
+        <div class="group-41">
+          <div class="scolaire montserrat-semi-bold-eerie-black-9-1px">
+            <span class="montserrat-semi-bold-eerie-black-9-1px">Scolaire</span>
+          </div>
+          <div class="tagg">
+            <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+              <span class="montserrat-medium-brilliant-rose-10px">BTS - design graphique</span>
+            </div>
+          </div>
+          <div class="tagg">
+            <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+              <span class="montserrat-medium-brilliant-rose-10px">License - multimédia</span>
+            </div>
+          </div>
+          <div class="tagg">
+            <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+              <span class="montserrat-medium-brilliant-rose-10px">Stage agence Lyon</span>
+            </div>
+          </div>
+        </div>
+        <div class="frame-42">
+          <div class="professionnelle montserrat-semi-bold-eerie-black-9-1px">
+            <span class="montserrat-semi-bold-eerie-black-9-1px">Professionnelle</span>
+          </div>
+          <div class="tagg">
+            <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+              <span class="montserrat-medium-brilliant-rose-10px">Freelance</span>
+            </div>
+          </div>
+          <div class="tagg">
+            <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+              <span class="montserrat-medium-brilliant-rose-10px">Stage en agence</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="prochaines-runions roboto-medium-black-16px">
+        <div style="margin-bottom: -12px;">Domaine</div>
+        <img class="heart" id="myImageId2" src="img/Heart.png">
+      </div>
+      <div class="frame-3321">
+        <div class="group-41">
+          <?php
+          foreach ($array as $row) {
+          ?>
+            <div class="tagg">
+              <div class="communication-6 montserrat-medium-brilliant-rose-10px">
+                <span class="montserrat-medium-brilliant-rose-10px"><?php echo ($row); ?></span>
+              </div>
+            </div>
+          <?php } ?>
+        </div>
+      </div>
+
+
       </div>
 
       <div class="frame-3314">
@@ -110,3 +186,26 @@
 </body>
 
 </html>
+
+
+
+<script>
+  var acc = document.getElementsByClassName("prochaines-runions");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+        document.getElementById(this.lastElementChild.id).src = "img/Heart.png";
+      } else {
+        panel.style.display = "block";
+        document.getElementById(this.lastElementChild.id).src = "img/Heart (1).png";
+      }
+    });
+  }
+</script>

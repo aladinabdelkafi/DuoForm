@@ -1,7 +1,4 @@
 <?php
-
-use function PHPSTORM_META\type;
-
 session_start();
 if (!isset($_SESSION['personne'])) {
   header("location:welcome-page.php");
@@ -9,11 +6,7 @@ if (!isset($_SESSION['personne'])) {
 
 $today = date("Y-m-d");
 $date = DateTime::createFromFormat("Y-m-d", $today);
-
-
 $array = explode(',', $_SESSION['personne']->domaine);
-//print_r($array);
-//exit;
 ?>
 <!DOCTYPE html>
 <html>
@@ -130,7 +123,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
         <img class="heart" id="myImageId1" src="img/Heart.png">
       </div>
       <div class="frame-3321">
-      <div class="group-41">
+        <div class="group-41">
           <div class="scolaire montserrat-semi-bold-eerie-black-9-1px">
             <span class="montserrat-semi-bold-eerie-black-9-1px">Scolaire</span>
           </div>
@@ -172,31 +165,38 @@ $array = explode(',', $_SESSION['personne']->domaine);
         <img class="heart" id="myImageId2" src="img/Heart.png">
       </div>
       <div class="frame-3321">
-      <div class="group-41">
-        <?php 
-        foreach ($array as $row) {
-        ?>
-          <div class="tag" style="margin-bottom: 10px;">
-            <div class="communication-6 montserrat-medium-governor-bay-10px">
-              <span class="montserrat-medium-governor-bay-10px"><?php echo($row); ?></span>
+        <div class="group-41">
+          <?php
+          foreach ($array as $row) {
+          ?>
+            <div class="tag" style="margin-bottom: 10px;">
+              <div class="communication-6 montserrat-medium-governor-bay-10px">
+                <span class="montserrat-medium-governor-bay-10px"><?php echo ($row); ?></span>
+              </div>
             </div>
-          </div>
           <?php } ?>
         </div>
       </div>
 
 
       <div class="frame-3314">
-        <img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" />
-        <div class="iconly"><img class="subtract" src="img/subtract-11@2x.png" /></div>
-        <div class="x5_-elements_-navigation-message-off"><img class="shape" src="img/shape-18@2x.png" /></div>
-        <img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" />
-        <div class="user-filled"><img class="group-17" src="img/group-17-1@2x.png" /></div>
+        <a href="home.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
+        <a href="explorer.php">
+          <div class="iconly"><img class="subtract" src="img/subtract-11@2x.png" /></div>
+        </a>
+        <a href="messagerie.php">
+          <div class="x5_-elements_-navigation-message-off"><img class="shape" src="img/shape-18@2x.png" /></div>
+        </a>
+        <a href="planning.php"><img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" /></a>
+        <a href="profil.php">
+          <div class="user-filled"><img class="group-17" src="img/group-17-1@2x.png" /></div>
+        </a>
       </div>
-      
+
     </div>
   </div>
 </body>
+
 </html>
 
 

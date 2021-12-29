@@ -1,3 +1,12 @@
+<?php
+
+include "models/personne.class.php";
+$personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "");
+$res_pers = $personne->detail($_REQUEST["pers"]);
+print_r($res_pers);
+exit();
+
+?>
 <!DOCTYPE html>
 <html>
   <head>

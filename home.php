@@ -108,18 +108,21 @@ if (!isset($_SESSION['personne'])) {
           foreach ($res_pers as $row) {
             if ($row->id != null) {
           ?>
-              <div class="card">
-                <div class="frame-3316">
-                  <img class="avatars" src="img/avatars-7@2x.png" />
-                  <div class="helath-chat-with-lidia roboto-medium-black-16px">
-                    <span class="roboto-medium-black-16px"><?php echo ($row->nom_prenom_pers); ?></span>
+              <a href="prendre-rdv.php?pers=<?php echo($row->id); ?>">
+                <div class="card">
+                  <div class="frame-3316">
+                    <img class="avatars" src="img/avatars-7@2x.png" />
+                    <div class="helath-chat-with-lidia roboto-medium-black-16px">
+                      <span class="roboto-medium-black-16px"><?php echo ($row->nom_prenom_pers); ?></span>
+                    </div>
+                    <div class="type-dactivit roboto-medium-oslo-gray-14px">
+                      <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->domaine); ?></span>
+                    </div>
                   </div>
-                  <div class="type-dactivit roboto-medium-oslo-gray-14px">
-                    <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->domaine); ?></span>
-                  </div>
+                  <img class="heart-1" src="img/heart-16@2x.png" />
                 </div>
-                <img class="heart-1" src="img/heart-16@2x.png" />
-              </div>
+
+              </a>
           <?php }
           } ?>
         </div>

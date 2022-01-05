@@ -69,6 +69,20 @@ CREATE TABLE `personne` (
   `id_role` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `personne`
+--
+
+CREATE TABLE `rendez-vous` (
+  `id` int(4) NOT NULL,
+  `id_mentor` int(4) NOT NULL,
+  `id_etudiant` int(4) NOT NULL,
+  `debut` DATETIME NOT NULL,
+  `fin` DATETIME NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 --
 -- Déchargement des données de la table `personne`
 --

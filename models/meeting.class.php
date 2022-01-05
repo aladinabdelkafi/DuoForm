@@ -19,6 +19,7 @@ class meeting
 		$this->$att=$vall;
 	}
 
+
 	public function __construct($id,$sujet,$date,$lieu,$etudiant,$accompagnateur)
 	{
 		$this->id = $id;

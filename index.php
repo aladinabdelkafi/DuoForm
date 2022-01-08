@@ -3,6 +3,7 @@ session_start();
 if (!isset($_SESSION['personne'])) {
   header("location:welcome-page.php");
 }
+include "models/personne.class.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -58,11 +59,15 @@ if (!isset($_SESSION['personne'])) {
             </div>
             <?php
           } else {
+            
+          
             foreach ($res_meeting as $row) {
+              $personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "","");
+              $res_pers = $personne->detail($row->accompagnateur);
             ?>
               <div class="card">
                 <div class="frame-3316">
-                  <img class="avatars" src="img/avatars-7@2x.png" />
+                  <img class="avatars" src="img/<?php echo ($res_pers->image); ?>" />
                   <div class="helath-chat-with-lidia roboto-medium-black-16px">
                     <span class="roboto-medium-black-16px"><?php echo ($row->sujet); ?></span>
                   </div>
@@ -101,8 +106,8 @@ if (!isset($_SESSION['personne'])) {
         </div>
         <div class="frame-3322">
           <?php
-          include "models/personne.class.php";
-          $personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "");
+         
+          $personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "","");
           $res_pers = $personne->getProRecommandations();
 
           foreach ($res_pers as $row) {
@@ -111,7 +116,7 @@ if (!isset($_SESSION['personne'])) {
               <a href="prendre-rdv.php?pers=<?php echo($row->id); ?>">
                 <div class="card">
                   <div class="frame-3316">
-                    <img class="avatars" src="img/avatars-7@2x.png" />
+                    <img class="avatars" src="img/<?php echo ($row->image); ?>" />
                     <div class="helath-chat-with-lidia roboto-medium-black-16px">
                       <span class="roboto-medium-black-16px"><?php echo ($row->nom_prenom_pers); ?></span>
                     </div>
@@ -129,7 +134,7 @@ if (!isset($_SESSION['personne'])) {
 
 
         <div class="frame-3314">
-          <a href="home.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-1@2x.png" /></a>
+          <a href="index.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-1@2x.png" /></a>
           <a href="explorer.php">
             <div class="x5_-elements_-navigation-message-off"><img class="subtract" src="img/subtract-11@2x.png" /></div>
           </a>

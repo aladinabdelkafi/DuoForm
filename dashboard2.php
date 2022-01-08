@@ -53,7 +53,7 @@ if (!isset($_SESSION['personne'])) {
           foreach ($res_meeting as $row) {
 
            
-            $personne = new personne("", "", "", "", "", "","","","","","","","");
+            $personne = new personne("", "", "", "", "", "","","","","","","","","");
             $res_personne = $personne->detail($row->etudiant);
             
            

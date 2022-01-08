@@ -64,7 +64,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
 
 
         </div>
-        <img class="unsplashey-fbj-k-wl-r2g" src="img/unsplash-eyfbjkwlr2g-2@2x.png" />
+        <img class="unsplashey-fbj-k-wl-r2g" src="img/<?php echo ($_SESSION['personne']->image); ?>" />
       </div>
       <p class="bonjour-moi-cest-p">
         <?php echo ($_SESSION['personne']->bio); ?>
@@ -180,7 +180,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
 
 
       <div class="frame-3314">
-        <a href="home.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
+        <a href="index.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
         <a href="explorer.php">
           <div class="iconly"><img class="subtract" src="img/subtract-11@2x.png" /></div>
         </a>

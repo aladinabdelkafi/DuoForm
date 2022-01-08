@@ -1,7 +1,7 @@
 <?php
 
 include "models/personne.class.php";
-$personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "");
+$personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "","");
 $res_pers = $personne->detail($_REQUEST["pers"]);
 
 
@@ -42,7 +42,7 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
       </div>
       <div class="flex-col">
         <div class="flex-row-1">
-          <img class="avatars" src="img/avatars-21@2x.png" />
+          <img class="avatars" src="img/<?php echo ($res_pers->image); ?>" />
           <div class="flex-col-1">
             <div class="philomena-tiret roboto-medium-black-20-1px">
               <span class="roboto-medium-black-20-1px"><?php echo ($res_pers->nom_prenom_pers); ?></span>

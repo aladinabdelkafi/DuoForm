@@ -15,6 +15,7 @@ class personne
 	private $domaine;
 	private $bio;
 	private $nivEtudProf;
+	private $image;
 	private $id_role;
 	
 
@@ -25,7 +26,7 @@ class personne
 		$this->$att=$vall;
 	}
 
-	public function __construct($id,$nom_prenom_pers,$date_naiss_pers,$interet_pers,$email_pers,$mdp_pers,$tel_pers,$preferences_rencontre,$ville,$domaine,$bio,$nivEtudProf,$id_role)
+	public function __construct($id,$nom_prenom_pers,$date_naiss_pers,$interet_pers,$email_pers,$mdp_pers,$tel_pers,$preferences_rencontre,$ville,$domaine,$bio,$nivEtudProf,$image,$id_role)
 	{
 		$this->id = $id;
 		$this->nom_prenom_pers = $nom_prenom_pers;
@@ -39,6 +40,7 @@ class personne
 		$this->domaine = $domaine;
 		$this->bio = $bio;
 		$this->nivEtudProf = $nivEtudProf;
+		$this->image = $image;
 		$this->id_role = $id_role;
 	}
 	
@@ -48,9 +50,9 @@ class personne
 		include_once("../includes/connexion.php");
 		$n=new connexion();
 		$pdo=$n->CNXbase();
-		$res = $pdo->prepare("insert into personne (nom_prenom_pers,date_naiss_pers,interet_pers,email_pers,mdp_pers,tel_pers,preferences_rencontre,ville,domaine,bio,nivEtudProf,id_role) values(?,?,?,?,?,?,?,?,?,?,?,?)");
-		$res->execute([$this->nom_prenom_pers,$this->date_naiss_pers,$this->interet_pers,$this->email_pers,$this->mdp_pers,$this->tel_pers,$this->preferences_rencontre,$this->ville,$this->domaine,$this->bio,$this->nivEtudProf,$this->id_role]);
-		echo "<script>window.location.href='../home.php';</script>";
+		$res = $pdo->prepare("insert into personne (nom_prenom_pers,date_naiss_pers,interet_pers,email_pers,mdp_pers,tel_pers,preferences_rencontre,ville,domaine,bio,nivEtudProf,image,id_role) values(?,?,?,?,?,?,?,?,?,?,?,?,?)");
+		$res->execute([$this->nom_prenom_pers,$this->date_naiss_pers,$this->interet_pers,$this->email_pers,$this->mdp_pers,$this->tel_pers,$this->preferences_rencontre,$this->ville,$this->domaine,$this->bio,$this->nivEtudProf,$this->image,$this->id_role]);
+		echo "<script>window.location.href='../index.php';</script>";
 		
 	}
 
@@ -146,7 +148,7 @@ class personne
 		if (is_object($personne)) {
 			$_SESSION['personne'] = $personne;
 			if($personne->id_role == "Etudiant"){
-				echo "<script>window.location.href='../home.php';</script>";
+				echo "<script>window.location.href='../index.php';</script>";
 			}
 			else if($personne->id_role == "Professionel"){
 				echo "<script>window.location.href='../dashboard.php';</script>";
@@ -160,6 +162,6 @@ class personne
 	public function logout()
 	{
 		session_destroy();
-		echo "<script>window.location.href='../home.php';</script>";
+		echo "<script>window.location.href='../index.php';</script>";
 	}
 }

@@ -60,7 +60,7 @@ if (!isset($_SESSION['personne'])) {
           ?>
             <div class="flex-col">
               <div class="flex-row">
-                <img class="avatars" src="img/avatars-9@2x.png" />
+                <img class="avatars" src="img/<?php echo ($res_personne->image); ?>" />
                 <div class="flex-col-1">
                   <div class="philomena-tiret roboto-medium-black-14px">
                     <span class="roboto-medium-black-14px"><?php echo($res_personne->nom_prenom_pers); ?></span>

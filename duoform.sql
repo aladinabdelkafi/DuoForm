@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : lun. 27 déc. 2021 à 22:57
--- Version du serveur : 10.4.21-MariaDB
--- Version de PHP : 8.0.11
+-- Généré le : mar. 11 jan. 2022 à 00:20
+-- Version du serveur :  10.4.17-MariaDB
+-- Version de PHP : 7.4.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -69,20 +69,6 @@ CREATE TABLE `personne` (
   `id_role` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- --------------------------------------------------------
-
---
--- Structure de la table `personne`
---
-
-CREATE TABLE `rendez-vous` (
-  `id` int(4) NOT NULL,
-  `id_mentor` int(4) NOT NULL,
-  `id_etudiant` int(4) NOT NULL,
-  `debut` DATETIME NOT NULL,
-  `fin` DATETIME NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
 --
 -- Déchargement des données de la table `personne`
 --
@@ -90,7 +76,7 @@ CREATE TABLE `rendez-vous` (
 INSERT INTO `personne` (`id`, `nom_prenom_pers`, `date_naiss_pers`, `interet_pers`, `email_pers`, `mdp_pers`, `tel_pers`, `preferences_rencontre`, `ville`, `bio`, `domaine`, `nivEtudProf`, `id_role`) VALUES
 (8, 'Alaeddine ABDELKEFI', '20/02/1997', 'Sciences,Dev', 'alaeddine.abdelkafi@viacesi.fr', '123', '0628636730', 'Dans nos locaux,En visio,Un lieu public', 'vienne', 'Bonjour, moi c’est Alaeddine, je suis chef cuisto, j’aime le bon vin et les raclettes, tu connais !', 'Sciences,Dev', '', 'Etudiant'),
 (9, 'Toto TATA', '20/10/1990', 'Sciences,UX/UI,Dev', 'aladinabdelkafi02@gmail.com', '123', '0623583030', 'Dans nos locaux,En visio,Un lieu public', 'lyon', 'test from prof', 'Sciences,UX/UI,Dev', '10', 'Professionel'),
-(10, 'sabrine', '20/10/1996', 'Dev', 'sabrine@gmail.com', '123', '0632587469', 'Dans nos locaux,Un lieu public,En visio', 'lyon', 'blabla', 'Sciences,Dev', '', 'Etudiant'),
+(10, 'sabrine', '20/10/1996', 'Dev', 'sabrine@gmail.com', '123', '0632587469', 'J\'aime la natation, la littérature et la philosophie et faire du yoga', 'paris', 'J\'aime la natation, la littérature et la philosophie et faire du yoga', 'Sciences,Dev', '', 'Etudiant'),
 (11, 'mahdi', '20/02/1997', 'Droit,Commerce,Psycho', 'mahdi@gmail.com', '123', '0628636730', 'En visio,Un lieu public', 'vienne', 'test', 'Droit,Commerce,Psycho', '10', 'Professionel'),
 (12, 'Bastien', '20/01/2000', 'Sciences,Dev,UX/UI', 'bastien@gmail.com', '123', '0624587930', 'Dans nos locaux,En visio,Un lieu public', 'lyon', 'test', 'Sciences,Dev,UX/UI', '', 'Professionel'),
 (13, 'Bastien', '20/05/1995', 'Dev,UX/UI', 'bastien@gmail.com', '123', '0658796420', 'En visio,Un lieu public', 'rouen', 'Bonjour, moi c’est Bastien, je suis professionnelle du développement, j’aime la nature et les bonnes\n            bières à l’ancienne tu connais !', 'Dev,UX/UI', '', 'Professionel');

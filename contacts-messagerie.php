@@ -128,10 +128,16 @@
             <img class="divider" src="img/divider-12@2x.png" />
           </div>
           <div class="frame-3314">
-            <img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" />
+           
+            <a href="dashboard.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
+
+          <a href="contacts-messagerie.php">
             <div class="x5_-elements_-navigation-message-off"><img class="shape" src="img/shape-22@2x.png" /></div>
-            <img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" />
+          </a>
+          <a href="dashboard2.php"><img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" /></a>
+          <a href="profil4.php">
             <div class="user-filled"><img class="group-18" src="img/group-18-19@2x.png" /></div>
+          </a>
           </div>
           <div class="status-bar">
             <div class="time sfprotext-semi-bold-black-15px">

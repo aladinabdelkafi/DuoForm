@@ -17,6 +17,7 @@ $preferences_rencontre = "";
 $ville = "";
 $bio = "";
 $domaine = "";
+$image ="";
 $id_role = "";
 $action="";
 $nivEtudProf="";
@@ -66,7 +67,7 @@ if(isset($_REQUEST['action']))
 	$action=$_REQUEST['action'];
 	
 //creation de l'objet $id, $nom_pers, $prenom_pers,$adr_pers,$date_naiss_pers,$sex_pers,$interet_pers,$langue_pers, $email_pers, $mdp_pers, $tel_pers, $id_role
-$pers = new personne($id,$nom_prenom_pers,$date_naiss_pers,$interet_pers,$email_pers,$mdp_pers,$tel_pers,$preferences_rencontre,$ville,$domaine,$bio,$nivEtudProf,$id_role);
+$pers = new personne($id,$nom_prenom_pers,$date_naiss_pers,$interet_pers,$email_pers,$mdp_pers,$tel_pers,$preferences_rencontre,$ville,$domaine,$bio,$nivEtudProf,$image,$id_role);
 
 switch ($action) {
 	case "login1":

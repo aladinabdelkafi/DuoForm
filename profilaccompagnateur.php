@@ -1,7 +1,7 @@
 <?php
 
 include "models/personne.class.php";
-$personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "");
+$personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "","");
 $res_pers = $personne->detail($_REQUEST["pers"]);
 print_r($res_pers);
 exit();

@@ -19,7 +19,7 @@ if(!empty($_POST["searchterm"]))
                 <?php
                 while($name_val = mysqli_fetch_array($get_result,MYSQLI_ASSOC))
 				{
-                              $src = 'http://localhost:8012/sabrine/DuoForm/img/personnes/personne'.$name_val["id"].'.png';
+                              $src = 'http://localhost/DuoForm/img/personnes/personne'.$name_val["id"].'.png';
 
                               if (@getimagesize($src)) {
                                     $pic = 'personne'.$name_val["id"].'.png';

@@ -30,7 +30,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
         <div class="background"></div>
         <div class="mon-profil roboto-bold-black-30px"><span class="roboto-bold-black-30px">Mon profil</span></div>
 
-        <img class="avatars" src="img/avatars-17@2x.png" />
+        <img class="avatars" src="img/<?php echo ($_SESSION['personne']->image); ?>" />
         <p class="bonjour-moi-cest-o">
         <?php echo ($_SESSION['personne']->bio); ?>
         </p>

@@ -3,6 +3,7 @@ session_start();
 if(!isset($_SESSION['personne'])){
 	header("location:welcome-page.php");
 }
+include "models/personne.class.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,10 +52,12 @@ if(!isset($_SESSION['personne'])){
           }
           else{
           foreach ($res_meeting as $row) {
+            $personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "","");
+            $res_pers = $personne->detail($row->etudiant);
           ?>
             <div class="card">
               <div class="frame-3316">
-                <img class="avatars" src="img/avatars-7@2x.png" />
+                <img class="avatars" src="img/<?php echo ($res_pers->image); ?>" />
                 <div class="helath-chat-with-lidia roboto-medium-black-16px">
                   <span class="roboto-medium-black-16px"><?php echo ($row->sujet); ?></span>
                 </div>

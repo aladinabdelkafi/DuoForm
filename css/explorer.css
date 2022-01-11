@@ -1,8 +1,445 @@
+/* screen - explorer */
+
 .explorer {
-    align-items: flex-start;
-    background-color: var(--white);
-    display: flex;
-    min-width: 414px;
-    overflow-x: hidden;
-    z-index: 0;
-  }
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 896px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.explorer .overlap-group5 {
+  height: 108px;
+  margin-left: 3px;
+  position: relative;
+  width: 414px;
+}
+
+.explorer .overlap-group4 {
+  height: 108px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.explorer .rechercher-des-accompagnateurs {
+  left: 26px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 38px;
+}
+
+.explorer .status-bar {
+  align-items: center;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 414px;
+  padding: 15.2px 15.8px;
+  position: absolute;
+  top: 0;
+}
+
+.explorer .time {
+  align-self: flex-end;
+  letter-spacing: -0.3px;
+  min-height: 18px;
+  text-align: center;
+  width: 60px;
+}
+
+.explorer .cellular-connection {
+  height: 12px;
+  margin-left: 241px;
+  margin-top: 2.23px;
+  width: 19px;
+}
+
+.explorer .wifi {
+  height: 12px;
+  margin-left: 6px;
+  margin-top: 1.85px;
+  width: 17px;
+}
+
+.explorer .battery {
+  height: 13px;
+  margin-left: 6px;
+  margin-top: 2.23px;
+  width: 27px;
+}
+
+.explorer .love {
+  align-items: flex-start;
+  background-image: url(../img/heart-18@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 23px;
+  justify-content: flex-end;
+  left: 361px;
+  min-width: 25px;
+  padding: 2px 2.1px;
+  position: absolute;
+  top: 62px;
+}
+
+.explorer .oval {
+  height: 5px;
+  width: 4px;
+}
+
+.explorer .il-y-a-plus-de-3912 {
+  align-self: center;
+  letter-spacing: 0;
+  margin-right: 10px;
+  margin-top: 6px;
+  min-height: 18px;
+  min-width: 346px;
+}
+
+.explorer .search-box {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  margin-right: 3px;
+  margin-top: 23px;
+  min-width: 353px;
+}
+
+.explorer .overlap-group {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  border-radius: 5px;
+  display: flex;
+  height: 40px;
+  min-width: 293px;
+  padding: 9.1px 13px;
+}
+
+.explorer .rechercher {
+  letter-spacing: 0;
+  min-height: 21px;
+  width: 147px;
+}
+
+.explorer .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(../img/green-bg-2@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  margin-bottom: -2px;
+  margin-left: 20px;
+  min-width: 40px;
+  padding: 11.7px 13px;
+}
+
+.explorer .shape {
+  height: 13px;
+  width: 14px;
+}
+
+.explorer .x-filter {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 31px;
+  margin-top: 14px;
+  min-width: 156px;
+}
+
+.explorer .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 2.84px;
+  box-shadow: 0.86px 0.86px 3.45px #00000040;
+  display: flex;
+  height: 26px;
+  min-width: 156px;
+  padding: 6px 10.3px;
+}
+
+.explorer .x {
+  color: var(--oslo-gray-2);
+  font-family: var(--font-family-archivo);
+  font-size: 13.8px;
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 10px;
+  width: 9px;
+}
+
+.explorer .english-only {
+  color: var(--oslo-gray-2);
+  font-family: var(--font-family-roboto);
+  font-size: 12.1px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-left: 7px;
+  min-height: 14px;
+  width: 113px;
+}
+
+.explorer .overlap-group2 {
+  align-self: flex-end;
+  height: 187px;
+  margin-right: -98px;
+  margin-top: 25px;
+  position: relative;
+  width: 488px;
+}
+
+.explorer .les-accompagnateurs-les-mieux-nots {
+  left: 6px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 2px;
+}
+
+.explorer .card {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  left: 8px;
+  min-height: 148px;
+  padding: 20px 0;
+  position: absolute;
+  top: 38px;
+  width: 223px;
+}
+
+.explorer .frame-3316 {
+  align-items: center;
+  display: flex;
+  min-width: 185px;
+}
+
+.explorer .avatars {
+  height: 46px;
+  width: 46px;
+}
+
+.explorer .heart {
+  height: 17px;
+  margin-bottom: 13.45px;
+  margin-left: 43px;
+  width: 18px;
+}
+
+.explorer .frame-3317 {
+  align-items: flex-start;
+  display: flex;
+  height: 40px;
+  margin-top: 22px;
+  min-width: 185px;
+}
+
+.explorer .group-29 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 40px;
+  width: 99px;
+}
+
+.explorer .helath-chat-with-lidia {
+  letter-spacing: 0;
+  min-height: 19px;
+}
+
+.explorer .type-dactivit {
+  letter-spacing: 0;
+  margin-top: 5px;
+  min-height: 16px;
+}
+
+.explorer .x5_-elements_-navigation-star-on-default {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 29px;
+  min-width: 57px;
+}
+
+.explorer .text {
+  letter-spacing: 0;
+  margin-top: 2px;
+  min-height: 14px;
+  min-width: 24px;
+}
+
+.explorer .path {
+  height: 18px;
+  margin-left: 8px;
+  width: 19px;
+}
+
+.explorer .card-1 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #372ad126;
+  display: flex;
+  flex-direction: column;
+  left: 246px;
+  min-height: 148px;
+  padding: 20px 0;
+  position: absolute;
+  top: 38px;
+  width: 242px;
+}
+
+.explorer .frame-3316-1 {
+  align-items: center;
+  display: flex;
+  min-width: 204px;
+}
+
+.explorer .heart-1 {
+  height: 17px;
+  margin-bottom: 13.45px;
+  margin-left: 52px;
+  width: 18px;
+}
+
+.explorer .frame-3317-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 40px;
+  margin-top: 22px;
+  min-width: 204px;
+}
+
+.explorer .x5_-elements_-navigation-star-on-default-1 {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 48px;
+  min-width: 57px;
+}
+
+.explorer .card-2 {
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 355px;
+}
+
+.explorer .card-3 {
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 51px;
+  width: 355px;
+}
+
+.explorer .card-4 {
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 102px;
+  width: 355px;
+}
+
+.explorer .vos-recommandations {
+  letter-spacing: 0;
+  margin-left: 29px;
+  margin-top: 24px;
+  min-height: 19px;
+}
+
+.explorer .overlap-group3 {
+  height: 60px;
+  margin-top: 346px;
+  position: relative;
+  width: 414px;
+}
+
+.explorer .frame-3314 {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 414px;
+  padding: 0 25px;
+  position: absolute;
+  top: 0;
+}
+
+.explorer .x5_-elements_-navigation-home-on {
+  height: 60px;
+  width: 60px;
+}
+
+.explorer .overlap-group-2 {
+  align-items: flex-start;
+  background-color: var(--black-3);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-bottom: -3px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 17px 18.8px;
+}
+
+.explorer .subtract {
+  height: 19px;
+  width: 19px;
+}
+
+.explorer .x5_-elements_-navigation-message-off {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 19px;
+  min-width: 60px;
+  padding: 20px;
+}
+
+.explorer .shape-1 {
+  height: 19px;
+  width: 19px;
+}
+
+.explorer .x5_-elements_-navigation-bell-off {
+  height: 60px;
+  margin-left: 15px;
+  width: 60px;
+}
+
+.explorer .user-filled {
+  align-items: flex-end;
+  background-color: var(--desert-storm);
+  display: flex;
+  height: 60px;
+  margin-left: 15px;
+  min-width: 60px;
+  padding: 21px 21px;
+}
+
+.explorer .group-18 {
+  height: 18px;
+  width: 18px;
+}
+
+.explorer .home-indicators {
+  background-image: url(../img/home-indicators-41@2x.png);
+  background-size: 100% 100%;
+  height: 19px;
+  left: 19px;
+  position: absolute;
+  top: 38px;
+  width: 375px;
+}

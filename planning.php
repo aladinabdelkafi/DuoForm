@@ -55,12 +55,12 @@ if (!isset($_SESSION['personne'])) {
         } else {
           include "models/personne.class.php";
           foreach ($res_meeting as $row) {
-            $personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "");
+            $personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "","");
             $res_personne = $personne->detail($row->accompagnateur);
           ?>
             <div class="flex-col">
               <div class="flex-row">
-                <img class="avatars" src="img/avatars-9@2x.png" />
+                <img class="avatars" src="img/<?php echo ($res_personne->image); ?>" />
                 <div class="flex-col-1">
                   <div class="philomena-tiret roboto-medium-black-14px">
                     <span class="roboto-medium-black-14px"><?php echo ($res_personne->nom_prenom_pers); ?></span>
@@ -318,7 +318,7 @@ if (!isset($_SESSION['personne'])) {
       </div>
 
       <div class="frame-3314">
-        <a href="home.php">
+        <a href="index.php">
           <img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
         <a href="explorer.php">
           <div class="x5_-elements_-navigation-message-off"><img class="subtract" src="img/subtract-11@2x.png" /></div>

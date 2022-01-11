@@ -29,6 +29,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
 
       <div class="flex-row">
         <div class="flex-col">
+        
           <div class="mon-profil roboto-bold-black-30px"><span class="roboto-bold-black-30px">Mon profil</span></div>
           <div class="bastien-boisjot roboto-medium-black-20-1px">
             <span class="roboto-medium-black-20-1px"><?php echo ($_SESSION['personne']->nom_prenom_pers); ?></span>
@@ -65,6 +66,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
 
         </div>
         <img class="unsplashey-fbj-k-wl-r2g" src="img/<?php echo ($_SESSION['personne']->image); ?>" />
+        
       </div>
       <p class="bonjour-moi-cest-p">
         <?php echo ($_SESSION['personne']->bio); ?>
@@ -75,6 +77,15 @@ $array = explode(',', $_SESSION['personne']->domaine);
         </div>
         <img class="iconmonstr-share-10-1" src="img/iconmonstr-share-10-1-1@2x.png" />
       </div>
+
+      <a href="controllers/personne.controller.php?action=logout">
+      <div class="flex-row-3">
+        
+          <span class="roboto-bold-governor-bay-13px">Déconnexion</span>
+        
+        <img class="iconmonstr-share-10-1" src="img/iconmonstr-share-10-1-1@2x.png" />
+      </div>
+      </a>
 
       <div class="prochaines-runions roboto-medium-black-16px">
         <div style="margin-bottom: -12px;">Expériences</div>

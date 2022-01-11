@@ -195,7 +195,7 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
         Launch demo modal
       </button>
 
-      <div  class="modal fade  come-from-modal right" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="height:100%; width: 80%; margin-left: 7%;">
+      <div onclick="var elts = document.getElementById('btnModal'); elts.style.display='none';"  class="modal fade  come-from-modal right" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="height:100%; width: 80%; margin-left: 7%;">
         <div class="modal-dialog" role="document" style="height:100%">
           <div class="modal-content" style="background: #372ad1;height: 100%">
 
@@ -238,3 +238,10 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
 </body>
 
 </html>
+
+<script>		
+		var elts = document.getElementById("btnModal");
+
+		elts.style.display="none";
+		
+	</script>

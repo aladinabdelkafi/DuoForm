@@ -178,7 +178,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
         </div>
       </div>
 
-
+      <div class="overlap-group3">
       <div class="frame-3314">
         <a href="index.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
         <a href="explorer.php">
@@ -192,7 +192,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
           <div class="user-filled"><img class="group-17" src="img/group-17-1@2x.png" /></div>
         </a>
       </div>
-
+      </div>
     </div>
   </div>
 </body>

@@ -6,7 +6,7 @@ require_once("../includes/config.php");
 if(!empty($_POST["searchterm"])) 
 {
     // the query responsible for fetch matched data
-    $sql_query ="SELECT * FROM personne WHERE nom_prenom_pers like '%" . $_POST["searchterm"] . "%' or ville like '%" . $_POST["searchterm"] . "%' or  domaine like '%" . $_POST["searchterm"] . "%' ORDER BY nom_prenom_pers";
+    $sql_query ="SELECT * FROM personne WHERE id_role like 'Professionel' and nom_prenom_pers like '%" . $_POST["searchterm"] . "%' or ville like '%" . $_POST["searchterm"] . "%' or  domaine like '%" . $_POST["searchterm"] . "%' ORDER BY nom_prenom_pers";
 
     $get_result = mysqli_query($con,$sql_query);
  

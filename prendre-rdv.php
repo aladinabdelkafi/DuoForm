@@ -128,8 +128,8 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
       <div class="flex-col">
         <div class="flex-row-1">
 
-          <img class="avatars" src="img/personnes/personne<?php echo ($res_pers->id); ?>XL.png" />
-          <!--<img class="avatars" src="img/<?php echo ($res_pers->image); ?>" />-->
+          
+          <img class="avatars" src="img/<?php echo ($res_pers->image); ?>" />
           <div class="flex-col-1">
             <div class="philomena-tiret roboto-medium-black-20-1px">
               <span class="roboto-medium-black-20-1px"><?php echo ($res_pers->nom_prenom_pers); ?></span>
@@ -169,13 +169,18 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
       
       <div class="overlap-group3">
         <div class="frame-3314">
-          <img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" />
-          <div class="overlap-group-1"><img class="subtract" src="img/subtract-10@2x.png" /></div>
-          <div class="x5_-elements_-navigation-message-off"><img class="shape" src="img/shape-18@2x.png" /></div>
-          <img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" />
-          <div class="user-filled"><img class="group-18" src="img/group-18-19@2x.png" /></div>
+          <a href="index.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
+          <a href="explorer.php">
+            <div class="overlap-group-1"><img class="subtract" src="img/subtract-10@2x.png" /></div>
+          </a>
+          <a href="messagerie.php">
+            <div class="x5_-elements_-navigation-message-off"><img class="shape" src="img/shape-18@2x.png" /></div>
+          </a>
+          <a href="planning.php"><img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" /></a>
+          <a href="profil.php">
+            <div class="x5_-elements_-navigation-message-off"><img class="group-18" src="img/group-18-19@2x.png" /></div>
+          </a>
         </div>
-        <div class="home-indicators"></div>
       </div>
     </div>
     

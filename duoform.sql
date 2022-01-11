@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : lun. 27 déc. 2021 à 22:57
+-- Généré le : mar. 11 jan. 2022 à 02:28
 -- Version du serveur : 10.4.21-MariaDB
 -- Version de PHP : 8.0.11
 
@@ -41,11 +41,11 @@ CREATE TABLE `meeting` (
 --
 
 INSERT INTO `meeting` (`id`, `sujet`, `date`, `lieu`, `etudiant`, `accompagnateur`) VALUES
-(1, 'PHP programming', '2021-12-27 08:38:26', '86 Rue Pasteur, 69007 Lyon', '8', '11'),
-(2, 'Design thinking', '2021-12-26 08:38:26', 'VisioConférance', '10', '11'),
-(3, 'aaaaa', '2021-12-15 08:38:26', 'ici', '2', '19'),
-(4, 'ccccc', '2021-12-30 08:38:26', 'ici', '10', '13'),
-(5, 'UX', '2021-12-28 10:00:00', 'lyon', '10', '11');
+(1, 'PHP programming', '2022-02-03 10:00:00', '86 Rue Pasteur, 69007 Lyon', '8', '11'),
+(2, 'Design thinking', '2022-01-16 14:30:00', 'VisioConférance', '10', '11'),
+(3, 'aaaaa', '2022-01-15 10:30:00', 'ici', '2', '19'),
+(4, 'UX/UI', '2022-01-30 08:00:00', 'VisioConférance', '10', '13'),
+(5, 'UX/UI', '2022-02-01 10:00:00', 'lyon', '15', '13');
 
 -- --------------------------------------------------------
 
@@ -66,6 +66,7 @@ CREATE TABLE `personne` (
   `bio` varchar(255) NOT NULL,
   `domaine` varchar(255) NOT NULL,
   `nivEtudProf` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL,
   `id_role` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -73,13 +74,14 @@ CREATE TABLE `personne` (
 -- Déchargement des données de la table `personne`
 --
 
-INSERT INTO `personne` (`id`, `nom_prenom_pers`, `date_naiss_pers`, `interet_pers`, `email_pers`, `mdp_pers`, `tel_pers`, `preferences_rencontre`, `ville`, `bio`, `domaine`, `nivEtudProf`, `id_role`) VALUES
-(8, 'Alaeddine ABDELKEFI', '20/02/1997', 'Sciences,Dev', 'alaeddine.abdelkafi@viacesi.fr', '123', '0628636730', 'Dans nos locaux,En visio,Un lieu public', 'vienne', 'Bonjour, moi c’est Alaeddine, je suis chef cuisto, j’aime le bon vin et les raclettes, tu connais !', 'Sciences,Dev', '', 'Etudiant'),
-(9, 'Toto TATA', '20/10/1990', 'Sciences,UX/UI,Dev', 'aladinabdelkafi02@gmail.com', '123', '0623583030', 'Dans nos locaux,En visio,Un lieu public', 'lyon', 'test from prof', 'Sciences,UX/UI,Dev', '10', 'Professionel'),
-(10, 'sabrine', '20/10/1996', 'Dev', 'sabrine@gmail.com', '123', '0632587469', 'Dans nos locaux,Un lieu public,En visio', 'lyon', 'blabla', 'Sciences,Dev', '', 'Etudiant'),
-(11, 'mahdi', '20/02/1997', 'Droit,Commerce,Psycho', 'mahdi@gmail.com', '123', '0628636730', 'En visio,Un lieu public', 'vienne', 'test', 'Droit,Commerce,Psycho', '10', 'Professionel'),
-(12, 'Bastien', '20/01/2000', 'Sciences,Dev,UX/UI', 'bastien@gmail.com', '123', '0624587930', 'Dans nos locaux,En visio,Un lieu public', 'lyon', 'test', 'Sciences,Dev,UX/UI', '', 'Professionel'),
-(13, 'Bastien', '20/05/1995', 'Dev,UX/UI', 'bastien@gmail.com', '123', '0658796420', 'En visio,Un lieu public', 'rouen', 'Bonjour, moi c’est Bastien, je suis professionnelle du développement, j’aime la nature et les bonnes\n            bières à l’ancienne tu connais !', 'Dev,UX/UI', '', 'Professionel');
+INSERT INTO `personne` (`id`, `nom_prenom_pers`, `date_naiss_pers`, `interet_pers`, `email_pers`, `mdp_pers`, `tel_pers`, `preferences_rencontre`, `ville`, `bio`, `domaine`, `nivEtudProf`, `image`, `id_role`) VALUES
+(8, 'Alaeddine ABDELKEFI', '20/02/1997', 'Sciences,Dev', 'alaeddine.abdelkafi@viacesi.fr', '123', '0628636730', 'Dans nos locaux,En visio,Un lieu public', 'vienne', 'Bonjour, moi c’est Alaeddine, je suis chef cuisto, j’aime le bon vin et les raclettes, tu connais !', 'Sciences,Dev', '', 'avatars-3@2x.png', 'Etudiant'),
+(9, 'Eric Hochet', '20/10/1990', 'Sciences,UX/UI,Dev', 'aladinabdelkafi02@gmail.com', '123', '0623583030', 'Dans nos locaux,En visio,Un lieu public', 'lyon', 'Bonjour, moi c’est Eric, je suis professionnelle de la photographie, j’aime la nature et les bonnes bières à l’ancienne tu connais !', 'Sciences,UX/UI,Dev', '10', 'avatars-1@2x.png', 'Professionel'),
+(10, 'sabrine', '20/10/1996', 'Dev', 'sabrine@gmail.com', '123', '0632587469', 'Dans nos locaux,Un lieu public,En visio', 'lyon', 'Bonjour c\'est le bio de Sabrine', 'Sciences,Dev', '', 'avatars-4@2x.png', 'Etudiant'),
+(11, 'Mahdi chaabouni', '20/02/1997', 'Droit,Commerce,Psycho', 'mahdi@gmail.com', '123', '0628636730', 'En visio,Un lieu public', 'vienne', 'Bonjour, moi c’est Mahdi, je suis professionnelle du développement, j’aime la nature et les bonnes bières à l’ancienne tu connais !', 'Droit,Commerce,Psycho', '10', 'avatars-7@2x.png', 'Professionel'),
+(13, 'Bastien boisjot', '20/05/1995', 'Dev,UX/UI', 'bastien@gmail.com', '123', '0658796420', 'En visio,Un lieu public', 'rouen', 'Bonjour, moi c’est Bastien, je suis professionnelle du développement, j’aime la nature et les bonnes\n            bières à l’ancienne tu connais !', 'Dev,UX/UI', '', 'avatars-1@1x.png', 'Professionel'),
+(14, 'gabriel zucman', '03/12/1990', 'UX/UI,Dev,Autre', 'gabriel@gmail.com', '123', '0630286450', 'En visio,Un lieu public', 'lyon', 'mon bio', 'UX/UI,Dev,Autre', '10', 'avatars-6@2x.png', 'Professionel'),
+(15, 'Rayan Ali', '8/08/2000', 'UX/UI', 'rayan@gmail.com', '123', '0628636820', 'Dans nos locaux,En visio,Un lieu public', 'lyon', 'Bonjour c\'est le bio de rayan', 'UX/UI', '', 'avatars-2@2x.png', 'Etudiant');
 
 -- --------------------------------------------------------
 
@@ -136,7 +138,7 @@ ALTER TABLE `meeting`
 -- AUTO_INCREMENT pour la table `personne`
 --
 ALTER TABLE `personne`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT pour la table `role`

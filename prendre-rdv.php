@@ -127,7 +127,9 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
       </div>
       <div class="flex-col">
         <div class="flex-row-1">
+
           <img class="avatars" src="img/personnes/personne<?php echo ($res_pers->id); ?>XL.png" />
+          <!--<img class="avatars" src="img/<?php echo ($res_pers->image); ?>" />-->
           <div class="flex-col-1">
             <div class="philomena-tiret roboto-medium-black-20-1px">
               <span class="roboto-medium-black-20-1px"><?php echo ($res_pers->nom_prenom_pers); ?></span>

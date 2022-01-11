@@ -61,6 +61,12 @@ $array = explode(',', $_SESSION['personne']->domaine);
         <div class="modifier-mon-profil roboto-bold-brilliant-rose-13px">
           <span class="roboto-bold-brilliant-rose-13px">Modifier mon profil</span>
         </div>
+        
+<a href="controllers/personne.controller.php?action=logout" style="margin-top: 10px;">
+        <div class="modifier-mon-profil roboto-bold-brilliant-rose-13px" style="margin-top: 20px;">
+          <span class="roboto-bold-brilliant-rose-13px">Déconnexion</span>
+        </div>
+        </a>
         <div class="prochaines-runions roboto-medium-black-16px">
         <div style="margin-bottom: -12px;">Expériences</div>
         <img class="heartt" id="myImageId0" src="img/Vector1.png">

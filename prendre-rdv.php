@@ -62,6 +62,7 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
               continue;
             }
             $target.find('.active-dates').append('<span class="label label-default">' + date + '</span>');
+
           }
         }
       });
@@ -162,7 +163,7 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
             <?php echo ($res_pers->bio); ?>
           </p>
           <div class="les-disponibilits-de-philomena roboto-bold-eerie-black-12px">
-            <span class="roboto-bold-eerie-black-12px">Les disponibilités de Philomena</span>
+            <span class="roboto-bold-eerie-black-12px">Les disponibilités de <?php echo ($res_pers->nom_prenom_pers); ?></span>
           </div>
           <div class="rectangle-2612"></div>
           <div class="choisissez-un-jour-dinscription roboto-normal-oslo-gray-11px">
@@ -195,14 +196,14 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
         Launch demo modal
       </button>
 
-      <div onclick="var elts = document.getElementById('btnModal'); elts.style.display='none';"  class="modal fade  come-from-modal right" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="height:100%; width: 80%; margin-left: 7%;">
+      <div onclick="location.reload();" class="modal fade  come-from-modal right" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="height:100%; width: 80%; margin-left: 7%;">
         <div class="modal-dialog" role="document" style="height:100%">
           <div class="modal-content" style="background: #372ad1;height: 100%">
 
             <div class="modal-body">
               <div id="step1">
-                  <img src="img/check.png" alt="">
-                  <div style="color: #FFF; text-align: center; font-weight: bolder;">
+                <img src="img/check.png" alt="">
+                <div style="color: #FFF; text-align: center; font-weight: bolder;">
                   <h2>Demande Envoyée</h2>
                   <p><?php echo ($res_pers->nom_prenom_pers); ?> vous répondera dès que possible</p>
                 </div>
@@ -239,9 +240,8 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
 
 </html>
 
-<script>		
-		var elts = document.getElementById("btnModal");
+<script>
+  var elts = document.getElementById("btnModal");
 
-		elts.style.display="none";
-		
-	</script>
+  elts.style.display = "none";
+</script>

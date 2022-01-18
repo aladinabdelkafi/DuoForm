@@ -38,7 +38,7 @@ class meeting
 		$pdo=$n->CNXbase();
 		$res = $pdo->prepare("insert into meeting (sujet,date,lieu,etudiant,accompagnateur) values(?,?,?,?,?)");
 		$res->execute([$this->sujet,$this->date,$this->lieu,$this->etudiant,$this->accompagnateur]);
-		echo "<script>window.location.href='../dashboard.php';</script>";
+		echo "<script>window.location.href='../index.php';</script>";
 		
 	}
 

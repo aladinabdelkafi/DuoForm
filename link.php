@@ -54,6 +54,6 @@
 </html>
 <script type="text/javascript">
     document.getElementById("conncx").onclick = function () {
-        location.href = "conncx.php";
+        location.href = "welcome-page.php";
     };
 </script>

@@ -29,6 +29,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
 
       <div class="flex-row">
         <div class="flex-col">
+        
           <div class="mon-profil roboto-bold-black-30px"><span class="roboto-bold-black-30px">Mon profil</span></div>
           <div class="bastien-boisjot roboto-medium-black-20-1px">
             <span class="roboto-medium-black-20-1px"><?php echo ($_SESSION['personne']->nom_prenom_pers); ?></span>
@@ -65,6 +66,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
 
         </div>
         <img class="unsplashey-fbj-k-wl-r2g" src="img/<?php echo ($_SESSION['personne']->image); ?>" />
+        
       </div>
       <p class="bonjour-moi-cest-p">
         <?php echo ($_SESSION['personne']->bio); ?>
@@ -75,6 +77,24 @@ $array = explode(',', $_SESSION['personne']->domaine);
         </div>
         <img class="iconmonstr-share-10-1" src="img/iconmonstr-share-10-1-1@2x.png" />
       </div>
+
+      <div class="flex-row-3">
+        <div class="modifier-mon-profil roboto-bold-governor-bay-13px">
+          <a href="medailles.php">
+          <span class="roboto-bold-governor-bay-13px">Mes médailles</span>
+</a>
+        </div>
+        <img class="iconmonstr-share-10-1" src="img/iconmonstr-share-10-1-1@2x.png" />
+      </div>
+
+      <a href="controllers/personne.controller.php?action=logout">
+      <div class="flex-row-3">
+        
+          <span class="roboto-bold-governor-bay-13px">Déconnexion</span>
+        
+        <img class="iconmonstr-share-10-1" src="img/iconmonstr-share-10-1-1@2x.png" />
+      </div>
+      </a>
 
       <div class="prochaines-runions roboto-medium-black-16px">
         <div style="margin-bottom: -12px;">Expériences</div>
@@ -178,7 +198,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
         </div>
       </div>
 
-
+      <div class="overlap-group3">
       <div class="frame-3314">
         <a href="index.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
         <a href="explorer.php">
@@ -192,7 +212,7 @@ $array = explode(',', $_SESSION['personne']->domaine);
           <div class="user-filled"><img class="group-17" src="img/group-17-1@2x.png" /></div>
         </a>
       </div>
-
+      </div>
     </div>
   </div>
 </body>

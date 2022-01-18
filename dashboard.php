@@ -1,105 +1,178 @@
 <?php
 session_start();
-if (!isset($_SESSION['personne'])) {
-  header("location:welcome-page.php");
+if(!isset($_SESSION['personne'])){
+	header("location:welcome-page.php");
 }
 include "models/personne.class.php";
 ?>
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css" />
+    <link rel="stylesheet" type="text/css" href="css/explorer.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <style>
+      .explorer .overlap-group1 {
+        background-image: url(img/green-bg-1@2x.png) !important;
+      }
+      .btnSearch {
+        background-color: #ef5da8 !important;
+        border-radius:30px !important;
+        border: 0 !important;
+      }
+      .modal-content {
+        background-color: #f7f6fd;
+      }
+      .come-from-modal.left .modal-dialog, .come-from-modal.right .modal-dialog {
+        width: 100%;
+      }
+      #suggestions {
+        margin: 10px 30px;
+      }
+      .come-from-modal.left .modal-dialog,
+.come-from-modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
-  <meta name="og:type" content="website" />
-  <meta name="twitter:card" content="photo" />
-  <link rel="stylesheet" type="text/css" href="css/dashboard.css" />
-  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
-  <link rel="stylesheet" type="text/css" href="css/globals.css" />
-</head>
+.come-from-modal.left .modal-content,
+.come-from-modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+    border-radius: 0px;
+}
 
-<body style="margin: 0; background: #ffffff">
-  <input type="hidden" id="anPageName" name="page" value="dashboard" />
-  <div class="container-center-horizontal">
-    <div class="dashboard screen">
-      <div class="overlap-group1">
-        <div class="background"></div>
-        <div class="vos-prcdents-tudiants roboto-medium-black-16px">
-          <span class="roboto-medium-black-16px">Vos précédents étudiants</span>
-        </div>
+.come-from-modal.left .modal-body,
+.come-from-modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+.come-from-modal.right.fade .modal-dialog {
+    right: -520px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.come-from-modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+.searchInput {
+  border: 0;
+  align-items: flex-end;
+    background-color: var(--desert-storm);
+    border-radius: 5px;
+    display: flex;
+    height: 40px;
+    min-width: 293px;
+    padding: 9.1px 13px;
+}
 
 
-        <div class="prochaines-runions roboto-medium-black-16px">
-          <div style="margin-bottom: -12px;">Prochaines rencontres</div>
-          <img class="heart" id="myImageId2" src="img/Vector1.png">
-        </div>
-        <div class="frame-3322" style="display: block; overflow:scroll;">
-          <?php
-          include "models/meeting.class.php";
-          $meeting = new meeting("", "", "", "", "", "");
-          $res_meeting = $meeting->listeNexMeeingPro($_SESSION['personne']->id);
-          if (empty($res_meeting)) {
-          ?>
-            <div class="card-4">
-              <div class="frame-3317">
-                <div class="group-29-1">
-                  <div class="type-dactivit roboto-medium-oslo-gray-14px">
-                    <span class="roboto-medium-oslo-gray-14px">Vous n'avez pas encore de rendez-vous </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <?php
-          } else {
-            foreach ($res_meeting as $row) {
-              $personne = new personne("", "", "", "", "", "", "", "", "", "", "", "", "", "");
-              $res_pers = $personne->detail($row->etudiant);
-            ?>
-              <div class="card">
-                <div class="frame-3316">
-                  <img class="avatars" src="img/<?php echo ($res_pers->image); ?>" />
-                  <div class="helath-chat-with-lidia roboto-medium-black-16px">
-                    <span class="roboto-medium-black-16px"><?php echo ($row->sujet); ?></span>
-                  </div>
-                  <div class="type-dactivit roboto-medium-oslo-gray-14px">
-                    <span class="roboto-medium-oslo-gray-14px"><?php echo ($row->date); ?></span>
-                  </div>
-                </div>
+.input {
+  border: 0;
+    align-items: flex-end;
+    background-color: #FFF;
+    border-radius: 5px;
+    display: flex;
+    border-radius: 10px;
+    height: 60px;
+    min-width: 353px;
+    margin: 10px 0px;
+    padding: 9.1px 13px;
+}
+      </style>
+  
+  </head>
+  <body style="margin: 0; background: #ffffff">
+  
 
-              </div>
-          <?php }
-          } ?>
-        </div>
-
-        <p class="cest-un-beau-jour-p roboto-normal-gunsmoke-15px-2">
-          <span class="roboto-normal-gunsmoke-15px-2">C’est un beau jour pour donner envie d’apprendre !</span>
-        </p>
         <div class="bonjour-olivier roboto-bold-black-30px">
           <span class="roboto-bold-black-30px">Bonjour, <?php echo ($_SESSION['personne']->nom_prenom_pers); ?></span>
         </div>
+    <input type="hidden" id="anPageName" name="page" value="explorer" />
+    <div class="container-center-horizontal">
 
 
-
-        <div class="frame-3314">
-          <a href="dashboard.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-9@2x.png" /></a>
-
-          <a href="contacts-messagerie.php">
-            <div class="x5_-elements_-navigation-message-off"><img class="shape" src="img/shape-18@2x.png" /></div>
-          </a>
-          <a href="dashboard2.php"><img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" /></a>
-          <a href="profil4.php">
-            <div class="user-filled"><img class="group-18" src="img/group-18-19@2x.png" /></div>
-          </a>
+      <div class="explorer screen">
+        <div class="overlap-group5">
+          <div class="overlap-group4">
+            <div class="rechercher-des-accompagnateurs roboto-bold-black-30px">
+              <span class="roboto-bold-black-30px" style="font-size:20px">Rechercher des étudiants</span>
+            </div>
+          
+          </div>
+          <div class="love"><img class="oval" src="img/oval-3@2x.png" /></div>
         </div>
-
-
-        <div class="frame-58">
-          <div class="card-4">
-            <img class="avatars" src="img/avatars-5@2x.png" />
+        <p class="il-y-a-plus-de-3912 roboto-normal-gunsmoke-15px">
+          <span class="roboto-normal-gunsmoke-15px">Il y a plus de 54 étudiants sur Duo Form !</span>
+        </p>
+        <div class="search-box">
+          
+          <input class="searchInput" id="search"  type="text" placeholder="Rechercher" />
+          <div class="overlap-group1" data-toggle="modal" data-target="#myModal"><img class="shape" src="img/shape-15@2x.png" /></div>
+        </div>
+        <div id="suggestions" style="width: 300px">
+		
+	</div>
+  
+        <div class="x-filter">
+          <div class="overlap-group-1">
+            <div class="x"><span>X</span></div>
+            <div class="english-only"><span>Français uniquement</span></div>
+          </div>
+        </div>
+        <div class="overlap-group2">
+          <p class="les-accompagnateurs-les-mieux-nots roboto-medium-black-16px">
+            <span class="roboto-medium-black-16px">Les accompagnateurs les mieux notés</span>
+          </p>
+          <div class="card">
+            <div class="frame-3316">
+              <img class="avatars" src="img/avatars-19@2x.png" />
+              <img class="heart" src="img/group-18-12@2x.png" />
+            </div>
             <div class="frame-3317">
-              <div class="helath-chat-with-lidia-1 roboto-medium-black-16px">
-                <span class="roboto-medium-black-16px">Philomena Tiret</span>
+              <div class="group-29">
+                <div class="helath-chat-with-lidia roboto-medium-black-16px">
+                  <span class="roboto-medium-black-16px">Prénom Nom</span>
+                </div>
+                <div class="type-dactivit roboto-medium-oslo-gray-14px">
+                  <span class="roboto-medium-oslo-gray-14px">Type d’activité</span>
+                </div>
+              </div>
+              <div class="x5_-elements_-navigation-star-on-default">
+                <div class="text roboto-medium-mid-gray-12px">
+                  <span class="roboto-medium-mid-gray-12px">4.95</span>
+                </div>
+                <img class="path" src="img/path-9@2x.png" />
+              </div>
+            </div>
+          </div>
+          <div class="card-1">
+            <div class="frame-3316-1">
+              <img class="avatars" src="img/avatars-19@2x.png" />
+              <img class="heart-1" src="img/group-18-12@2x.png" />
+            </div>
+            <div class="frame-3317-1">
+              <div class="group-29">
+                <div class="helath-chat-with-lidia roboto-medium-black-16px">
+                  <span class="roboto-medium-black-16px">Prénom Nom</span>
+                </div>
+                <div class="type-dactivit roboto-medium-oslo-gray-14px">
+                  <span class="roboto-medium-oslo-gray-14px">Type d’activité</span>
+                </div>
               </div>
               <div class="x5_-elements_-navigation-star-on-default-1">
                 <div class="text roboto-medium-mid-gray-12px">
@@ -109,67 +182,95 @@ include "models/personne.class.php";
               </div>
             </div>
           </div>
-          <div class="card">
-            <img class="avatars" src="img/avatars-7@2x.png" />
-            <div class="frame-3317">
-              <div class="helath-chat-with-lidia roboto-medium-black-16px">
-                <span class="roboto-medium-black-16px">Joris Delacroix</span>
-              </div>
-              <div class="x5_-elements_-navigation-star-on-default">
-                <div class="text roboto-medium-mid-gray-12px">
-                  <span class="roboto-medium-mid-gray-12px">4.95</span>
-                </div>
-                <img class="path" src="img/path-9@2x.png" />
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <img class="avatars" src="img/avatars-7@2x.png" />
-            <div class="frame-3317">
-              <div class="helath-chat-with-lidia roboto-medium-black-16px">
-                <span class="roboto-medium-black-16px">Joris Delacroix</span>
-              </div>
-              <div class="x5_-elements_-navigation-star-on-default">
-                <div class="text roboto-medium-mid-gray-12px">
-                  <span class="roboto-medium-mid-gray-12px">4.95</span>
-                </div>
-                <img class="path" src="img/path-9@2x.png" />
-              </div>
-            </div>
-          </div>
+  
         </div>
-        <div class="home-indicators"></div>
-        <div class="search-box">
-          <div class="overlap-group">
-            <div class="rechercher roboto-normal-oslo-gray-15px-2">
-              <span class="roboto-normal-oslo-gray-15px-2">Rechercher...</span>
-            </div>
-          </div>
-          <div class="search-filter"><img class="shape-1" src="img/shape-15@2x.png" /></div>
+        <div class="vos-recommandations roboto-medium-black-16px">
+          <span class="roboto-medium-black-16px">Vos recommandations</span>
+        </div>
+        <div class="overlap-group3">
+          <div class="frame-3314">
+          <a href="index.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
+          <a href="explorer.php">
+            <div class="overlap-group-2"><img class="subtract" src="img/subtract-10@2x.png" /></div>
+          </a>
+          <a href="messagerie.php">
+            <div class="x5_-elements_-navigation-message-off"><img class="shape" src="img/shape-18@2x.png" /></div>
+          </a>
+          <a href="planning.php"><img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" /></a>
+          <a href="profil.php">
+            <div class="user-filled"><img class="group-18" src="img/group-18-19@2x.png" /></div>
+          </a>
+        </div>
+
+
         </div>
       </div>
     </div>
-  </div>
-</body>
 
-</html>
+
+
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+
+<div class="modal fade  come-from-modal right" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Filtres</h4>
+            </div>
+            <div class="modal-body">
+            <input class="input" id="input1"  type="text" placeholder="Type d'accompagnement" />
+            <input class="input" id="input1"  type="text" placeholder="Sur place, en visio" />
+
+            <input class="input" id="input1"  type="text" placeholder="Autour de moi" />
+
+            <input class="input" id="input1"  type="text" placeholder="Lundi 10 Janvier" />
+            <input class="input" id="input1"  type="text" placeholder="Mercredi 12 Janvier" />
+
+            <select class="input" id="input1">
+              <option>Domaine d'activité</option>
+</select>
+
+
+            </div>
+            <div class="modal-footer">
+                <a data-dismiss="modal">Réinitialiser</a>
+                <button  type="button" class="btn btn-primary btnSearch">Rechercher</button>
+            </div>
+        </div>
+    </div>
+</div> 
 <script>
-  var acc = document.getElementsByClassName("prochaines-runions");
-  var i;
-
-  for (i = 0; i < acc.length; i++) {
-
-    acc[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-        document.getElementById(this.lastElementChild.id).src = "img/Vector1.png";
-      } else {
-        panel.style.display = "block";
-        document.getElementById(this.lastElementChild.id).src = "img/Vector2.png";
-      }
+$(document).ready(function(){
+    // when any character press on the input field keyup function call
+    $("#search").keyup(function(){
+        $.ajax({
+        type: "POST", // here used post method
+        url: "api/fetchPersonnes.php?role=Etudiant",//php file where retrive the post value and fetch all the matched item from database
+        data:'searchterm='+$(this).val(),//send data or search term to readname file to process
+        beforeSend: function(){
+            // show loader icon
+            $("#searchword").css("background","#FFF url(LoaderIcon.gif) no-repeat 175px");
+        },
+        success: function(data){
+            // get the output from database on success
+            $("#suggestions").show();//show the suggestions
+            $("#suggestions").html(data);//append data in the box for selection
+            $("#searchword").css("background","#FFF");
+        }
+        });
     });
-  }
+});
+// call this function after select one of these suggestion for hide the suggestion box and select the value
+function selectname(selected_value) {
+	$("#searchword").val(selected_value);
+	$("#suggestions").hide();
+}
 </script>
+
+  </body>
+</html>

@@ -78,6 +78,15 @@ $array = explode(',', $_SESSION['personne']->domaine);
         <img class="iconmonstr-share-10-1" src="img/iconmonstr-share-10-1-1@2x.png" />
       </div>
 
+      <div class="flex-row-3">
+        <div class="modifier-mon-profil roboto-bold-governor-bay-13px">
+          <a href="medailles.php">
+          <span class="roboto-bold-governor-bay-13px">Mes médailles</span>
+</a>
+        </div>
+        <img class="iconmonstr-share-10-1" src="img/iconmonstr-share-10-1-1@2x.png" />
+      </div>
+
       <a href="controllers/personne.controller.php?action=logout">
       <div class="flex-row-3">
         

@@ -188,16 +188,14 @@ include "models/personne.class.php";
           <span class="roboto-medium-black-16px">Vos recommandations</span>
         </div>
         <div class="overlap-group3">
-          <div class="frame-3314">
-          <a href="index.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-20@2x.png" /></a>
-          <a href="explorer.php">
-            <div class="overlap-group-2"><img class="subtract" src="img/subtract-10@2x.png" /></div>
-          </a>
-          <a href="messagerie.php">
+        <div class="frame-3314">
+          <a href="dashboard.php"><img class="x5_-elements_-navigation-home-on" src="img/5-elements-navigation-home-on-9@2x.png" /></a>
+
+          <a href="contacts-messagerie.php">
             <div class="x5_-elements_-navigation-message-off"><img class="shape" src="img/shape-18@2x.png" /></div>
           </a>
-          <a href="planning.php"><img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" /></a>
-          <a href="profil.php">
+          <a href="dashboard2.php"><img class="x5_-elements_-navigation-bell-off" src="img/5-elements-navigation-bell-off-20@2x.png" /></a>
+          <a href="profil4.php">
             <div class="user-filled"><img class="group-18" src="img/group-18-19@2x.png" /></div>
           </a>
         </div>

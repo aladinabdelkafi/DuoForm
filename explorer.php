@@ -277,7 +277,7 @@
 </div> 
 <script>
 
-<script>
+
 $(document).ready(function(){
     // when any character press on the input field keyup function call
     $("#search").keyup(function(){

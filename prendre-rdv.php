@@ -107,11 +107,15 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
     .prendre-rdv {
       height: 100%;
     }
+    C:\xampp\htdocs\DuoForm\conncx.php
   </style>
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+
+  <link href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" ></link>
+  <script src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  
 </head>
 
 <body style="margin: 0; background: #ffffff">

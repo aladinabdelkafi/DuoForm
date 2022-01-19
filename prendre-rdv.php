@@ -107,7 +107,7 @@ $res_pers = $personne->detail($_REQUEST["pers"]);
     .prendre-rdv {
       height: 100%;
     }
-    C:\xampp\htdocs\DuoForm\conncx.php
+    
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
